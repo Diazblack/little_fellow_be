@@ -20,7 +20,8 @@ require 'rspec/rails'
 #   config.cassette_library_dir = 'spec/cassettes'
 #   config.hook_into :webmock
 #   config.configure_rspec_metadata!
-#   config.filter_sensitive_data("x") { ENV['x'] }
+#   config.filter_sensitive_data("petfinder_api_key") { ENV['petfinder_api_key'] }
+#   config.filter_sensitive_data("petfinder_api_secret") { ENV['petfinder_api_secret'] }
 # end
   begin
     ActiveRecord::Migration.maintain_test_schema!
@@ -40,7 +41,7 @@ RSpec.configure do |config|
     config.after(:each) do
       DatabaseCleaner.clean
     end
-    
+
   config.fixture_path = "#{::Rails.root}/spec/fixtures"
   config.include FactoryBot::Syntax::Methods
   config.use_transactional_fixtures = true
