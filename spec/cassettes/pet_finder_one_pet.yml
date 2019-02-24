@@ -1,0 +1,1190 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.petfinder.com/pet.getRandom?format=json&key=petfinder_api_key&output=full
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 24 Feb 2019 21:44:09 GMT
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Length:
+      - '1099'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '{"@encoding":"iso-8859-1","@version":"1.0","petfinder":{"pet":{"options":{"option":[{"$t":"altered"},{"$t":"hasShots"},{"$t":"housetrained"}]},"status":{"$t":"A"},"contact":{"phone":{},"state":{"$t":"AL"},"address2":{},"email":{"$t":"info@forrescue.net"},"city":{"$t":"Huntsville"},"zip":{"$t":"35802"},"fax":{},"address1":{"$t":"PO
+        Box 4976"}},"age":{"$t":"Young"},"size":{"$t":"M"},"media":{"photos":{"photo":[{"@size":"pnt","$t":"http://photos.petfinder.com/photos/pets/42719559/1/?bust=1543558862&width=60&-pnt.jpg","@id":"1"},{"@size":"fpm","$t":"http://photos.petfinder.com/photos/pets/42719559/1/?bust=1543558862&width=95&-fpm.jpg","@id":"1"},{"@size":"x","$t":"http://photos.petfinder.com/photos/pets/42719559/1/?bust=1543558862&width=500&-x.jpg","@id":"1"},{"@size":"pn","$t":"http://photos.petfinder.com/photos/pets/42719559/1/?bust=1543558862&width=300&-pn.jpg","@id":"1"},{"@size":"t","$t":"http://photos.petfinder.com/photos/pets/42719559/1/?bust=1543558862&width=50&-t.jpg","@id":"1"},{"@size":"pnt","$t":"http://photos.petfinder.com/photos/pets/42719559/2/?bust=1543558863&width=60&-pnt.jpg","@id":"2"},{"@size":"fpm","$t":"http://photos.petfinder.com/photos/pets/42719559/2/?bust=1543558863&width=95&-fpm.jpg","@id":"2"},{"@size":"x","$t":"http://photos.petfinder.com/photos/pets/42719559/2/?bust=1543558863&width=500&-x.jpg","@id":"2"},{"@size":"pn","$t":"http://photos.petfinder.com/photos/pets/42719559/2/?bust=1543558863&width=300&-pn.jpg","@id":"2"},{"@size":"t","$t":"http://photos.petfinder.com/photos/pets/42719559/2/?bust=1543558863&width=50&-t.jpg","@id":"2"},{"@size":"pnt","$t":"http://photos.petfinder.com/photos/pets/42719559/3/?bust=1536615553&width=60&-pnt.jpg","@id":"3"},{"@size":"fpm","$t":"http://photos.petfinder.com/photos/pets/42719559/3/?bust=1536615553&width=95&-fpm.jpg","@id":"3"},{"@size":"x","$t":"http://photos.petfinder.com/photos/pets/42719559/3/?bust=1536615553&width=500&-x.jpg","@id":"3"},{"@size":"pn","$t":"http://photos.petfinder.com/photos/pets/42719559/3/?bust=1536615553&width=300&-pn.jpg","@id":"3"},{"@size":"t","$t":"http://photos.petfinder.com/photos/pets/42719559/3/?bust=1536615553&width=50&-t.jpg","@id":"3"}]}},"id":{"$t":"42719559"},"shelterPetId":{"$t":"17lb046"},"breeds":{"breed":{"$t":"Domestic
+        Short Hair"}},"name":{"$t":"Emmie"},"sex":{"$t":"F"},"description":{"$t":".......BONDED
+        PAIR (see listing Elsa & Emmie)\nEmmie is a beautiful gray and white girl
+        who is as sweet as the day is long. She is a lover of treats and bird watching
+        out the window. She has a sister named Elsa that she looks up to for guidance.
+        She has been waiting a very long time for her forever human. It would be a
+        bonus if her sister, Elsa could go to a new home with her. Emmie is very quiet
+        so she would prefer a home with older children or only adults. If you are
+        interested in making Emmie''s dream come true (and I know you are out there),
+        please go to forrescue.net and fill out an application. She and her sister
+        are fostered in Madison, Alabama."},"mix":{"$t":"no"},"shelterId":{"$t":"AL309"},"lastUpdate":{"$t":"2018-09-10T21:40:43Z"},"animal":{"$t":"Cat"}},"@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","header":{"timestamp":{"$t":"2019-02-24T21:44:09Z"},"status":{"message":{},"code":{"$t":"100"}},"version":{"$t":"0.1"}},"@xsi:noNamespaceSchemaLocation":"http://api.petfinder.com/schemas/0.9/petfinder.xsd"}}'
+    http_version: 
+  recorded_at: Sun, 24 Feb 2019 21:44:09 GMT
+- request:
+    method: get
+    uri: http://api.petfinder.com/pet.getRandom?format=json&key=petfinder_api_key&output=full
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 24 Feb 2019 21:44:09 GMT
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Length:
+      - '970'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '{"@encoding":"iso-8859-1","@version":"1.0","petfinder":{"pet":{"options":{"option":[{"$t":"altered"},{"$t":"housetrained"}]},"status":{"$t":"A"},"contact":{"phone":{"$t":"(602)
+        799-8827"},"state":{"$t":"AZ"},"address2":{},"email":{"$t":"samanthabrown.ltd@gmail.com"},"city":{"$t":"Phoenix"},"zip":{"$t":"85023"},"fax":{},"address1":{}},"age":{"$t":"Young"},"size":{"$t":"M"},"media":{"photos":{"photo":[{"@size":"pnt","$t":"http://photos.petfinder.com/photos/pets/44079056/1/?bust=1551016975&width=60&-pnt.jpg","@id":"1"},{"@size":"fpm","$t":"http://photos.petfinder.com/photos/pets/44079056/1/?bust=1551016975&width=95&-fpm.jpg","@id":"1"},{"@size":"x","$t":"http://photos.petfinder.com/photos/pets/44079056/1/?bust=1551016975&width=500&-x.jpg","@id":"1"},{"@size":"pn","$t":"http://photos.petfinder.com/photos/pets/44079056/1/?bust=1551016975&width=300&-pn.jpg","@id":"1"},{"@size":"t","$t":"http://photos.petfinder.com/photos/pets/44079056/1/?bust=1551016975&width=50&-t.jpg","@id":"1"}]}},"id":{"$t":"44079056"},"shelterPetId":{"$t":"14086248"},"breeds":{"breed":{"$t":"Terrier"}},"name":{"$t":"Pogo"},"sex":{"$t":"M"},"description":{"$t":"Pogo
+        is a very sweet boy. He is a little shy at first but it does not take him
+        very long to warm up to his new surroundings. He loves to cuddle and to be
+        anywhere you are. Pogo has a lot of energy so he needs an active family to
+        play with. A home with a fenced yard is recommended so he has room to run
+        and play. He is good with other dogs, cats, and kids. Pogo is mostly house
+        broken, he will have an accident if he can''t get outside. He will tell you
+        when he needs to go outside. Pogo is crate trained and he knows sit. He is
+        neutered, vaccinated, and micro-chipped. Estimated birthdate is 2/14/18 and
+        his adoption fee is $250."},"mix":{"$t":"yes"},"shelterId":{"$t":"AZ627"},"lastUpdate":{"$t":"2019-02-23T04:22:41Z"},"animal":{"$t":"Dog"}},"@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","header":{"timestamp":{"$t":"2019-02-24T21:44:09Z"},"status":{"message":{},"code":{"$t":"100"}},"version":{"$t":"0.1"}},"@xsi:noNamespaceSchemaLocation":"http://api.petfinder.com/schemas/0.9/petfinder.xsd"}}'
+    http_version: 
+  recorded_at: Sun, 24 Feb 2019 21:44:09 GMT
+- request:
+    method: get
+    uri: http://api.petfinder.com/pet.getRandom?format=json&key=petfinder_api_key&output=full
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 24 Feb 2019 21:44:12 GMT
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Length:
+      - '1517'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '{"@encoding":"iso-8859-1","@version":"1.0","petfinder":{"pet":{"options":{"option":[{"$t":"altered"},{"$t":"hasShots"}]},"status":{"$t":"A"},"contact":{"phone":{},"state":{"$t":"TX"},"address2":{},"email":{"$t":"rodr.ma@yahoo.com"},"city":{"$t":"Cypress"},"zip":{"$t":"77429"},"fax":{},"address1":{}},"age":{"$t":"Young"},"size":{"$t":"M"},"media":{"photos":{"photo":[{"@size":"pnt","$t":"http://photos.petfinder.com/photos/pets/44045511/1/?bust=1550519562&width=60&-pnt.jpg","@id":"1"},{"@size":"fpm","$t":"http://photos.petfinder.com/photos/pets/44045511/1/?bust=1550519562&width=95&-fpm.jpg","@id":"1"},{"@size":"x","$t":"http://photos.petfinder.com/photos/pets/44045511/1/?bust=1550519562&width=500&-x.jpg","@id":"1"},{"@size":"pn","$t":"http://photos.petfinder.com/photos/pets/44045511/1/?bust=1550519562&width=300&-pn.jpg","@id":"1"},{"@size":"t","$t":"http://photos.petfinder.com/photos/pets/44045511/1/?bust=1550519562&width=50&-t.jpg","@id":"1"},{"@size":"pnt","$t":"http://photos.petfinder.com/photos/pets/44045511/2/?bust=1550519562&width=60&-pnt.jpg","@id":"2"},{"@size":"fpm","$t":"http://photos.petfinder.com/photos/pets/44045511/2/?bust=1550519562&width=95&-fpm.jpg","@id":"2"},{"@size":"x","$t":"http://photos.petfinder.com/photos/pets/44045511/2/?bust=1550519562&width=500&-x.jpg","@id":"2"},{"@size":"pn","$t":"http://photos.petfinder.com/photos/pets/44045511/2/?bust=1550519562&width=300&-pn.jpg","@id":"2"},{"@size":"t","$t":"http://photos.petfinder.com/photos/pets/44045511/2/?bust=1550519562&width=50&-t.jpg","@id":"2"},{"@size":"pnt","$t":"http://photos.petfinder.com/photos/pets/44045511/3/?bust=1550519563&width=60&-pnt.jpg","@id":"3"},{"@size":"fpm","$t":"http://photos.petfinder.com/photos/pets/44045511/3/?bust=1550519563&width=95&-fpm.jpg","@id":"3"},{"@size":"x","$t":"http://photos.petfinder.com/photos/pets/44045511/3/?bust=1550519563&width=500&-x.jpg","@id":"3"},{"@size":"pn","$t":"http://photos.petfinder.com/photos/pets/44045511/3/?bust=1550519563&width=300&-pn.jpg","@id":"3"},{"@size":"t","$t":"http://photos.petfinder.com/photos/pets/44045511/3/?bust=1550519563&width=50&-t.jpg","@id":"3"},{"@size":"pnt","$t":"http://photos.petfinder.com/photos/pets/44045511/4/?bust=1550949424&width=60&-pnt.jpg","@id":"4"},{"@size":"fpm","$t":"http://photos.petfinder.com/photos/pets/44045511/4/?bust=1550949424&width=95&-fpm.jpg","@id":"4"},{"@size":"x","$t":"http://photos.petfinder.com/photos/pets/44045511/4/?bust=1550949424&width=500&-x.jpg","@id":"4"},{"@size":"pn","$t":"http://photos.petfinder.com/photos/pets/44045511/4/?bust=1550949424&width=300&-pn.jpg","@id":"4"},{"@size":"t","$t":"http://photos.petfinder.com/photos/pets/44045511/4/?bust=1550949424&width=50&-t.jpg","@id":"4"},{"@size":"pnt","$t":"http://photos.petfinder.com/photos/pets/44045511/5/?bust=1550959217&width=60&-pnt.jpg","@id":"5"},{"@size":"fpm","$t":"http://photos.petfinder.com/photos/pets/44045511/5/?bust=1550959217&width=95&-fpm.jpg","@id":"5"},{"@size":"x","$t":"http://photos.petfinder.com/photos/pets/44045511/5/?bust=1550959217&width=500&-x.jpg","@id":"5"},{"@size":"pn","$t":"http://photos.petfinder.com/photos/pets/44045511/5/?bust=1550959217&width=300&-pn.jpg","@id":"5"},{"@size":"t","$t":"http://photos.petfinder.com/photos/pets/44045511/5/?bust=1550959217&width=50&-t.jpg","@id":"5"},{"@size":"pnt","$t":"http://photos.petfinder.com/photos/pets/44045511/6/?bust=1550959218&width=60&-pnt.jpg","@id":"6"},{"@size":"fpm","$t":"http://photos.petfinder.com/photos/pets/44045511/6/?bust=1550959218&width=95&-fpm.jpg","@id":"6"},{"@size":"x","$t":"http://photos.petfinder.com/photos/pets/44045511/6/?bust=1550959218&width=500&-x.jpg","@id":"6"},{"@size":"pn","$t":"http://photos.petfinder.com/photos/pets/44045511/6/?bust=1550959218&width=300&-pn.jpg","@id":"6"},{"@size":"t","$t":"http://photos.petfinder.com/photos/pets/44045511/6/?bust=1550959218&width=50&-t.jpg","@id":"6"}]}},"id":{"$t":"44045511"},"shelterPetId":{},"breeds":{"breed":{"$t":"Terrier"}},"name":{"$t":"Harry
+        3"},"sex":{"$t":"M"},"description":{"$t":"ALL adoptions require a completed
+        application, home check and final contract.  The application can be found
+        at www.camorescue.com \n\nHarry was rescued from the Bryan TX shelter.  He
+        is sweet, loves to go on walks and good with other dogs.  He is about 50 pounds,
+        neutered, hw negative, up to date on shots and microchipped.  \n\n\n\nOnce
+        your approved to adopt we will put you in touch with the foster to see if
+        its a good match and then we can arrange a meet and greet.  We are a RESCUE
+        not a shelter.  We conduct veterinary and personal reference checks during
+        the application approval process.  We select the best applicant for each dog,
+        based on the dogs needs.  Due to the fact that we primarily rescue very small
+        dogs and some bad outcomes, we will not place our dogs in homes with overly
+        large dogs or bully breeds for the safety of our dogs.   \n\nCAMO rescue is
+        a 501c3 whose primary focus is rescuing small dogs from the euthanasia list
+        from high kill TX shelters.   our EIN # is 46-5486022\nWe rescue 600+ dogs
+        a year.\n\nFollow us on Facebook at www.facebook.com/camorescue\n\nour Website
+        to see more available dogs and to apply to adopt is www.camorescue.com \n\nOur
+        donation link is http://www.paypalme/camorescue we are strictly volunteer
+        based, no salaries are paid and 100% of donations go to the dogs"},"mix":{"$t":"no"},"shelterId":{"$t":"TX2004"},"lastUpdate":{"$t":"2019-02-18T19:51:05Z"},"animal":{"$t":"Dog"}},"@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","header":{"timestamp":{"$t":"2019-02-24T21:44:12Z"},"status":{"message":{},"code":{"$t":"100"}},"version":{"$t":"0.1"}},"@xsi:noNamespaceSchemaLocation":"http://api.petfinder.com/schemas/0.9/petfinder.xsd"}}'
+    http_version: 
+  recorded_at: Sun, 24 Feb 2019 21:44:12 GMT
+- request:
+    method: get
+    uri: http://api.petfinder.com/pet.getRandom?format=json&key=petfinder_api_key&output=full
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 24 Feb 2019 21:44:12 GMT
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Length:
+      - '1011'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '{"@encoding":"iso-8859-1","@version":"1.0","petfinder":{"pet":{"options":{"option":[{"$t":"altered"},{"$t":"hasShots"},{"$t":"noDogs"}]},"status":{"$t":"A"},"contact":{"phone":{"$t":"786-242-RESQ
+        (7377)  "},"state":{"$t":"FL"},"address2":{},"email":{"$t":"info@paws4you.org"},"city":{"$t":"Miami"},"zip":{"$t":"33158"},"fax":{},"address1":{"$t":"PO
+        Box 561163"}},"age":{"$t":"Adult"},"size":{"$t":"M"},"media":{"photos":{"photo":[{"@size":"pnt","$t":"http://photos.petfinder.com/photos/pets/42455757/1/?bust=1536070202&width=60&-pnt.jpg","@id":"1"},{"@size":"fpm","$t":"http://photos.petfinder.com/photos/pets/42455757/1/?bust=1536070202&width=95&-fpm.jpg","@id":"1"},{"@size":"x","$t":"http://photos.petfinder.com/photos/pets/42455757/1/?bust=1536070202&width=500&-x.jpg","@id":"1"},{"@size":"pn","$t":"http://photos.petfinder.com/photos/pets/42455757/1/?bust=1536070202&width=300&-pn.jpg","@id":"1"},{"@size":"t","$t":"http://photos.petfinder.com/photos/pets/42455757/1/?bust=1536070202&width=50&-t.jpg","@id":"1"}]}},"id":{"$t":"42455757"},"shelterPetId":{"$t":"13402688-D180287"},"breeds":{"breed":{"$t":"Boxer"}},"name":{"$t":"Chicco
+        *"},"sex":{"$t":"M"},"description":{"$t":"Hi , I am Chicco and I am a boxer
+        mix . I only weight 48 pounds and I am 3 years old . Unfortunately , I had
+        a very rough start in my life . I was used as a bait dog and I am super scared
+        of other dogs and that make me aggressive towards them . I love people , I
+        love to lick them , play with them and cuddle with them . Please give me another
+        chance in life , so I can love you and have a warm bed and a home to call
+        mine . I am fully vetted and vaccinated .\n\nTo adopt, fill out an application
+        at\n\nwww.paws4you.org/application\n\nTo get our newsletter, text\nPAWS4YOU\nto\n22828\n\nConnect
+        with us:\n\nwww.twitter.com/paws4you\n\nwww.facebook.com/paws4you\n\nwww.instagram.com/paws4you\n\n"},"mix":{"$t":"yes"},"shelterId":{"$t":"FL712"},"lastUpdate":{"$t":"2018-08-12T08:00:42Z"},"animal":{"$t":"Dog"}},"@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","header":{"timestamp":{"$t":"2019-02-24T21:44:12Z"},"status":{"message":{},"code":{"$t":"100"}},"version":{"$t":"0.1"}},"@xsi:noNamespaceSchemaLocation":"http://api.petfinder.com/schemas/0.9/petfinder.xsd"}}'
+    http_version: 
+  recorded_at: Sun, 24 Feb 2019 21:44:12 GMT
+- request:
+    method: get
+    uri: http://api.petfinder.com/pet.getRandom?format=json&key=petfinder_api_key&output=full
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 24 Feb 2019 21:44:12 GMT
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Length:
+      - '1414'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJAZW5jb2RpbmciOiJpc28tODg1OS0xIiwiQHZlcnNpb24iOiIxLjAiLCJwZXRmaW5kZXIiOnsicGV0Ijp7Im9wdGlvbnMiOnsib3B0aW9uIjpbeyIkdCI6ImFsdGVyZWQifSx7IiR0IjoiaGFzU2hvdHMifV19LCJzdGF0dXMiOnsiJHQiOiJBIn0sImNvbnRhY3QiOnsicGhvbmUiOnsiJHQiOiIoOTE5KSA1NDItNjgxNSJ9LCJzdGF0ZSI6eyIkdCI6Ik5DIn0sImFkZHJlc3MyIjp7fSwiZW1haWwiOnsiJHQiOiJnb2F0aG91c2VyZWZ1Z2VvZmZpY2VAZ21haWwuY29tIn0sImNpdHkiOnsiJHQiOiJQaXR0c2Jvcm8ifSwiemlwIjp7IiR0IjoiMjczMTIifSwiZmF4Ijp7fSwiYWRkcmVzczEiOnsiJHQiOiI2ODAgQWx0b24gQWxzdG9uIFJvYWQifX0sImFnZSI6eyIkdCI6IlNlbmlvciJ9LCJzaXplIjp7IiR0IjoiTCJ9LCJtZWRpYSI6eyJwaG90b3MiOnsicGhvdG8iOlt7IkBzaXplIjoicG50IiwiJHQiOiJodHRwOi8vcGhvdG9zLnBldGZpbmRlci5jb20vcGhvdG9zL3BldHMvNDA2NTk5MjUvMS8/YnVzdD0xNTE1ODUwOTExJndpZHRoPTYwJi1wbnQuanBnIiwiQGlkIjoiMSJ9LHsiQHNpemUiOiJmcG0iLCIkdCI6Imh0dHA6Ly9waG90b3MucGV0ZmluZGVyLmNvbS9waG90b3MvcGV0cy80MDY1OTkyNS8xLz9idXN0PTE1MTU4NTA5MTEmd2lkdGg9OTUmLWZwbS5qcGciLCJAaWQiOiIxIn0seyJAc2l6ZSI6IngiLCIkdCI6Imh0dHA6Ly9waG90b3MucGV0ZmluZGVyLmNvbS9waG90b3MvcGV0cy80MDY1OTkyNS8xLz9idXN0PTE1MTU4NTA5MTEmd2lkdGg9NTAwJi14LmpwZyIsIkBpZCI6IjEifSx7IkBzaXplIjoicG4iLCIkdCI6Imh0dHA6Ly9waG90b3MucGV0ZmluZGVyLmNvbS9waG90b3MvcGV0cy80MDY1OTkyNS8xLz9idXN0PTE1MTU4NTA5MTEmd2lkdGg9MzAwJi1wbi5qcGciLCJAaWQiOiIxIn0seyJAc2l6ZSI6InQiLCIkdCI6Imh0dHA6Ly9waG90b3MucGV0ZmluZGVyLmNvbS9waG90b3MvcGV0cy80MDY1OTkyNS8xLz9idXN0PTE1MTU4NTA5MTEmd2lkdGg9NTAmLXQuanBnIiwiQGlkIjoiMSJ9XX19LCJpZCI6eyIkdCI6IjQwNjU5OTI1In0sInNoZWx0ZXJQZXRJZCI6eyIkdCI6IkYxN1kwMzQifSwiYnJlZWRzIjp7ImJyZWVkIjp7IiR0IjoiRG9tZXN0aWMgU2hvcnQgSGFpciJ9fSwibmFtZSI6eyIkdCI6IkZyZWRkaWUgKFNwb25zb3JlZCkifSwic2V4Ijp7IiR0IjoiTSJ9LCJkZXNjcmlwdGlvbiI6eyIkdCI6IkZyZWRkaWUgaXMgYSBzd2VldCwgZ2VudGxlLCBhbmQgZXh0cmVtZWx5IGN1dGUgYm95OiBqdXN0IGxvb2sgYXQgdGhhdCBmYWNlIGFuZCB5b3UgY2Fuw6LCgMKZdCBoZWxwIGJ1dCBzbWlsZSEgSGUgaXMgbmljZSB0byBhbGwgdGhlIG90aGVyIGtpdHRpZXMgYW5kIGlzIGFmZmVjdGlvbmF0ZSB3aXRoIHBlb3BsZS4gSGUgbG92ZXMgdG8gYmUgcGV0dGVkIGFuZCBoYXMgc29tZSBvZiB0aGUgc29mdGVzdCwgc2lsa2llc3QgZnVyIHlvdcOiwoDCmXZlIGV2ZXIgdG91Y2hlZC4gSWYgeW91IGdpdmUgaGltIGEgdHJlYXQsIEZyZWRkaWUgd2lsbCBiZSB5b3VyIG5ldyBiZXN0IGZyaWVuZCBhbmQgZm9sbG93IHlvdSBldmVyeXdoZXJlIHlvdSBnbywgc3dlZXRseSBhc2tpbmcgZm9yIG1vcmUuIEFsdGhvdWdoIGhlw6LCgMKZcyBodW1ibGUsIGl0w6LCgMKZcyBlYXN5IHRvIHNlZSBoZSBoYXMgaGlzIG93biBzcGVjaWFsIHN0YXIgcXVhbGl0eSEgRnJlZGRpZSBjYW1lIHRvIHRoZSBHb2F0aG91c2UgZnJvbSBhIG5vLWtpbGwgc2hlbHRlciBpbiBTb3V0aCBDYXJvbGluYSB3aGVyZSBoZSBsaXZlZCBpbmRvb3JzLW9ubHkgd2l0aCBtYW55IG90aGVyIGNhdHMuIEhlw6LCgMKZcyBzcGVudCBoaXMgbGlmZSBiZWluZyBvbmUgc21hbGwgY2F0IGluIGEgYmlnIGNyb3dkOyBoZSB3b3VsZCBsb3ZlIHRvIGJlIHNvbWVvbmXDosKAwplzIHNwZWNpYWwgYmVzdCBmcmllbmQgYW5kIGhvdXNlIGNhdCEgRnJlZGRpZSB3aWxsIGJlIGEgd29uZGVyZnVsIGFkZGl0aW9uIHRvIGFueSBmYW1pbHkuIFBsZWFzZSBjb25zaWRlciBvcGVuaW5nIHlvdXIgaGVhcnQgYW5kIGhvbWUgdG8gdGhpcyB3b25kZXJmdWwgZ3V5LiBET0IgMjAwNS4gXG5cbidTcG9uc29yZWQnIG1lYW5zIHRoYXQgRnJlZGRpZSdzIGFkb3B0aW9uIGZlZSBoYXMgYmVlbiBkb25hdGVkIGJ5IGEgZ2VuZXJvdXMgdm9sdW50ZWVyLCBzbyB5b3UgY2FuIHRha2UgaGltIGhvbWUgZm9yIGZyZWUgLSBhbmQgc3BlbmQgdGhhdCBzYXZlZCBhZG9wdGlvbiBmZWUgb24gdG95cywgZm9vZCBhbmQgbGl0dGVyIVxuXG5JZiB5b3Ugd291bGQgbGlrZSB0byBhZG9wdCBGcmVkZGllLCBvciBhbm90aGVyIEdvYXRob3VzZSBjYXQsIHBsZWFzZSB2aXNpdCBvdXIgcmVmdWdlIGFuZCBtZWV0IGhpbSBhbmQgaGlzIGZyaWVuZHMuIFRoZW4gb25jZSB5b3UgaGF2ZSBmaWxsZWQgb3V0IGFuIGVsZWN0cm9uaWMgYXBwbGljYXRpb24sIHdoaWNoIHlvdSdsbCBmaW5kIG9uIG91ciB3ZWJzaXRlIChjbGljayBsaW5rIGFib3ZlIG9yIHZpc2l0IHd3dy5nb2F0aG91c2VyZWZ1Z2Uub3JnKSB1bmRlciB0aGUgJ2Fkb3B0JyB0YWIsIGEgdm9sdW50ZWVyIHdpbGwgY29udGFjdCB5b3UgdG8gc2NoZWR1bGUgYSBob21lIHZpc2l0LiBPbmNlIHlvdSdyZSBhcHByb3ZlZCwgeW91IGNhbiB0YWtlIHlvdXIgbmV3IGZyaWVuZCBob21lISJ9LCJtaXgiOnsiJHQiOiJ5ZXMifSwic2hlbHRlcklkIjp7IiR0IjoiTkM1NTIifSwibGFzdFVwZGF0ZSI6eyIkdCI6IjIwMTgtMDEtMTNUMTI6MTM6MzJaIn0sImFuaW1hbCI6eyIkdCI6IkNhdCJ9fSwiQHhtbG5zOnhzaSI6Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvWE1MU2NoZW1hLWluc3RhbmNlIiwiaGVhZGVyIjp7InRpbWVzdGFtcCI6eyIkdCI6IjIwMTktMDItMjRUMjE6NDQ6MTJaIn0sInN0YXR1cyI6eyJtZXNzYWdlIjp7fSwiY29kZSI6eyIkdCI6IjEwMCJ9fSwidmVyc2lvbiI6eyIkdCI6IjAuMSJ9fSwiQHhzaTpub05hbWVzcGFjZVNjaGVtYUxvY2F0aW9uIjoiaHR0cDovL2FwaS5wZXRmaW5kZXIuY29tL3NjaGVtYXMvMC45L3BldGZpbmRlci54c2QifX0=
+    http_version: 
+  recorded_at: Sun, 24 Feb 2019 21:44:12 GMT
+- request:
+    method: get
+    uri: http://api.petfinder.com/pet.getRandom?format=json&key=petfinder_api_key&output=full
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 24 Feb 2019 21:44:12 GMT
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Length:
+      - '867'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '{"@encoding":"iso-8859-1","@version":"1.0","petfinder":{"pet":{"options":{"option":[{"$t":"altered"},{"$t":"hasShots"}]},"status":{"$t":"A"},"contact":{"phone":{"$t":"614-525-3647
+        "},"state":{"$t":"OH"},"address2":{},"email":{"$t":"adoptions@franklincountyohio.gov"},"city":{"$t":"Columbus"},"zip":{"$t":"43224"},"fax":{},"address1":{"$t":"4340
+        Tamarack Blvd."}},"age":{"$t":"Young"},"size":{"$t":"M"},"media":{"photos":{"photo":[{"@size":"pnt","$t":"http://photos.petfinder.com/photos/pets/44079778/1/?bust=1551029110&width=60&-pnt.jpg","@id":"1"},{"@size":"fpm","$t":"http://photos.petfinder.com/photos/pets/44079778/1/?bust=1551029110&width=95&-fpm.jpg","@id":"1"},{"@size":"x","$t":"http://photos.petfinder.com/photos/pets/44079778/1/?bust=1551029110&width=500&-x.jpg","@id":"1"},{"@size":"pn","$t":"http://photos.petfinder.com/photos/pets/44079778/1/?bust=1551029110&width=300&-pn.jpg","@id":"1"},{"@size":"t","$t":"http://photos.petfinder.com/photos/pets/44079778/1/?bust=1551029110&width=50&-t.jpg","@id":"1"}]}},"id":{"$t":"44079778"},"shelterPetId":{"$t":"128097"},"breeds":{"breed":{"$t":"Mixed
+        Breed"}},"name":{"$t":"Tixey"},"sex":{"$t":"F"},"description":{"$t":"Busy
+        BeeI''m a naturally playful, curious, and trusting canine. Take me for a big
+        walk every day; give me something to do. After my job''s done, I''ll curl
+        up in front of the fire with you in the evenings. I''m a dog on a mission
+        to please you and myself. Primary Color: White Secondary Color: Black Weight:
+        40.4lbs Age: 0yrs 10mths 0wks Animal has been Spayed"},"mix":{"$t":"yes"},"shelterId":{"$t":"OH208"},"lastUpdate":{"$t":"2019-02-23T04:46:12Z"},"animal":{"$t":"Dog"}},"@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","header":{"timestamp":{"$t":"2019-02-24T21:44:12Z"},"status":{"message":{},"code":{"$t":"100"}},"version":{"$t":"0.1"}},"@xsi:noNamespaceSchemaLocation":"http://api.petfinder.com/schemas/0.9/petfinder.xsd"}}'
+    http_version: 
+  recorded_at: Sun, 24 Feb 2019 21:44:12 GMT
+- request:
+    method: get
+    uri: http://api.petfinder.com/pet.getRandom?format=json&key=petfinder_api_key&output=full
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 24 Feb 2019 21:44:13 GMT
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Length:
+      - '1254'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJAZW5jb2RpbmciOiJpc28tODg1OS0xIiwiQHZlcnNpb24iOiIxLjAiLCJwZXRmaW5kZXIiOnsicGV0Ijp7Im9wdGlvbnMiOnsib3B0aW9uIjpbeyIkdCI6ImFsdGVyZWQifSx7IiR0IjoiaGFzU2hvdHMifV19LCJzdGF0dXMiOnsiJHQiOiJBIn0sImNvbnRhY3QiOnsicGhvbmUiOnsiJHQiOiJQbGVhc2UgdXNlIGVtYWlsIn0sInN0YXRlIjp7IiR0IjoiTUQifSwiYWRkcmVzczIiOnt9LCJlbWFpbCI6eyIkdCI6ImRvZ3NAbGFzdGNoYW5jZWFuaW1hbHJlc2N1ZS5vcmcifSwiY2l0eSI6eyIkdCI6IldhbGRvcmYifSwiemlwIjp7IiR0IjoiMjA2MDEifSwiZmF4Ijp7fSwiYWRkcmVzczEiOnsiJHQiOiI4NTAwIEJlbnN2aWxsZSBSb2FkIn19LCJhZ2UiOnsiJHQiOiJBZHVsdCJ9LCJzaXplIjp7IiR0IjoiTCJ9LCJtZWRpYSI6eyJwaG90b3MiOnsicGhvdG8iOlt7IkBzaXplIjoicG50IiwiJHQiOiJodHRwOi8vcGhvdG9zLnBldGZpbmRlci5jb20vcGhvdG9zL3BldHMvNDQwMDgwNzkvMS8/YnVzdD0xNTUwMTAxMjI3JndpZHRoPTYwJi1wbnQuanBnIiwiQGlkIjoiMSJ9LHsiQHNpemUiOiJmcG0iLCIkdCI6Imh0dHA6Ly9waG90b3MucGV0ZmluZGVyLmNvbS9waG90b3MvcGV0cy80NDAwODA3OS8xLz9idXN0PTE1NTAxMDEyMjcmd2lkdGg9OTUmLWZwbS5qcGciLCJAaWQiOiIxIn0seyJAc2l6ZSI6IngiLCIkdCI6Imh0dHA6Ly9waG90b3MucGV0ZmluZGVyLmNvbS9waG90b3MvcGV0cy80NDAwODA3OS8xLz9idXN0PTE1NTAxMDEyMjcmd2lkdGg9NTAwJi14LmpwZyIsIkBpZCI6IjEifSx7IkBzaXplIjoicG4iLCIkdCI6Imh0dHA6Ly9waG90b3MucGV0ZmluZGVyLmNvbS9waG90b3MvcGV0cy80NDAwODA3OS8xLz9idXN0PTE1NTAxMDEyMjcmd2lkdGg9MzAwJi1wbi5qcGciLCJAaWQiOiIxIn0seyJAc2l6ZSI6InQiLCIkdCI6Imh0dHA6Ly9waG90b3MucGV0ZmluZGVyLmNvbS9waG90b3MvcGV0cy80NDAwODA3OS8xLz9idXN0PTE1NTAxMDEyMjcmd2lkdGg9NTAmLXQuanBnIiwiQGlkIjoiMSJ9LHsiQHNpemUiOiJwbnQiLCIkdCI6Imh0dHA6Ly9waG90b3MucGV0ZmluZGVyLmNvbS9waG90b3MvcGV0cy80NDAwODA3OS8yLz9idXN0PTE1NTA1MDU1ODUmd2lkdGg9NjAmLXBudC5qcGciLCJAaWQiOiIyIn0seyJAc2l6ZSI6ImZwbSIsIiR0IjoiaHR0cDovL3Bob3Rvcy5wZXRmaW5kZXIuY29tL3Bob3Rvcy9wZXRzLzQ0MDA4MDc5LzIvP2J1c3Q9MTU1MDUwNTU4NSZ3aWR0aD05NSYtZnBtLmpwZyIsIkBpZCI6IjIifSx7IkBzaXplIjoieCIsIiR0IjoiaHR0cDovL3Bob3Rvcy5wZXRmaW5kZXIuY29tL3Bob3Rvcy9wZXRzLzQ0MDA4MDc5LzIvP2J1c3Q9MTU1MDUwNTU4NSZ3aWR0aD01MDAmLXguanBnIiwiQGlkIjoiMiJ9LHsiQHNpemUiOiJwbiIsIiR0IjoiaHR0cDovL3Bob3Rvcy5wZXRmaW5kZXIuY29tL3Bob3Rvcy9wZXRzLzQ0MDA4MDc5LzIvP2J1c3Q9MTU1MDUwNTU4NSZ3aWR0aD0zMDAmLXBuLmpwZyIsIkBpZCI6IjIifSx7IkBzaXplIjoidCIsIiR0IjoiaHR0cDovL3Bob3Rvcy5wZXRmaW5kZXIuY29tL3Bob3Rvcy9wZXRzLzQ0MDA4MDc5LzIvP2J1c3Q9MTU1MDUwNTU4NSZ3aWR0aD01MCYtdC5qcGciLCJAaWQiOiIyIn1dfX0sImlkIjp7IiR0IjoiNDQwMDgwNzkifSwic2hlbHRlclBldElkIjp7IiR0IjoiMjI2OSJ9LCJicmVlZHMiOnsiYnJlZWQiOnsiJHQiOiJIdXNreSJ9fSwibmFtZSI6eyIkdCI6IkV2ZXJlc3QgIzIyNjkifSwic2V4Ijp7IiR0IjoiRiJ9LCJkZXNjcmlwdGlvbiI6eyIkdCI6IkV2ZXJlc3QgIzIyNjkgaXMgYSA0LXllYXItb2xkIGZlbWFsZSwgSHVza3kgbWl4LiBTaGUgaXMgYSBmcmllbmRseSBnYWwuIEV2ZXJlc3QgY2FtZSB0byBMYXN0IENoYW5jZSB3aXRoIGhlciBzaXN0ZXIsIE5hbm9vayAjMjI3MC4gU2hlIGlzIGdvb2Qgd2l0aCBvdGhlciBkb2dzLiBFdmVyZXN0IGlzIG9rYXkgb24gYSBsZWFzaC4gV2UgYXJlICB3b3JraW5nIG9uIGJhc2ljIGNvbW1hbmRzIHdpdGggaGVyLCBhbmQgc2hlIGlzIHJlc3BvbmRpbmcgd2VsbC4gU2hlIHdlaWdocyA3NSBwb3VuZHMgYW5kIGlzIGEgbGl0dGxlIG92ZXJ3ZWlnaHQuIFNoZSBzaG91bGQgbG9zZSAxNSBwb3VuZHMgdG8gYmUgYXQgaGVyIGhlYWx0aGllc3Qgd2VpZ2h0LiBUaGlzIHB1cCBpcyBtaWNyb2NoaXBwZWQuIFdlIGJlbGlldmUgeW91IGNhbiBhbHdheXMgdGVhY2ggYW4gw6LCgMKYb2xkw6LCgMKZIGRvZyBuZXcgdHJpY2tzIHNvIHdlIGhpZ2hseSByZWNvbW1lbmQgY29udGludWVkIG9iZWRpZW5jZSB0cmFpbmluZyBmb3IgdGhpcyBzbWFydCBwdXA7IGl0IHN0aW11bGF0ZXMgdGhlIGRvZ8OiwoDCmXMgbWluZCBhbmQgZXN0YWJsaXNoZXMgYSBnb29kIGRvZy9hZG9wdGVyIHJlbGF0aW9uc2hpcC4gVGhpcyBwdXAsIGxpa2UgYWxsIHB1cHMgc2hvdWxkIGJlIG9uIGhlYXJ0d29ybSBwcmV2ZW50YXRpdmUsIGFuIG91bmNlIG9mIHByZXZlbnRpb24gaXMgd29ydGggYSBwb3VuZCBvZiBjdXJlISBJZiB5b3UgYXJlIGludGVyZXN0ZWQgaW4gYWRvcHRpbmcsIHBsZWFzZSBmaWxsIG91dCBhbiBhZG9wdGlvbiBmb3JtLCBkb3dubG9hZGFibGUgZnJvbSBvdXJ3ZWJzaXRlOiBodHRwOi8vd3d3Lmxhc3RjaGFuY2VhbmltYWxyZXNjdWUub3JnL2Fkb3B0dXMuaHRtbCBhbmQgcmV0dXJuIGl0IHBlciBpbnN0cnVjdGlvbnMuXG5FbWFpbCBkb2dzQGxhc3RjaGFuY2VhbmltYWxyZXNjdWUub3JnIHdpdGggcXVlc3Rpb25zLiBTdGF5IHR1bmVkIHRvIG91ciBGYWNlYm9vayBwYWdlIGZvclxuYWRvcHRpb24gZXZlbnQgbG9jYXRpb25zIGFuZCB1cGRhdGVzOiB3d3cuZmFjZWJvb2suY29tL2xjYXJtZCJ9LCJtaXgiOnsiJHQiOiJ5ZXMifSwic2hlbHRlcklkIjp7IiR0IjoiTUQxMDUifSwibGFzdFVwZGF0ZSI6eyIkdCI6IjIwMTktMDItMTNUMjM6NDE6MDhaIn0sImFuaW1hbCI6eyIkdCI6IkRvZyJ9fSwiQHhtbG5zOnhzaSI6Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvWE1MU2NoZW1hLWluc3RhbmNlIiwiaGVhZGVyIjp7InRpbWVzdGFtcCI6eyIkdCI6IjIwMTktMDItMjRUMjE6NDQ6MTNaIn0sInN0YXR1cyI6eyJtZXNzYWdlIjp7fSwiY29kZSI6eyIkdCI6IjEwMCJ9fSwidmVyc2lvbiI6eyIkdCI6IjAuMSJ9fSwiQHhzaTpub05hbWVzcGFjZVNjaGVtYUxvY2F0aW9uIjoiaHR0cDovL2FwaS5wZXRmaW5kZXIuY29tL3NjaGVtYXMvMC45L3BldGZpbmRlci54c2QifX0=
+    http_version: 
+  recorded_at: Sun, 24 Feb 2019 21:44:13 GMT
+- request:
+    method: get
+    uri: http://api.petfinder.com/pet.getRandom?format=json&key=petfinder_api_key&output=full
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 24 Feb 2019 21:44:13 GMT
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Length:
+      - '715'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '{"@encoding":"iso-8859-1","@version":"1.0","petfinder":{"pet":{"options":{"option":[{"$t":"altered"},{"$t":"hasShots"}]},"status":{"$t":"A"},"contact":{"phone":{"$t":"740-389-6548"},"state":{"$t":"OH"},"address2":{},"email":{"$t":"manager@mahspets.org"},"city":{"$t":"Marion"},"zip":{"$t":"43302"},"fax":{},"address1":{"$t":"2264
+        Richland Road"}},"age":{"$t":"Senior"},"size":{"$t":"M"},"media":{"photos":{"photo":[{"@size":"pnt","$t":"http://photos.petfinder.com/photos/pets/43598240/1/?bust=1550963125&width=60&-pnt.jpg","@id":"1"},{"@size":"fpm","$t":"http://photos.petfinder.com/photos/pets/43598240/1/?bust=1550963125&width=95&-fpm.jpg","@id":"1"},{"@size":"x","$t":"http://photos.petfinder.com/photos/pets/43598240/1/?bust=1550963125&width=500&-x.jpg","@id":"1"},{"@size":"pn","$t":"http://photos.petfinder.com/photos/pets/43598240/1/?bust=1550963125&width=300&-pn.jpg","@id":"1"},{"@size":"t","$t":"http://photos.petfinder.com/photos/pets/43598240/1/?bust=1550963125&width=50&-t.jpg","@id":"1"}]}},"id":{"$t":"43598240"},"shelterPetId":{"$t":"U2018438"},"breeds":{"breed":{"$t":"Domestic
+        Short Hair"}},"name":{"$t":"Alfafa"},"sex":{"$t":"M"},"description":{"$t":"shy,
+        nervous, litter trained, easy going..neuteredMore information? Call Marion
+        Area Humane Society at 740-389-6548 or email at manager@mahspets.org"},"mix":{"$t":"no"},"shelterId":{"$t":"OH70"},"lastUpdate":{"$t":"2018-12-21T14:55:01Z"},"animal":{"$t":"Cat"}},"@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","header":{"timestamp":{"$t":"2019-02-24T21:44:13Z"},"status":{"message":{},"code":{"$t":"100"}},"version":{"$t":"0.1"}},"@xsi:noNamespaceSchemaLocation":"http://api.petfinder.com/schemas/0.9/petfinder.xsd"}}'
+    http_version: 
+  recorded_at: Sun, 24 Feb 2019 21:44:13 GMT
+- request:
+    method: get
+    uri: http://api.petfinder.com/pet.getRandom?format=json&key=petfinder_api_key&output=full
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 24 Feb 2019 21:44:13 GMT
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Length:
+      - '2125'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJAZW5jb2RpbmciOiJpc28tODg1OS0xIiwiQHZlcnNpb24iOiIxLjAiLCJwZXRmaW5kZXIiOnsicGV0Ijp7Im9wdGlvbnMiOnsib3B0aW9uIjpbeyIkdCI6ImFsdGVyZWQifSx7IiR0IjoiaGFzU2hvdHMifV19LCJzdGF0dXMiOnsiJHQiOiJBIn0sImNvbnRhY3QiOnsicGhvbmUiOnsiJHQiOiIoMjAyKSA3NDEtNTQyOCAgIn0sInN0YXRlIjp7IiR0IjoiREMifSwiYWRkcmVzczIiOnt9LCJlbWFpbCI6eyIkdCI6ImluZm9AbHVja3lkb2dhbmltYWxyZXNjdWUub3JnIn0sImNpdHkiOnsiJHQiOiJXYXNoaW5ndG9uIn0sInppcCI6eyIkdCI6IjIwMDA3In0sImZheCI6e30sImFkZHJlc3MxIjp7fX0sImFnZSI6eyIkdCI6IkFkdWx0In0sInNpemUiOnsiJHQiOiJNIn0sIm1lZGlhIjp7InBob3RvcyI6eyJwaG90byI6W3siQHNpemUiOiJwbnQiLCIkdCI6Imh0dHA6Ly9waG90b3MucGV0ZmluZGVyLmNvbS9waG90b3MvcGV0cy80MzgwODc1OC8xLz9idXN0PTE1NTA5Mjk3NTkmd2lkdGg9NjAmLXBudC5qcGciLCJAaWQiOiIxIn0seyJAc2l6ZSI6ImZwbSIsIiR0IjoiaHR0cDovL3Bob3Rvcy5wZXRmaW5kZXIuY29tL3Bob3Rvcy9wZXRzLzQzODA4NzU4LzEvP2J1c3Q9MTU1MDkyOTc1OSZ3aWR0aD05NSYtZnBtLmpwZyIsIkBpZCI6IjEifSx7IkBzaXplIjoieCIsIiR0IjoiaHR0cDovL3Bob3Rvcy5wZXRmaW5kZXIuY29tL3Bob3Rvcy9wZXRzLzQzODA4NzU4LzEvP2J1c3Q9MTU1MDkyOTc1OSZ3aWR0aD01MDAmLXguanBnIiwiQGlkIjoiMSJ9LHsiQHNpemUiOiJwbiIsIiR0IjoiaHR0cDovL3Bob3Rvcy5wZXRmaW5kZXIuY29tL3Bob3Rvcy9wZXRzLzQzODA4NzU4LzEvP2J1c3Q9MTU1MDkyOTc1OSZ3aWR0aD0zMDAmLXBuLmpwZyIsIkBpZCI6IjEifSx7IkBzaXplIjoidCIsIiR0IjoiaHR0cDovL3Bob3Rvcy5wZXRmaW5kZXIuY29tL3Bob3Rvcy9wZXRzLzQzODA4NzU4LzEvP2J1c3Q9MTU1MDkyOTc1OSZ3aWR0aD01MCYtdC5qcGciLCJAaWQiOiIxIn0seyJAc2l6ZSI6InBudCIsIiR0IjoiaHR0cDovL3Bob3Rvcy5wZXRmaW5kZXIuY29tL3Bob3Rvcy9wZXRzLzQzODA4NzU4LzIvP2J1c3Q9MTU1MDkyOTgyMyZ3aWR0aD02MCYtcG50LmpwZyIsIkBpZCI6IjIifSx7IkBzaXplIjoiZnBtIiwiJHQiOiJodHRwOi8vcGhvdG9zLnBldGZpbmRlci5jb20vcGhvdG9zL3BldHMvNDM4MDg3NTgvMi8/YnVzdD0xNTUwOTI5ODIzJndpZHRoPTk1Ji1mcG0uanBnIiwiQGlkIjoiMiJ9LHsiQHNpemUiOiJ4IiwiJHQiOiJodHRwOi8vcGhvdG9zLnBldGZpbmRlci5jb20vcGhvdG9zL3BldHMvNDM4MDg3NTgvMi8/YnVzdD0xNTUwOTI5ODIzJndpZHRoPTUwMCYteC5qcGciLCJAaWQiOiIyIn0seyJAc2l6ZSI6InBuIiwiJHQiOiJodHRwOi8vcGhvdG9zLnBldGZpbmRlci5jb20vcGhvdG9zL3BldHMvNDM4MDg3NTgvMi8/YnVzdD0xNTUwOTI5ODIzJndpZHRoPTMwMCYtcG4uanBnIiwiQGlkIjoiMiJ9LHsiQHNpemUiOiJ0IiwiJHQiOiJodHRwOi8vcGhvdG9zLnBldGZpbmRlci5jb20vcGhvdG9zL3BldHMvNDM4MDg3NTgvMi8/YnVzdD0xNTUwOTI5ODIzJndpZHRoPTUwJi10LmpwZyIsIkBpZCI6IjIifSx7IkBzaXplIjoicG50IiwiJHQiOiJodHRwOi8vcGhvdG9zLnBldGZpbmRlci5jb20vcGhvdG9zL3BldHMvNDM4MDg3NTgvMy8/YnVzdD0xNTUwOTI5ODgwJndpZHRoPTYwJi1wbnQuanBnIiwiQGlkIjoiMyJ9LHsiQHNpemUiOiJmcG0iLCIkdCI6Imh0dHA6Ly9waG90b3MucGV0ZmluZGVyLmNvbS9waG90b3MvcGV0cy80MzgwODc1OC8zLz9idXN0PTE1NTA5Mjk4ODAmd2lkdGg9OTUmLWZwbS5qcGciLCJAaWQiOiIzIn0seyJAc2l6ZSI6IngiLCIkdCI6Imh0dHA6Ly9waG90b3MucGV0ZmluZGVyLmNvbS9waG90b3MvcGV0cy80MzgwODc1OC8zLz9idXN0PTE1NTA5Mjk4ODAmd2lkdGg9NTAwJi14LmpwZyIsIkBpZCI6IjMifSx7IkBzaXplIjoicG4iLCIkdCI6Imh0dHA6Ly9waG90b3MucGV0ZmluZGVyLmNvbS9waG90b3MvcGV0cy80MzgwODc1OC8zLz9idXN0PTE1NTA5Mjk4ODAmd2lkdGg9MzAwJi1wbi5qcGciLCJAaWQiOiIzIn0seyJAc2l6ZSI6InQiLCIkdCI6Imh0dHA6Ly9waG90b3MucGV0ZmluZGVyLmNvbS9waG90b3MvcGV0cy80MzgwODc1OC8zLz9idXN0PTE1NTA5Mjk4ODAmd2lkdGg9NTAmLXQuanBnIiwiQGlkIjoiMyJ9XX19LCJpZCI6eyIkdCI6IjQzODA4NzU4In0sInNoZWx0ZXJQZXRJZCI6eyIkdCI6IjEzNjkwNTc5LUZMUk4tRkQtMTktMDExNiJ9LCJicmVlZHMiOnsiYnJlZWQiOlt7IiR0IjoiQW1lcmljYW4gQnVsbGRvZyJ9LHsiJHQiOiJCb3hlciJ9XX0sIm5hbWUiOnsiJHQiOiJZYW5nIn0sInNleCI6eyIkdCI6IkYifSwiZGVzY3JpcHRpb24iOnsiJHQiOiJQbGVhc2UgY29udGFjdCBUYW55YSBKb2huc29uICh0YW55YWJAbHVja3lkb2dhbmltYWxyZXNjdWUub3JnKSBmb3IgbW9yZSBpbmZvcm1hdGlvbiBhYm91dCB0aGlzIHBldC5CZSBteSBZaW4hXG5cbkNvbWUgbWVldFxuXG5ZQU5HXG5cbmFuZCBvdGhlciBncmVhdCBhZG9wdGFibGUgZG9ncyB0aGlzXG5TdW5kYXkgKEZlYi4gMjQpIGZyb20gMTItM3BtIGF0IHRoZSBQZXRzbWFydCBpbiBLZW5zaW5ndG9uICg1MTU0IE5pY2hvbHNvbiBMbi4sIEtlbnNpbmd0b24sIE1EIDIwODk1KVxuISEhISFcblxuWUFOR1xuTkVFRFMgQSBGT1JFVkVSIEhPTUUhISEhXG5cbk5hbWU6IFlhbmcgQmVzdCBHdWVzcyBmb3IgQnJlZWQ6IEJ1bGxkb2cvQm94ZXIgTWl4XG5cbkJlc3QgR3Vlc3MgZm9yIEFnZTogMyB5ZWFycyBTRVg6IGZlbWFsZVxuXG5BcHByb3hpbWF0ZSBXZWlnaHQ6IDU1TGJzXG5cbkdldHMgQWxvbmcgV2l0aDogb3RoZXIgZG9ncyBhdCBzaGVsdGVyXG5cbkN1cnJlbnRseSBMaXZpbmcgYXQ6IERDIGFyZWEgZm9zdGVyIGhvbWVcblxuU3BlY2lhbCBhZG9wdGlvbiBjb25zaWRlcmF0aW9uczogWWFuZyBpcyBoZWFydHdvcm0gcG9zaXRpdmUuIEhlYXJ0d29ybSBpcyBub3QgY29udGFnaW91cyB0byBwZW9wbGUgb3Igb3RoZXIgcGV0cywgYnV0IHJlc3VsdHMgZnJvbSBtb3NxdWl0byBiaXRlcy4gSGVhcnR3b3JtLCBpZiBsZWZ0IHVudHJlYXRlZCwgaXMgbGlmZSB0aHJlYXRlbmluZywgYnV0IGFmdGVyIHRyZWF0bWVudCwgZG9ncyB0aGF0IHdlcmUgaGVhcnR3b3JtIHBvc2l0aXZlIHNob3VsZCBzdWZmZXIgbm8gc2lnbmlmaWNhbnQgbG9uZy10ZXJtIGVmZmVjdHMgc28gbG9uZyBhcyB0aGV5IGFyZSBrZXB0IG9uIGEgbW9udGhseSBoZWFydHdvcm0gcHJldmVudGF0aXZlLiBIZWFydHdvcm0gZG9ncyBjYW4gcmVzdW1lIGZ1bGwgYWN0aXZlIGFuZCBub3JtYWwgbGl2ZXMsIGJ1dCBuZWVkIHRvIGJlIGtlcHQgY2FsbSBmb3IgNC02IHdlZWtzIGFmdGVyIHRyZWF0bWVudC4gWWFuZyBpcyBzY2hlZHVsZWQgdG8gaGF2ZSB0cmVhdG1lbnQgYXMgc29vbiBhcyBwb3NzaWJsZSBzbyB0aGUgcmVjb3ZlcnkgcHJvY2VzcyBjYW4gYmVnaW4uIFdlIGFyZSBoYXBweSB0byB0YWxrIG1vcmUgaW4gZGVwdGggYWJvdXQgaGVhcnR3b3JtIGRpc2Vhc2UgYW5kIHRyZWF0bWVudCBkdXJpbmcgdGhlIHNjcmVlbmluZyBwcm9jZXNzLlxuXG5Jw6LCgMKZbSBMb29raW5nIEZvcjogTXkgWWluISBBIGhvbWUgZnVsbCBvZiBsb3ZlIGFuZCBjdWRkbGVzIGZvciBkYXlzLiBJJ20gcmVhZHkgdG8gaGF2ZSB0aGF0IHBlcnNvbiBvciBwZXJzb25zIHRoYXQgY29tcGxldGUgbWUuIElzIHRoYXQgeW91P1xuXG5XaGF0IE15IEZvc3RlciBTYXlzIEFib3V0IE1lOiBZYW5nIHRoZSBtb3N0IHBlcmZlY3RseSBiZWhhdmVkIGRvZyBpbnNpZGUgdGhlIGhvbWUuIE5vIGFjY2lkZW50cyBzbyBkZWZpbml0ZWx5IGhvdXNlIGJyb2tlbiwgY29udGVudCBpbiB0aGUgY3JhdGUgYW5kIGxpa2VzIHRvIGp1c3QgaGFuZyBvdXQgd2l0aCB5b3UgcXVpZXRseSBhbmQgbGllIG9uIHRoZSBjb3VjaC9iZWQuIFNoZSBpcyBzdXBlciBzd2VldCwgYWZmZWN0aW9uYXRlIGFuZCBjdWRkbHkgYW5kIGhhcyBiZWVuIHBlcmZlY3RseSBmaW5lIGNvaGFiaXRhdGluZyB3aXRoIG15IGRvZy5cblxuTHVja3kgRG9nIGNhbm5vdCBndWFyYW50ZWUgYW55IHBhcnRpY3VsYXIgZG9nIGlzIGhvdXNlYnJva2VuLiBBbGwgb3VyIGRvZ3MgYXJlIHdvcmtpbmcgb24gY3JhdGUgdHJhaW5pbmcuXG5cblRPIEFET1BUOiBUaGUgYWRvcHRpb24gZmVlIGZvciB0aGlzIGRvZyBpcyAkNDUwLCB3aGljaCBpbmNsdWRlcyB0aGUgY29zdCBvZiByb3V0aW5lIHZldHRpbmcsIGluY2x1ZGluZyB2YWNjaW5hdGlvbnMsIHNwYXkvbmV1dGVyLCBhbmQgaGVhcnR3b3JtIHRyZWF0bWVudC4gSWYgeW91IGFyZSBpbnRlcmVzdGVkIGluIGFkb3B0aW5nLCBwbGVhc2UgZG93bmxvYWQgb3VyXG5cbkFkb3B0aW9uIFF1ZXN0aW9ubmFpcmUgYW5kIGVtYWlsIGl0IHRvIFRhbnlhIGF0IHRhbnlhYkBMVUNLWURPR0FOSU1BTFJFU0NVRS5PUkchXG5cbkx1Y2t5IERvZyBBbmltYWwgUmVzY3VlIGRvZXMgb3VyIGJlc3QgdG8gcHJvdmlkZSBhY2N1cmF0ZSBpbmZvcm1hdGlvbiBhYm91dCB0aGUgZG9ncyB3ZSBoYXZlIGZvciBhZG9wdGlvbi4gVGhhdCBzYWlkLCB3ZSBjYW5ub3QgbWFrZSBhbnkgZ3VhcmFudGVlcyBhYm91dCBhZ2UsIGJyZWVkIG9yIHRlbXBlcmFtZW50LlxuXG5UaGFuayB5b3UgZm9yIGNvbnRhY3RpbmcgTHVja3kgRG9nIEFuaW1hbCBSZXNjdWUgYW5kIGhlbHBpbmcgdG8gc2F2ZSBhIGxpZmUhIFBsZWFzZSB2aXNpdCB1cyBvbmxpbmUgYXQgd3d3Lmx1Y2t5ZG9nYW5pbWFscmVzY3VlLm9yZyAuXG5cbkJFIEEgRk9TVEVSISEhIEZvc3RlcnMgbWFrZSBpdCBwb3NzaWJsZSBmb3IgTHVja3kgRG9nIEFuaW1hbCBSZXNjdWUgdG8gc2F2ZSBhbmQgY2FyZSBmb3IgaG9tZWxlc3MgYW5kIGFiYW5kb25lZCBkb2dzISBUbyBsZWFybiBhYm91dCBmb3N0ZXJpbmcsIHBsZWFzZSBlbWFpbCB1cyFcblxuQkUgQSBTUE9OU09SISEhISBTcG9uc29ycyBoZWxwIEx1Y2t5IERvZyBzdXBwb3J0IHRoZSBtYW55IGRvZ3Mgd2Ugc2F2ZS4gVG8gbGVhcm4gbW9yZSBhYm91dCBzcG9uc29yc2hpcCwgcGxlYXNlIGVtYWlsIHVzIG9yIGNsaWNrIGhlcmUhXG5cbiJ9LCJtaXgiOnsiJHQiOiJ5ZXMifSwic2hlbHRlcklkIjp7IiR0IjoiREMyMCJ9LCJsYXN0VXBkYXRlIjp7IiR0IjoiMjAxOS0wMS0xOFQyMzoyODozN1oifSwiYW5pbWFsIjp7IiR0IjoiRG9nIn19LCJAeG1sbnM6eHNpIjoiaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiLCJoZWFkZXIiOnsidGltZXN0YW1wIjp7IiR0IjoiMjAxOS0wMi0yNFQyMTo0NDoxM1oifSwic3RhdHVzIjp7Im1lc3NhZ2UiOnt9LCJjb2RlIjp7IiR0IjoiMTAwIn19LCJ2ZXJzaW9uIjp7IiR0IjoiMC4xIn19LCJAeHNpOm5vTmFtZXNwYWNlU2NoZW1hTG9jYXRpb24iOiJodHRwOi8vYXBpLnBldGZpbmRlci5jb20vc2NoZW1hcy8wLjkvcGV0ZmluZGVyLnhzZCJ9fQ==
+    http_version: 
+  recorded_at: Sun, 24 Feb 2019 21:44:13 GMT
+- request:
+    method: get
+    uri: http://api.petfinder.com/pet.getRandom?format=json&key=petfinder_api_key&output=full
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 24 Feb 2019 21:44:13 GMT
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Length:
+      - '761'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '{"@encoding":"iso-8859-1","@version":"1.0","petfinder":{"pet":{"options":{"option":{"$t":"altered"}},"status":{"$t":"A"},"contact":{"phone":{"$t":"(512)
+        978-0500"},"state":{"$t":"TX"},"address2":{},"email":{"$t":"animal.customerservice@austintexas.gov"},"city":{"$t":"Austin"},"zip":{"$t":"78702"},"fax":{},"address1":{"$t":"7201
+        Levander Loop"}},"age":{"$t":"Adult"},"size":{"$t":"M"},"media":{"photos":{"photo":[{"@size":"pnt","$t":"http://photos.petfinder.com/photos/pets/43831665/1/?bust=1550967150&width=60&-pnt.jpg","@id":"1"},{"@size":"fpm","$t":"http://photos.petfinder.com/photos/pets/43831665/1/?bust=1550967150&width=95&-fpm.jpg","@id":"1"},{"@size":"x","$t":"http://photos.petfinder.com/photos/pets/43831665/1/?bust=1550967150&width=500&-x.jpg","@id":"1"},{"@size":"pn","$t":"http://photos.petfinder.com/photos/pets/43831665/1/?bust=1550967150&width=300&-pn.jpg","@id":"1"},{"@size":"t","$t":"http://photos.petfinder.com/photos/pets/43831665/1/?bust=1550967150&width=50&-t.jpg","@id":"1"}]}},"id":{"$t":"43831665"},"shelterPetId":{"$t":"A787850"},"breeds":{"breed":[{"$t":"Pit
+        Bull Terrier"},{"$t":"Labrador Retriever"}]},"name":{"$t":"NIKI"},"sex":{"$t":"F"},"description":{"$t":"Niki
+        is a complete sweetheart! She loves going on walks, cuddling, playing fetch,
+        and entertaining herself with squeaky toys, but most of all she loves being
+        with people."},"mix":{"$t":"yes"},"shelterId":{"$t":"TX514"},"lastUpdate":{"$t":"2019-01-22T15:29:55Z"},"animal":{"$t":"Dog"}},"@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","header":{"timestamp":{"$t":"2019-02-24T21:44:13Z"},"status":{"message":{},"code":{"$t":"100"}},"version":{"$t":"0.1"}},"@xsi:noNamespaceSchemaLocation":"http://api.petfinder.com/schemas/0.9/petfinder.xsd"}}'
+    http_version: 
+  recorded_at: Sun, 24 Feb 2019 21:44:13 GMT
+- request:
+    method: get
+    uri: http://api.petfinder.com/pet.getRandom?format=json&key=petfinder_api_key&output=full
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 24 Feb 2019 21:44:14 GMT
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Length:
+      - '850'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '{"@encoding":"iso-8859-1","@version":"1.0","petfinder":{"pet":{"options":{"option":{"$t":"altered"}},"status":{"$t":"A"},"contact":{"phone":{},"state":{"$t":"FL"},"address2":{},"email":{"$t":"luvapet2004@yahoo.com"},"city":{"$t":"Royal
+        Palm Beach"},"zip":{"$t":"33411"},"fax":{},"address1":{"$t":"1128 Royal Palm
+        Beach Blvd. #203"}},"age":{"$t":"Baby"},"size":{"$t":"L"},"media":{"photos":{"photo":[{"@size":"pnt","$t":"http://photos.petfinder.com/photos/pets/43134330/1/?bust=1540758182&width=60&-pnt.jpg","@id":"1"},{"@size":"fpm","$t":"http://photos.petfinder.com/photos/pets/43134330/1/?bust=1540758182&width=95&-fpm.jpg","@id":"1"},{"@size":"x","$t":"http://photos.petfinder.com/photos/pets/43134330/1/?bust=1540758182&width=500&-x.jpg","@id":"1"},{"@size":"pn","$t":"http://photos.petfinder.com/photos/pets/43134330/1/?bust=1540758182&width=300&-pn.jpg","@id":"1"},{"@size":"t","$t":"http://photos.petfinder.com/photos/pets/43134330/1/?bust=1540758182&width=50&-t.jpg","@id":"1"},{"@size":"pnt","$t":"http://photos.petfinder.com/photos/pets/43134330/2/?bust=1540758187&width=60&-pnt.jpg","@id":"2"},{"@size":"fpm","$t":"http://photos.petfinder.com/photos/pets/43134330/2/?bust=1540758187&width=95&-fpm.jpg","@id":"2"},{"@size":"x","$t":"http://photos.petfinder.com/photos/pets/43134330/2/?bust=1540758187&width=500&-x.jpg","@id":"2"},{"@size":"pn","$t":"http://photos.petfinder.com/photos/pets/43134330/2/?bust=1540758187&width=300&-pn.jpg","@id":"2"},{"@size":"t","$t":"http://photos.petfinder.com/photos/pets/43134330/2/?bust=1540758187&width=50&-t.jpg","@id":"2"}]}},"id":{"$t":"43134330"},"shelterPetId":{"$t":"40033722"},"breeds":{"breed":{"$t":"Domestic
+        Short Hair"}},"name":{"$t":"Morris"},"sex":{"$t":"M"},"description":{"$t":"Luv-a-pet
+        is a 501 (c) non-profit organization that helps abandoned, homeless and abused
+        puppies and kittens. All animals are available for a $80.00 adoption fee.
+        All our animals are vaccinated, spayed or neutered and have a microchip ID.
+        For adoptions call Ashley at 1-757-971-3315. "},"mix":{"$t":"no"},"shelterId":{"$t":"FL441"},"lastUpdate":{"$t":"2018-10-28T13:49:40Z"},"animal":{"$t":"Cat"}},"@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","header":{"timestamp":{"$t":"2019-02-24T21:44:14Z"},"status":{"message":{},"code":{"$t":"100"}},"version":{"$t":"0.1"}},"@xsi:noNamespaceSchemaLocation":"http://api.petfinder.com/schemas/0.9/petfinder.xsd"}}'
+    http_version: 
+  recorded_at: Sun, 24 Feb 2019 21:44:14 GMT
+- request:
+    method: get
+    uri: http://api.petfinder.com/pet.getRandom?format=json&key=petfinder_api_key&output=full
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 24 Feb 2019 21:44:14 GMT
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Length:
+      - '2887'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '{"@encoding":"iso-8859-1","@version":"1.0","petfinder":{"pet":{"options":{"option":[{"$t":"altered"},{"$t":"hasShots"},{"$t":"housetrained"},{"$t":"noDogs"},{"$t":"noCats"}]},"status":{"$t":"A"},"contact":{"phone":{"$t":"4805539311  "},"state":{"$t":"AZ"},"address2":{},"email":{"$t":"info@underdogaz.com"},"city":{"$t":"Chandler"},"zip":{"$t":"85249"},"fax":{},"address1":{"$t":"P.
+        O. Box 13392"}},"age":{"$t":"Adult"},"size":{"$t":"L"},"media":{"photos":{"photo":[{"@size":"pnt","$t":"http://photos.petfinder.com/photos/pets/37660921/1/?bust=1489874478&width=60&-pnt.jpg","@id":"1"},{"@size":"fpm","$t":"http://photos.petfinder.com/photos/pets/37660921/1/?bust=1489874478&width=95&-fpm.jpg","@id":"1"},{"@size":"x","$t":"http://photos.petfinder.com/photos/pets/37660921/1/?bust=1489874478&width=500&-x.jpg","@id":"1"},{"@size":"pn","$t":"http://photos.petfinder.com/photos/pets/37660921/1/?bust=1489874478&width=300&-pn.jpg","@id":"1"},{"@size":"t","$t":"http://photos.petfinder.com/photos/pets/37660921/1/?bust=1489874478&width=50&-t.jpg","@id":"1"},{"@size":"pnt","$t":"http://photos.petfinder.com/photos/pets/37660921/2/?bust=1489874479&width=60&-pnt.jpg","@id":"2"},{"@size":"fpm","$t":"http://photos.petfinder.com/photos/pets/37660921/2/?bust=1489874479&width=95&-fpm.jpg","@id":"2"},{"@size":"x","$t":"http://photos.petfinder.com/photos/pets/37660921/2/?bust=1489874479&width=500&-x.jpg","@id":"2"},{"@size":"pn","$t":"http://photos.petfinder.com/photos/pets/37660921/2/?bust=1489874479&width=300&-pn.jpg","@id":"2"},{"@size":"t","$t":"http://photos.petfinder.com/photos/pets/37660921/2/?bust=1489874479&width=50&-t.jpg","@id":"2"},{"@size":"pnt","$t":"http://photos.petfinder.com/photos/pets/37660921/3/?bust=1489874479&width=60&-pnt.jpg","@id":"3"},{"@size":"fpm","$t":"http://photos.petfinder.com/photos/pets/37660921/3/?bust=1489874479&width=95&-fpm.jpg","@id":"3"},{"@size":"x","$t":"http://photos.petfinder.com/photos/pets/37660921/3/?bust=1489874479&width=500&-x.jpg","@id":"3"},{"@size":"pn","$t":"http://photos.petfinder.com/photos/pets/37660921/3/?bust=1489874479&width=300&-pn.jpg","@id":"3"},{"@size":"t","$t":"http://photos.petfinder.com/photos/pets/37660921/3/?bust=1489874479&width=50&-t.jpg","@id":"3"}]}},"id":{"$t":"37660921"},"shelterPetId":{},"breeds":{"breed":{"$t":"Staffordshire
+        Bull Terrier"}},"name":{"$t":"BISCUIT"},"sex":{"$t":"M"},"description":{"$t":"You
+        can fill out an adoption application online on our official website.\n\nMEET
+        BISCUIT!! **Please Note: This is a courtesy post for another rescue; different
+        adoption fees/policy apply.\n\n Hi! My name is Biscuit, and I am on a mission.
+        I am a rescue doggie and I am looking for a forever home. Things have been
+        a bit ruff, but I am one lucky dog. You see, my previous owner was in a bad
+        car accident and spent several months in the hospital. There was no one to
+        take care of me, so a nice doggie rescuer came to my aid and is now helping
+        me find a new permanent home. I do have some skills, but typing isn''t one
+        of them. I can, however, sit, stay, lay, give high fives and shake hands.
+        I don''t like to brag but I am also house, crate and doggie door trained.
+        Okay, maybe I like to brag a little. People repeatedly tell me I am handsome.
+        They particularly like to do that when they look me in the face and scratch
+        me behind my ears. That never gets old.\n\n I am also told I have a family
+        tree with some bull doggie and staffie mixed in. I am about four years old
+        and am full-grown, so what you see is what you get. I am pretty slim and trim
+        with a smaller body frame and weigh in at about 54 lbs. I keep myself in pretty
+        good physical shape. I have recently seen my doggie doctor and have no medical
+        issues. I have all my vaccinations, sparkly white teeth, a microchip and have
+        been neutered. If I could I would adopt myself! I love going for walks and
+        car rides. I''ve learned to be a good listener and will sit immediately when
+        told. Give me a chew bone and I''ll keep myself entertained. Want to read
+        a book or watch TV? Not a problem, I am happy to relax along with you. Scratch
+        my back and I''ll follow you anywhere. I''ve learned that if I put my front
+        paws curled in towards my body when I lay down, I get human responses like
+        \"Isn''t he cute?\" \"Adorable!\" and \"Awww.\" Gotta tell ya, that doesn''t
+        get old either. To be honest, I also have my playful side and like to get
+        out and enjoy life a bit. Nothing like a good old tennis ball or the right
+        toy to add to the perfect day! , Some short videos to watch me in action:
+        , Takes treats gently: https://youtu.be/HJXTXSgRbfo ,\n\n Being a good boy:
+        https://youtu.be/X6_6iIGduCE\n\n Good at sitting: https://youtu.be/k0DGHWRDOV4\n\n
+        Love his chew bone: https://youtu.be/lWF9SDWTuhQ\n\n Follows commands: https://youtu.be/7JRumMtSrto\n\n
+        Enjoys hamburgers: https://youtu.be/pL_exTQRBm0\n\n Now, if you''ll visit
+        me and we get along, and if you decide to adopt me I will do my doggie best:
+        To be well-mannered and gentle , To not bother the things you own , To not
+        chase bikes , To be a good good watch dog but not bark excessively,To be a
+        good friend when you are sick or down in the dumps , To behave on a leash
+        , To cooperate at bath time , To best the best buddy I can be , Now, I can''t
+        promise you I''ll never get into mischief (after all, I am a dog) but you
+        should know I don''t drool, I am not a jumper, and I am good with kids of
+        all sizes and shapes. Too good to be true? Thanks, I appreciate that, but
+        doggone, I really want to find my forever home. And I prefer to have all the
+        human attention to myself, so no other pets will be\n best. , I only ask that
+        you love and take good care of me. I do like to play so a secure yard would
+        be best.\n\n \n Sorry, an apartment wouldn''t work. Oh, and I wouldn''t turn
+        my nose up at an occasional trip to the Golden Arches for a plain burger once
+        in a while. Like I said, after all, I am a dog. , But wait. There''s more!
+        I come with a sack of premium dog food along with some yummy canned food,
+        a new fluffy dog bed, a wire crate, a durable collar, leash, and detailed
+        vet records. My adoption fee is just $125. What a bargain for a lovable, playful,
+        smart and modest pup who will give you endless hours of entertainment and
+        companionship.\n\n Could you be the right family for me? Please take a peak
+        at my photos and my short\n videos and see my contact info. I would love to
+        meet you! Thanks for reading, and don''t forget about me!\n\n For more information
+        or to meet this pet, please complete an application or send email to info@underdogaz.com\n\n  If
+        you''re reading this via a pet-search site, please view this pet''s page  at
+        www.UnderdogAZ.com/animals  for more photos and details."},"mix":{"$t":"yes"},"shelterId":{"$t":"AZ414"},"lastUpdate":{"$t":"2017-03-18T22:01:11Z"},"animal":{"$t":"Dog"}},"@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","header":{"timestamp":{"$t":"2019-02-24T21:44:14Z"},"status":{"message":{},"code":{"$t":"100"}},"version":{"$t":"0.1"}},"@xsi:noNamespaceSchemaLocation":"http://api.petfinder.com/schemas/0.9/petfinder.xsd"}}'
+    http_version: 
+  recorded_at: Sun, 24 Feb 2019 21:44:14 GMT
+- request:
+    method: get
+    uri: http://api.petfinder.com/pet.getRandom?format=json&key=petfinder_api_key&output=full
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 24 Feb 2019 21:44:14 GMT
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Length:
+      - '1146'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '{"@encoding":"iso-8859-1","@version":"1.0","petfinder":{"pet":{"options":{"option":[{"$t":"altered"},{"$t":"hasShots"}]},"status":{"$t":"A"},"contact":{"phone":{"$t":"303-278-7575  "},"state":{"$t":"CO"},"address2":{},"email":{"$t":"customercare@fas4pets.org"},"city":{"$t":"Golden"},"zip":{"$t":"80401"},"fax":{},"address1":{"$t":"580
+        McIntyre St (new)"}},"age":{"$t":"Adult"},"size":{"$t":"L"},"media":{"photos":{"photo":[{"@size":"pnt","$t":"http://photos.petfinder.com/photos/pets/44062693/1/?bust=1550927677&width=60&-pnt.jpg","@id":"1"},{"@size":"fpm","$t":"http://photos.petfinder.com/photos/pets/44062693/1/?bust=1550927677&width=95&-fpm.jpg","@id":"1"},{"@size":"x","$t":"http://photos.petfinder.com/photos/pets/44062693/1/?bust=1550927677&width=500&-x.jpg","@id":"1"},{"@size":"pn","$t":"http://photos.petfinder.com/photos/pets/44062693/1/?bust=1550927677&width=300&-pn.jpg","@id":"1"},{"@size":"t","$t":"http://photos.petfinder.com/photos/pets/44062693/1/?bust=1550927677&width=50&-t.jpg","@id":"1"},{"@size":"pnt","$t":"http://photos.petfinder.com/photos/pets/44062693/2/?bust=1550927697&width=60&-pnt.jpg","@id":"2"},{"@size":"fpm","$t":"http://photos.petfinder.com/photos/pets/44062693/2/?bust=1550927697&width=95&-fpm.jpg","@id":"2"},{"@size":"x","$t":"http://photos.petfinder.com/photos/pets/44062693/2/?bust=1550927697&width=500&-x.jpg","@id":"2"},{"@size":"pn","$t":"http://photos.petfinder.com/photos/pets/44062693/2/?bust=1550927697&width=300&-pn.jpg","@id":"2"},{"@size":"t","$t":"http://photos.petfinder.com/photos/pets/44062693/2/?bust=1550927697&width=50&-t.jpg","@id":"2"}]}},"id":{"$t":"44062693"},"shelterPetId":{"$t":"209502"},"breeds":{"breed":{"$t":"Hound"}},"name":{"$t":"Beth"},"sex":{"$t":"F"},"description":{"$t":"Hi,
+        I''m Beth! I am a shy girl that would appreciate a calm, loving home that
+        will give me some time to settle in. Because of my timid nature, NO KIDS UNDER
+        8 in the home please. Once I warm up I am obedient and learn quickly! Are
+        you the right leader for me? I will be a loving addition to your family! I''ll
+        be happiest in a home where I am the center of attention! I am a My adoption
+        fee includes my spay or neuter surgery, initial vaccinations, a bag of Purina
+        Pro Plan food, a microchip, 30 days of free pet insurance and a voucher for
+        a free veterinary office visit. Relax in style with me as your loyal companion.
+        Visit with me today! Primary Color: Black Secondary Color: Brindle Weight:
+        45.98lbs Age: 2yrs 0mths 1wks Animal has been Spayed Adoption Fees: $300"},"mix":{"$t":"yes"},"shelterId":{"$t":"CO91"},"lastUpdate":{"$t":"2019-02-20T23:13:51Z"},"animal":{"$t":"Dog"}},"@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","header":{"timestamp":{"$t":"2019-02-24T21:44:14Z"},"status":{"message":{},"code":{"$t":"100"}},"version":{"$t":"0.1"}},"@xsi:noNamespaceSchemaLocation":"http://api.petfinder.com/schemas/0.9/petfinder.xsd"}}'
+    http_version: 
+  recorded_at: Sun, 24 Feb 2019 21:44:14 GMT
+- request:
+    method: get
+    uri: http://api.petfinder.com/pet.getRandom?format=json&key=petfinder_api_key&output=full
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 24 Feb 2019 21:44:15 GMT
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Length:
+      - '1438'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '{"@encoding":"iso-8859-1","@version":"1.0","petfinder":{"pet":{"options":{"option":[{"$t":"altered"},{"$t":"hasShots"}]},"status":{"$t":"A"},"contact":{"phone":{"$t":"919-774-9433
+        "},"state":{"$t":"NC"},"address2":{},"email":{"$t":"cara@cara-nc.org"},"city":{"$t":"Sanford"},"zip":{"$t":"27330"},"fax":{},"address1":{"$t":"42
+        Deep River Rd"}},"age":{"$t":"Adult"},"size":{"$t":"S"},"media":{},"id":{"$t":"44081520"},"shelterPetId":{"$t":"14099691"},"breeds":{"breed":{"$t":"Cavalier
+        King Charles Spaniel"}},"name":{"$t":"Buster"},"sex":{"$t":"M"},"description":{"$t":"You
+        can fill out an adoption application online on our official website.Thank
+        you for considering adopting one of CARA''s Special pets! To apply read about
+        our adoption policies\nhere\nto fill out an application.\nHello, My name is
+        Buster! I was taken in to CARA, because my owner passed away. I came here
+        with my brother and sister. I am sooooo sweet, so mellow, sooo affectionate.
+        Please come meet me during open hours!\n\n-LOVE Buster XOXOTo see more animals
+        for adoption, please visit the CARA Website\n\nOur adoption fees are:\nDogs:
+        $155\nCats: $95\nPuppies under 4 months: $115 plus S/N Deposit: $100\nKittens
+        under 4 months: $70 plus S/N Deposit: $100\n\nAll pets available for adoption
+        have been spayed or neutered (unless under 4 months please read about our
+        adoptions\nhere\n), are current on vaccinations and preventatives, and micro-chipped.
+        Cats have been tested and confirmed negative for Feline AIDS and Leukemia.
+        Dogs have been tested for heartworm disease.\n\nOur shelter is located at
+        42 Deep River Rd in Sanford and is open Tues, Thurs, & Fri from 3pm - 7pm
+        & Sat from 10-2pm (other times available by appointment). CARA''s adoption
+        process and online application can be found at\nhttp://www.cara-nc.org/info/adoption\n\nPlease
+        call 919-774-9433, email adoptions@cara-nc.org, or visit www.cara-nc.org for
+        information about this or other pets available for adoption.\n\nIf you would
+        like to adopt me or any of my friends, please visit CARA to fill out an on-line
+        application or e-mail us at adoptions@cara-nc.org.\n\nEvery animal that comes
+        into the CARA program is here because one or more events occurred that led
+        to this animal needing not only a home, but a person or family to love and
+        protect them. Each animal has been loved and cared for by a small and determined
+        group of people who want nothing more than to know each animal is safe for
+        the rest of his or her life. Thank you for looking to adopt!\n"},"mix":{"$t":"no"},"shelterId":{"$t":"NC150"},"lastUpdate":{"$t":"2019-02-23T05:48:56Z"},"animal":{"$t":"Dog"}},"@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","header":{"timestamp":{"$t":"2019-02-24T21:44:15Z"},"status":{"message":{},"code":{"$t":"100"}},"version":{"$t":"0.1"}},"@xsi:noNamespaceSchemaLocation":"http://api.petfinder.com/schemas/0.9/petfinder.xsd"}}'
+    http_version: 
+  recorded_at: Sun, 24 Feb 2019 21:44:15 GMT
+- request:
+    method: get
+    uri: http://api.petfinder.com/pet.getRandom?format=json&key=petfinder_api_key&output=full
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 24 Feb 2019 21:44:19 GMT
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Length:
+      - '1416'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJAZW5jb2RpbmciOiJpc28tODg1OS0xIiwiQHZlcnNpb24iOiIxLjAiLCJwZXRmaW5kZXIiOnsicGV0Ijp7Im9wdGlvbnMiOnsib3B0aW9uIjpbeyIkdCI6ImFsdGVyZWQifSx7IiR0IjoiaGFzU2hvdHMifSx7IiR0IjoiaG91c2V0cmFpbmVkIn1dfSwic3RhdHVzIjp7IiR0IjoiQSJ9LCJjb250YWN0Ijp7InBob25lIjp7IiR0IjoiKDk3MykgNzQ2LTUyMTIifSwic3RhdGUiOnsiJHQiOiJOSiJ9LCJhZGRyZXNzMiI6e30sImVtYWlsIjp7IiR0IjoiaW5mb0BwYXdzbW9udGNsYWlyLm9yZyJ9LCJjaXR5Ijp7IiR0IjoiTW9udGNsYWlyIn0sInppcCI6eyIkdCI6IjA3MDQyIn0sImZheCI6e30sImFkZHJlc3MxIjp7IiR0IjoiUC5PLiBCb3ggMTQ5In19LCJhZ2UiOnsiJHQiOiJBZHVsdCJ9LCJzaXplIjp7IiR0IjoiTSJ9LCJtZWRpYSI6eyJwaG90b3MiOnsicGhvdG8iOlt7IkBzaXplIjoicG50IiwiJHQiOiJodHRwOi8vcGhvdG9zLnBldGZpbmRlci5jb20vcGhvdG9zL3BldHMvNDMxNjg5MTAvMS8/YnVzdD0xNTQxMDI2NzIxJndpZHRoPTYwJi1wbnQuanBnIiwiQGlkIjoiMSJ9LHsiQHNpemUiOiJmcG0iLCIkdCI6Imh0dHA6Ly9waG90b3MucGV0ZmluZGVyLmNvbS9waG90b3MvcGV0cy80MzE2ODkxMC8xLz9idXN0PTE1NDEwMjY3MjEmd2lkdGg9OTUmLWZwbS5qcGciLCJAaWQiOiIxIn0seyJAc2l6ZSI6IngiLCIkdCI6Imh0dHA6Ly9waG90b3MucGV0ZmluZGVyLmNvbS9waG90b3MvcGV0cy80MzE2ODkxMC8xLz9idXN0PTE1NDEwMjY3MjEmd2lkdGg9NTAwJi14LmpwZyIsIkBpZCI6IjEifSx7IkBzaXplIjoicG4iLCIkdCI6Imh0dHA6Ly9waG90b3MucGV0ZmluZGVyLmNvbS9waG90b3MvcGV0cy80MzE2ODkxMC8xLz9idXN0PTE1NDEwMjY3MjEmd2lkdGg9MzAwJi1wbi5qcGciLCJAaWQiOiIxIn0seyJAc2l6ZSI6InQiLCIkdCI6Imh0dHA6Ly9waG90b3MucGV0ZmluZGVyLmNvbS9waG90b3MvcGV0cy80MzE2ODkxMC8xLz9idXN0PTE1NDEwMjY3MjEmd2lkdGg9NTAmLXQuanBnIiwiQGlkIjoiMSJ9LHsiQHNpemUiOiJwbnQiLCIkdCI6Imh0dHA6Ly9waG90b3MucGV0ZmluZGVyLmNvbS9waG90b3MvcGV0cy80MzE2ODkxMC8yLz9idXN0PTE1NDEwMjY2NDUmd2lkdGg9NjAmLXBudC5qcGciLCJAaWQiOiIyIn0seyJAc2l6ZSI6ImZwbSIsIiR0IjoiaHR0cDovL3Bob3Rvcy5wZXRmaW5kZXIuY29tL3Bob3Rvcy9wZXRzLzQzMTY4OTEwLzIvP2J1c3Q9MTU0MTAyNjY0NSZ3aWR0aD05NSYtZnBtLmpwZyIsIkBpZCI6IjIifSx7IkBzaXplIjoieCIsIiR0IjoiaHR0cDovL3Bob3Rvcy5wZXRmaW5kZXIuY29tL3Bob3Rvcy9wZXRzLzQzMTY4OTEwLzIvP2J1c3Q9MTU0MTAyNjY0NSZ3aWR0aD01MDAmLXguanBnIiwiQGlkIjoiMiJ9LHsiQHNpemUiOiJwbiIsIiR0IjoiaHR0cDovL3Bob3Rvcy5wZXRmaW5kZXIuY29tL3Bob3Rvcy9wZXRzLzQzMTY4OTEwLzIvP2J1c3Q9MTU0MTAyNjY0NSZ3aWR0aD0zMDAmLXBuLmpwZyIsIkBpZCI6IjIifSx7IkBzaXplIjoidCIsIiR0IjoiaHR0cDovL3Bob3Rvcy5wZXRmaW5kZXIuY29tL3Bob3Rvcy9wZXRzLzQzMTY4OTEwLzIvP2J1c3Q9MTU0MTAyNjY0NSZ3aWR0aD01MCYtdC5qcGciLCJAaWQiOiIyIn0seyJAc2l6ZSI6InBudCIsIiR0IjoiaHR0cDovL3Bob3Rvcy5wZXRmaW5kZXIuY29tL3Bob3Rvcy9wZXRzLzQzMTY4OTEwLzMvP2J1c3Q9MTU0MTAyNjY1MyZ3aWR0aD02MCYtcG50LmpwZyIsIkBpZCI6IjMifSx7IkBzaXplIjoiZnBtIiwiJHQiOiJodHRwOi8vcGhvdG9zLnBldGZpbmRlci5jb20vcGhvdG9zL3BldHMvNDMxNjg5MTAvMy8/YnVzdD0xNTQxMDI2NjUzJndpZHRoPTk1Ji1mcG0uanBnIiwiQGlkIjoiMyJ9LHsiQHNpemUiOiJ4IiwiJHQiOiJodHRwOi8vcGhvdG9zLnBldGZpbmRlci5jb20vcGhvdG9zL3BldHMvNDMxNjg5MTAvMy8/YnVzdD0xNTQxMDI2NjUzJndpZHRoPTUwMCYteC5qcGciLCJAaWQiOiIzIn0seyJAc2l6ZSI6InBuIiwiJHQiOiJodHRwOi8vcGhvdG9zLnBldGZpbmRlci5jb20vcGhvdG9zL3BldHMvNDMxNjg5MTAvMy8/YnVzdD0xNTQxMDI2NjUzJndpZHRoPTMwMCYtcG4uanBnIiwiQGlkIjoiMyJ9LHsiQHNpemUiOiJ0IiwiJHQiOiJodHRwOi8vcGhvdG9zLnBldGZpbmRlci5jb20vcGhvdG9zL3BldHMvNDMxNjg5MTAvMy8/YnVzdD0xNTQxMDI2NjUzJndpZHRoPTUwJi10LmpwZyIsIkBpZCI6IjMifSx7IkBzaXplIjoicG50IiwiJHQiOiJodHRwOi8vcGhvdG9zLnBldGZpbmRlci5jb20vcGhvdG9zL3BldHMvNDMxNjg5MTAvNC8/YnVzdD0xNTQxMDI2NjcwJndpZHRoPTYwJi1wbnQuanBnIiwiQGlkIjoiNCJ9LHsiQHNpemUiOiJmcG0iLCIkdCI6Imh0dHA6Ly9waG90b3MucGV0ZmluZGVyLmNvbS9waG90b3MvcGV0cy80MzE2ODkxMC80Lz9idXN0PTE1NDEwMjY2NzAmd2lkdGg9OTUmLWZwbS5qcGciLCJAaWQiOiI0In0seyJAc2l6ZSI6IngiLCIkdCI6Imh0dHA6Ly9waG90b3MucGV0ZmluZGVyLmNvbS9waG90b3MvcGV0cy80MzE2ODkxMC80Lz9idXN0PTE1NDEwMjY2NzAmd2lkdGg9NTAwJi14LmpwZyIsIkBpZCI6IjQifSx7IkBzaXplIjoicG4iLCIkdCI6Imh0dHA6Ly9waG90b3MucGV0ZmluZGVyLmNvbS9waG90b3MvcGV0cy80MzE2ODkxMC80Lz9idXN0PTE1NDEwMjY2NzAmd2lkdGg9MzAwJi1wbi5qcGciLCJAaWQiOiI0In0seyJAc2l6ZSI6InQiLCIkdCI6Imh0dHA6Ly9waG90b3MucGV0ZmluZGVyLmNvbS9waG90b3MvcGV0cy80MzE2ODkxMC80Lz9idXN0PTE1NDEwMjY2NzAmd2lkdGg9NTAmLXQuanBnIiwiQGlkIjoiNCJ9LHsiQHNpemUiOiJwbnQiLCIkdCI6Imh0dHA6Ly9waG90b3MucGV0ZmluZGVyLmNvbS9waG90b3MvcGV0cy80MzE2ODkxMC81Lz9idXN0PTE1NDEwMjY2ODcmd2lkdGg9NjAmLXBudC5qcGciLCJAaWQiOiI1In0seyJAc2l6ZSI6ImZwbSIsIiR0IjoiaHR0cDovL3Bob3Rvcy5wZXRmaW5kZXIuY29tL3Bob3Rvcy9wZXRzLzQzMTY4OTEwLzUvP2J1c3Q9MTU0MTAyNjY4NyZ3aWR0aD05NSYtZnBtLmpwZyIsIkBpZCI6IjUifSx7IkBzaXplIjoieCIsIiR0IjoiaHR0cDovL3Bob3Rvcy5wZXRmaW5kZXIuY29tL3Bob3Rvcy9wZXRzLzQzMTY4OTEwLzUvP2J1c3Q9MTU0MTAyNjY4NyZ3aWR0aD01MDAmLXguanBnIiwiQGlkIjoiNSJ9LHsiQHNpemUiOiJwbiIsIiR0IjoiaHR0cDovL3Bob3Rvcy5wZXRmaW5kZXIuY29tL3Bob3Rvcy9wZXRzLzQzMTY4OTEwLzUvP2J1c3Q9MTU0MTAyNjY4NyZ3aWR0aD0zMDAmLXBuLmpwZyIsIkBpZCI6IjUifSx7IkBzaXplIjoidCIsIiR0IjoiaHR0cDovL3Bob3Rvcy5wZXRmaW5kZXIuY29tL3Bob3Rvcy9wZXRzLzQzMTY4OTEwLzUvP2J1c3Q9MTU0MTAyNjY4NyZ3aWR0aD01MCYtdC5qcGciLCJAaWQiOiI1In1dfX0sImlkIjp7IiR0IjoiNDMxNjg5MTAifSwic2hlbHRlclBldElkIjp7fSwiYnJlZWRzIjp7ImJyZWVkIjpbeyIkdCI6IlN0YWZmb3Jkc2hpcmUgQnVsbCBUZXJyaWVyIn0seyIkdCI6IkVuZ2xpc2ggQnVsbGRvZyJ9XX0sIm5hbWUiOnsiJHQiOiJGYWl0aCJ9LCJzZXgiOnsiJHQiOiJGIn0sImRlc2NyaXB0aW9uIjp7IiR0IjoiRmFpdGggaXMgYSBiZWF1dGlmdWwsIHN3ZWV0IGFuZCBsYWlkIGJhY2sgZG9nISAgU2hlIGlzIHByb2JhYmx5IGJldHdlZW4gNy05IHllYXJzIG9sZC4gIFNoZSBpcyBlYXN5IGdvaW5nIGFuZCBsb3ZlcyB0byBqdXN0IGhhbmcgb3V0IHdpdGggaGVyIHBlb3BsZS4gIEZhaXRoIGhhZCBiZWVuIGFkb3B0ZWQgbGFzdCB5ZWFyLCBhZnRlciBQQVdTIHB1bGxlZCBoZXIgZnJvbSBhbiBvdmVyY3Jvd2RlZCBjaXR5IHNoZWx0ZXIsIGJ1dCB1bmZvcnR1bmF0ZWx5IHRoZSBhZG9wdGVyIHdhcyBhc3NpZ25lZCBhIG5ldyBwb3N0IHdoZXJlIGhlIG11c3QgdHJhdmVsIGZvciB3ZWVrcyBhdCBhIHRpbWUsIGFuZCB0aG91Z2ggaGlzIGZhbWlseSB0cmllZCB0byBmaWxsIGluLCBpdCBqdXN0IGJlY2FtZSBldmlkZW50IHRoYXQgRmFpdGggd291bGQgbmVlZCB0byBiZSByZWhvbWVkLiBUaGV5IHdlcmUgc28gZGlzYXBwb2ludGVkIGJlY2F1c2UgdGhleSBhZG9yZWQgaGVyISAgV2UgZmVlbCBGYWl0aCB3b3VsZCBiZSBoYXBwaWVzdCBsZWFkaW5nIGEgcXVpZXQgbGlmZSwgYW5kIHRob3VnaCBzaGUgaXMgZ29vZCB3aXRoIGV2ZXJ5b25lIGFuZCBnb29kIHdpdGggb3RoZXIgZG9ncywgc2hlIGlzIGF0IHRoZSBzdGFnZSBpbiBoZXIgbGlmZSB3aGVyZSBzaGUgcmVhbGx5IGRvZXNuJ3QgZW5nYWdlIGluIHRvbyBtdWNoIHBsYXkgd2l0aCB0aGVtLCBhbmQganVzdCBsb3ZlcyB0byBoYW5nIG91dCwgdG8gc2xlZXAsIGFuZCB0byBlYXQuIFdoYXQgY291bGQgYmUgYmV0dGVyPyEgQW5kIHNoZSBpcyBhbiBlYXN5IHdhbGtlciEgIEFsdGhvdWdoIGF0IHRpbWVzIHNoZSBkb2VzIGhhdmUgYSBsaXR0bGUgc3B1bmsgaW4gaGVyISAgV2F0Y2ggaGVyIHZpZGVvISBTaGXDosKAwplzIGEgY3V0aWUhXG5cbklmIHlvdSBjYW4gcHJvdmlkZSBGYWl0aCB0aGUgZWFzeSBsaWZlLCBzaGUgd2lsbCBicmluZyB5b3UgZW5kbGVzcyBzbWlsZXMgYW5kIGpveSEgIEFkb3B0IEZhaXRoLiBZb3Ugd29uw6LCgMKZdCBiZSBkaXNhcHBvaW50ZWQhIFxuIn0sIm1peCI6eyIkdCI6InllcyJ9LCJzaGVsdGVySWQiOnsiJHQiOiJOSjA3In0sImxhc3RVcGRhdGUiOnsiJHQiOiIyMDE4LTEwLTMxVDIzOjE0OjIxWiJ9LCJhbmltYWwiOnsiJHQiOiJEb2cifX0sIkB4bWxuczp4c2kiOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIsImhlYWRlciI6eyJ0aW1lc3RhbXAiOnsiJHQiOiIyMDE5LTAyLTI0VDIxOjQ0OjE5WiJ9LCJzdGF0dXMiOnsibWVzc2FnZSI6e30sImNvZGUiOnsiJHQiOiIxMDAifX0sInZlcnNpb24iOnsiJHQiOiIwLjEifX0sIkB4c2k6bm9OYW1lc3BhY2VTY2hlbWFMb2NhdGlvbiI6Imh0dHA6Ly9hcGkucGV0ZmluZGVyLmNvbS9zY2hlbWFzLzAuOS9wZXRmaW5kZXIueHNkIn19
+    http_version: 
+  recorded_at: Sun, 24 Feb 2019 21:44:19 GMT
+- request:
+    method: get
+    uri: http://api.petfinder.com/pet.getRandom?format=json&key=petfinder_api_key&output=full
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 24 Feb 2019 21:44:19 GMT
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Length:
+      - '778'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '{"@encoding":"iso-8859-1","@version":"1.0","petfinder":{"pet":{"options":{"option":{"$t":"altered"}},"status":{"$t":"A"},"contact":{"phone":{"$t":"(561)
+        791-6465"},"state":{"$t":"FL"},"address2":{"$t":"Loxahatchee, FL 33470"},"email":{"$t":"adoptions@bdrr.org"},"city":{"$t":"Loxahatchee"},"zip":{"$t":"33470"},"fax":{},"address1":{"$t":"14444
+        Okeechobee Blvd."}},"age":{"$t":"Young"},"size":{"$t":"M"},"media":{"photos":{"photo":[{"@size":"pnt","$t":"http://photos.petfinder.com/photos/pets/43667982/1/?bust=1546348092&width=60&-pnt.jpg","@id":"1"},{"@size":"fpm","$t":"http://photos.petfinder.com/photos/pets/43667982/1/?bust=1546348092&width=95&-fpm.jpg","@id":"1"},{"@size":"x","$t":"http://photos.petfinder.com/photos/pets/43667982/1/?bust=1546348092&width=500&-x.jpg","@id":"1"},{"@size":"pn","$t":"http://photos.petfinder.com/photos/pets/43667982/1/?bust=1546348092&width=300&-pn.jpg","@id":"1"},{"@size":"t","$t":"http://photos.petfinder.com/photos/pets/43667982/1/?bust=1546348092&width=50&-t.jpg","@id":"1"}]}},"id":{"$t":"43667982"},"shelterPetId":{"$t":"40446688"},"breeds":{"breed":[{"$t":"Domestic
+        Long Hair"},{"$t":"Maine Coon"}]},"name":{"$t":"Garfield - F"},"sex":{"$t":"M"},"description":{"$t":"If
+        youre interested in adopting me, please visit our website and fill out the
+        adoption form online at http://bdrr.org/adoption-form; Or contact Big Dog
+        Ranch Rescue by Phone: (561) 791-6465 or (561) 309-3311; by Email: adoptions@bdrr.org
+        "},"mix":{"$t":"yes"},"shelterId":{"$t":"FL852"},"lastUpdate":{"$t":"2019-01-01T09:21:10Z"},"animal":{"$t":"Cat"}},"@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","header":{"timestamp":{"$t":"2019-02-24T21:44:19Z"},"status":{"message":{},"code":{"$t":"100"}},"version":{"$t":"0.1"}},"@xsi:noNamespaceSchemaLocation":"http://api.petfinder.com/schemas/0.9/petfinder.xsd"}}'
+    http_version: 
+  recorded_at: Sun, 24 Feb 2019 21:44:19 GMT
+- request:
+    method: get
+    uri: http://api.petfinder.com/pet.getRandom?format=json&key=petfinder_api_key&output=full
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 24 Feb 2019 21:44:19 GMT
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Length:
+      - '970'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '{"@encoding":"iso-8859-1","@version":"1.0","petfinder":{"pet":{"options":{"option":{"$t":"altered"}},"status":{"$t":"A"},"contact":{"phone":{"$t":"769-216-3414  "},"state":{"$t":"MS"},"address2":{},"email":{"$t":"arfms@comcast.net"},"city":{"$t":"Jackson"},"zip":{"$t":"39213"},"fax":{},"address1":{}},"age":{"$t":"Adult"},"size":{"$t":"M"},"media":{"photos":{"photo":[{"@size":"pnt","$t":"http://photos.petfinder.com/photos/pets/26521946/1/?bust=1372358445&width=60&-pnt.jpg","@id":"1"},{"@size":"fpm","$t":"http://photos.petfinder.com/photos/pets/26521946/1/?bust=1372358445&width=95&-fpm.jpg","@id":"1"},{"@size":"x","$t":"http://photos.petfinder.com/photos/pets/26521946/1/?bust=1372358445&width=500&-x.jpg","@id":"1"},{"@size":"pn","$t":"http://photos.petfinder.com/photos/pets/26521946/1/?bust=1372358445&width=300&-pn.jpg","@id":"1"},{"@size":"t","$t":"http://photos.petfinder.com/photos/pets/26521946/1/?bust=1372358445&width=50&-t.jpg","@id":"1"},{"@size":"pnt","$t":"http://photos.petfinder.com/photos/pets/26521946/2/?bust=1372358450&width=60&-pnt.jpg","@id":"2"},{"@size":"fpm","$t":"http://photos.petfinder.com/photos/pets/26521946/2/?bust=1372358450&width=95&-fpm.jpg","@id":"2"},{"@size":"x","$t":"http://photos.petfinder.com/photos/pets/26521946/2/?bust=1372358450&width=500&-x.jpg","@id":"2"},{"@size":"pn","$t":"http://photos.petfinder.com/photos/pets/26521946/2/?bust=1372358450&width=300&-pn.jpg","@id":"2"},{"@size":"t","$t":"http://photos.petfinder.com/photos/pets/26521946/2/?bust=1372358450&width=50&-t.jpg","@id":"2"},{"@size":"pnt","$t":"http://photos.petfinder.com/photos/pets/26521946/3/?bust=1372358452&width=60&-pnt.jpg","@id":"3"},{"@size":"fpm","$t":"http://photos.petfinder.com/photos/pets/26521946/3/?bust=1372358452&width=95&-fpm.jpg","@id":"3"},{"@size":"x","$t":"http://photos.petfinder.com/photos/pets/26521946/3/?bust=1372358452&width=500&-x.jpg","@id":"3"},{"@size":"pn","$t":"http://photos.petfinder.com/photos/pets/26521946/3/?bust=1372358452&width=300&-pn.jpg","@id":"3"},{"@size":"t","$t":"http://photos.petfinder.com/photos/pets/26521946/3/?bust=1372358452&width=50&-t.jpg","@id":"3"}]}},"id":{"$t":"26521946"},"shelterPetId":{"$t":"10429"},"breeds":{"breed":{"$t":"American
+        Shorthair"}},"name":{"$t":"Marvin Gaye"},"sex":{"$t":"M"},"description":{"$t":"Marvin
+        Gaye is a very sweet but somewhat skittish cat. He was rescued as a stray
+        in early 2013. He is already neutered and up to date on his shots. He is a
+        friendly cat that needs a quiet home since he scares easily. He most likely
+        led a hard life as a stray so it''s hard for him to fully trust people still.
+        With more work, he will make a great house cat for someone. \n\nMarvin Gaye,
+        American Shorthair has been shared from Shelter Exchange - http://www.shelterexchange.org."},"mix":{"$t":"no"},"shelterId":{"$t":"MS103"},"lastUpdate":{"$t":"2013-06-27T17:41:31Z"},"animal":{"$t":"Cat"}},"@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","header":{"timestamp":{"$t":"2019-02-24T21:44:19Z"},"status":{"message":{},"code":{"$t":"100"}},"version":{"$t":"0.1"}},"@xsi:noNamespaceSchemaLocation":"http://api.petfinder.com/schemas/0.9/petfinder.xsd"}}'
+    http_version: 
+  recorded_at: Sun, 24 Feb 2019 21:44:19 GMT
+- request:
+    method: get
+    uri: http://api.petfinder.com/pet.getRandom?format=json&key=petfinder_api_key&output=full
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 24 Feb 2019 21:44:19 GMT
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJAZW5jb2RpbmciOiJpc28tODg1OS0xIiwiQHZlcnNpb24iOiIxLjAiLCJwZXRmaW5kZXIiOnsicGV0Ijp7Im9wdGlvbnMiOnsib3B0aW9uIjpbeyIkdCI6ImFsdGVyZWQifSx7IiR0IjoiaGFzU2hvdHMifV19LCJzdGF0dXMiOnsiJHQiOiJBIn0sImNvbnRhY3QiOnsicGhvbmUiOnt9LCJzdGF0ZSI6eyIkdCI6IlZBIn0sImFkZHJlc3MyIjp7fSwiZW1haWwiOnsiJHQiOiJ3ZWx1dnB1cHNAaG90bWFpbC5jb20ifSwiY2l0eSI6eyIkdCI6Ikh1ZGRsZXN0b24ifSwiemlwIjp7IiR0IjoiMjQxMDQifSwiZmF4Ijp7fSwiYWRkcmVzczEiOnt9fSwiYWdlIjp7IiR0IjoiQWR1bHQifSwic2l6ZSI6eyIkdCI6Ik0ifSwibWVkaWEiOnsicGhvdG9zIjp7InBob3RvIjpbeyJAc2l6ZSI6InBudCIsIiR0IjoiaHR0cDovL3Bob3Rvcy5wZXRmaW5kZXIuY29tL3Bob3Rvcy9wZXRzLzE3Mzk2NDQ3LzEvP2J1c3Q9MTQ1MTk4Mzc3NSZ3aWR0aD02MCYtcG50LmpwZyIsIkBpZCI6IjEifSx7IkBzaXplIjoiZnBtIiwiJHQiOiJodHRwOi8vcGhvdG9zLnBldGZpbmRlci5jb20vcGhvdG9zL3BldHMvMTczOTY0NDcvMS8/YnVzdD0xNDUxOTgzNzc1JndpZHRoPTk1Ji1mcG0uanBnIiwiQGlkIjoiMSJ9LHsiQHNpemUiOiJ4IiwiJHQiOiJodHRwOi8vcGhvdG9zLnBldGZpbmRlci5jb20vcGhvdG9zL3BldHMvMTczOTY0NDcvMS8/YnVzdD0xNDUxOTgzNzc1JndpZHRoPTUwMCYteC5qcGciLCJAaWQiOiIxIn0seyJAc2l6ZSI6InBuIiwiJHQiOiJodHRwOi8vcGhvdG9zLnBldGZpbmRlci5jb20vcGhvdG9zL3BldHMvMTczOTY0NDcvMS8/YnVzdD0xNDUxOTgzNzc1JndpZHRoPTMwMCYtcG4uanBnIiwiQGlkIjoiMSJ9LHsiQHNpemUiOiJ0IiwiJHQiOiJodHRwOi8vcGhvdG9zLnBldGZpbmRlci5jb20vcGhvdG9zL3BldHMvMTczOTY0NDcvMS8/YnVzdD0xNDUxOTgzNzc1JndpZHRoPTUwJi10LmpwZyIsIkBpZCI6IjEifSx7IkBzaXplIjoicG50IiwiJHQiOiJodHRwOi8vcGhvdG9zLnBldGZpbmRlci5jb20vcGhvdG9zL3BldHMvMTczOTY0NDcvMi8/YnVzdD0xNDUxOTgzNzc1JndpZHRoPTYwJi1wbnQuanBnIiwiQGlkIjoiMiJ9LHsiQHNpemUiOiJmcG0iLCIkdCI6Imh0dHA6Ly9waG90b3MucGV0ZmluZGVyLmNvbS9waG90b3MvcGV0cy8xNzM5NjQ0Ny8yLz9idXN0PTE0NTE5ODM3NzUmd2lkdGg9OTUmLWZwbS5qcGciLCJAaWQiOiIyIn0seyJAc2l6ZSI6IngiLCIkdCI6Imh0dHA6Ly9waG90b3MucGV0ZmluZGVyLmNvbS9waG90b3MvcGV0cy8xNzM5NjQ0Ny8yLz9idXN0PTE0NTE5ODM3NzUmd2lkdGg9NTAwJi14LmpwZyIsIkBpZCI6IjIifSx7IkBzaXplIjoicG4iLCIkdCI6Imh0dHA6Ly9waG90b3MucGV0ZmluZGVyLmNvbS9waG90b3MvcGV0cy8xNzM5NjQ0Ny8yLz9idXN0PTE0NTE5ODM3NzUmd2lkdGg9MzAwJi1wbi5qcGciLCJAaWQiOiIyIn0seyJAc2l6ZSI6InQiLCIkdCI6Imh0dHA6Ly9waG90b3MucGV0ZmluZGVyLmNvbS9waG90b3MvcGV0cy8xNzM5NjQ0Ny8yLz9idXN0PTE0NTE5ODM3NzUmd2lkdGg9NTAmLXQuanBnIiwiQGlkIjoiMiJ9LHsiQHNpemUiOiJwbnQiLCIkdCI6Imh0dHA6Ly9waG90b3MucGV0ZmluZGVyLmNvbS9waG90b3MvcGV0cy8xNzM5NjQ0Ny8zLz9idXN0PTE0NTE5ODM3NzUmd2lkdGg9NjAmLXBudC5qcGciLCJAaWQiOiIzIn0seyJAc2l6ZSI6ImZwbSIsIiR0IjoiaHR0cDovL3Bob3Rvcy5wZXRmaW5kZXIuY29tL3Bob3Rvcy9wZXRzLzE3Mzk2NDQ3LzMvP2J1c3Q9MTQ1MTk4Mzc3NSZ3aWR0aD05NSYtZnBtLmpwZyIsIkBpZCI6IjMifSx7IkBzaXplIjoieCIsIiR0IjoiaHR0cDovL3Bob3Rvcy5wZXRmaW5kZXIuY29tL3Bob3Rvcy9wZXRzLzE3Mzk2NDQ3LzMvP2J1c3Q9MTQ1MTk4Mzc3NSZ3aWR0aD01MDAmLXguanBnIiwiQGlkIjoiMyJ9LHsiQHNpemUiOiJwbiIsIiR0IjoiaHR0cDovL3Bob3Rvcy5wZXRmaW5kZXIuY29tL3Bob3Rvcy9wZXRzLzE3Mzk2NDQ3LzMvP2J1c3Q9MTQ1MTk4Mzc3NSZ3aWR0aD0zMDAmLXBuLmpwZyIsIkBpZCI6IjMifSx7IkBzaXplIjoidCIsIiR0IjoiaHR0cDovL3Bob3Rvcy5wZXRmaW5kZXIuY29tL3Bob3Rvcy9wZXRzLzE3Mzk2NDQ3LzMvP2J1c3Q9MTQ1MTk4Mzc3NSZ3aWR0aD01MCYtdC5qcGciLCJAaWQiOiIzIn1dfX0sImlkIjp7IiR0IjoiMTczOTY0NDcifSwic2hlbHRlclBldElkIjp7fSwiYnJlZWRzIjp7ImJyZWVkIjp7IiR0IjoiQ2hvY29sYXRlIExhYnJhZG9yIFJldHJpZXZlciJ9fSwibmFtZSI6eyIkdCI6IkNoZXNzaWUifSwic2V4Ijp7IiR0IjoiRiJ9LCJkZXNjcmlwdGlvbiI6eyIkdCI6IkhlbGxvIMOiwoDCpiBteSBuYW1lIGlzIENoZXNzaWUgYW5kIEkgYW0gYW4gQUFNUiBTdXBlciBTdGFyISBcblxuSSBhbSBhIGJpZyBzd2VldCBnaXJsIHdobyBqdXN0IGxvdmVzIHRvIGJlIGxvdmVkLiAgScOiwoDCmW0gbm90IGEgcHVwcHkgYW55IG1vcmUgLSBwcm9iYWJseSBib3JuIGluIDIwMDcgw6LCgMKTIGJ1dCBJIHN0aWxsIGhhdmUgbG90cyBvZiBsb3ZlIHRvIGdpdmUuICBBbGwgSSBuZWVkIG5vdyBpcyBhIGZhbWlseSBvZiBteSB2ZXJ5IG93biB0byBzaGFyZSB0aGUgcmVzdCBvZiBteSBsaWZlIHdpdGguICBJIHdpbGwgYmUgc29vb29vIGdvb2Qgw6LCgMKmIGFuZCBJw6LCgMKZbGwgZG8gZXZlcnl0aGluZyBJIGNhbiB0byBicmluZyBqb3kgdG8geW91ciBsaWZlLiAgScOiwoDCmWQgbG92ZSB0byBoYXZlIHNvbWVvbmUgd2hvIHdvdWxkIHRha2UgdGltZSBldmVyeSBkYXkgdG8gc2NyYXRjaCBteSBlYXJzIGFuZCBydWIgbXkgYmVsbHkuICBUaGF0IG1ha2VzIG1lIHZlcnkgaGFwcHkuICBJIGFsc28gbG92ZSB0byBnbyBvbiB3YWxrcyB3aXRoIG15IHBlb3BsZS4gIEkgYW0gZW5lcmdldGljIGVub3VnaCB0byBsaWtlIHRvIHBsYXksIGJ1dCBjYWxtIGVub3VnaCB0byBiZSBhIGdvb2QgY29tcGFuaW9uLiAgSnVzdCB0ZWxsIG1lIHdoYXQgeW91IHdhbnQgdG8gZG8hIE9oIC4uLiBJIHdvdWxkIHJlYWxseSBsb3ZlIHRvIGJlIGFuIG9ubHkgY2hpbGQuICBJIGdldCBhbG9uZyBmaW5lIHdpdGggYWxsIG15IGZvc3RlciBmcmllbmRzIHRoYXQgSSBoYXZlIGtub3duIGZvciBhIHdoaWxlLCBidXQgc29tZXRpbWVzIEkgZG9uJ3QgbWVldCBuZXcgZG9ncyB3ZWxsLlxuXG5NeSBGb3N0ZXIgTW9tIHNheXMgSSBoYXZlIHNvbWUgcHJldHR5IGdvb2QgaG91c2UgbWFubmVycy4gIEnDosKAwpltIG5vdCB0b28gcHVzaHkgZGVtYW5kaW5nIGF0dGVudGlvbiwgYnV0IEkgcmVhbGx5IHdhbnQgdG8gc3RheSBjbG9zZSB0byB3aGVyZSB5b3UgYXJlLiAgSWYgeW91IHRlbGwgbWUgd2hlcmUgeW91IHdhbnQgbWUgdG8gYmUsIEnDosKAwplsbCBkbyBteSBiZXN0IHRvIHRyeSB0byBzdGF5IHRoZXJlLiAgSGVyZSBhdCBteSBmb3N0ZXIgaG9tZSBJIGRvbsOiwoDCmXQgaGF2ZSB0byDDosKAwphhc2vDosKAwpkgdG8gZ28gb3V0c2lkZSB0byBwb3R0eSBiZWNhdXNlIHdlIGdldCB0byBnbyBvdXQgaW4gcGxheWdyb3VwcyBzZXZlcmFsIHRpbWVzIGV2ZXJ5IGRheSwgYnV0IEkga25vdyB0aGF0w6LCgMKZcyB3aGVyZSBJw6LCgMKZbSBzdXBwb3NlZCB0byBnby4gIEkgd2lsbCBldmVuIHN0YXkgaW4gYSBjcmF0ZSBpZiB5b3UgYXNrIG1lIHRvbyBldmVuIHRob3VnaCBpdMOiwoDCmXMgbm90IG15IGZhdm9yaXRlIHBsYWNlIHRvIGJlLlxuXG5JIGRvbsOiwoDCmXQgbWluZCBiZWluZyBsZWFzaCB3YWxrZWQsIGJ1dCBJIHdvdWxkIExPVkUgdG8gaGF2ZSBhIGZlbmNlZCB5YXJkIHRvIHBsYXkgaW4uICBJdCB3aWxsIGtlZXAgbWUgc2FmZSBiZWNhdXNlIEkgZG8gaGF2ZSBhIGJhZCBoYWJpdCBvZiB3YW5kZXJpbmcgb2ZmIMOiwoDCpiBidXQgScOiwoDCmW0gdXN1YWxseSBqdXN0IGxvb2tpbmcgZm9yIHNvbWVvbmUgdG8gcGxheSB3aXRoLiBNeSBzaXplIHNvcnQgb2Ygc2NhcmVzIHBlb3BsZSBzb21ldGltZXMsIHNvIG15IHNlYXJjaCBmb3IgZnJpZW5kcyBkb2VzIG5vdCBhbHdheXMgbWFrZSBvdGhlciBwZW9wbGUgaGFwcHkuXG5cbk15IEZvc3RlciBNb20gc2F5cyBJw6LCgMKZbSBzb3J0YSBzbWFydC4gIEkgZG8ga25vdyDDosKAwphzaXTDosKAwpkgYW5kIG1vc3Qgb2YgdGhlIHRpbWUgSSB3aWxsIGNvbWUgd2hlbiBzaGUgY2FsbHMgbWUgKHVubGVzcyBJw6LCgMKZbSBidXN5IGRvaW5nIHNvbWV0aGluZyBlbHNlISkgIEkgc29ydGEgbGlrZSB0byByaWRlIGluIHRoZSBjYXIuICBJIGRvbsOiwoDCmXQgZ2V0IHRvIGRvIGl0IHZlcnkgb2Z0ZW4sIGJ1dCBJIHRoaW5rIEkgY291bGQgcmVhbGx5IGxlYXJuIHRvIGxpa2UgaXQgYXMgbG9uZyBhcyBJIGNvdWxkIGJlIHdpdGggbXkgcGVvcGxlLlxuXG5TbyDDosKAwqYgaGVyZSBhcmUgc29tZSBvdGhlciBpbXBvcnRhbnQgdGhpbmdzIGFib3V0IG1lIMOiwoDCpiBJIHdlaWdoIGFib3V0IDcwIGxicyAob2sgbWF5YmUgSSBjb3VsZCBsb3NlIGEgZmV3IHBvdW5kcyksIEkgYW0gc3BheWVkLCB1cC10by1kYXRlIG9uIG15IHNob3RzLCBhbmQgSSBhbSBtaWNyb2NoaXBwZWQuXG5cbklmIHlvdSB0aGluayBJIG1pZ2h0IGJlIGEgZ29vZCBmaXQgZm9yIHlvdXIgZmFtaWx5LCBwbGVhc2UgZmlsbCBvdXQgdGhlIERvZyBBZG9wdGlvbiBBcHBsaWNhdGlvbiBvbmxpbmUgYXQgd3d3LmFsbGFtZXJpY2FubXV0dHJlc2N1ZS5vcmcgLiAgXG5cbkkgZG8gY29tZSB3aXRoIHBhcGVycyDDosKAwqYgQWRvcHRpb24gUGFwZXJzIMOiwoDCpiB0aGUgYmVzdCBraW5kLiAgQW5kIG15IGFkb3B0aW9uIGZlZSBpcyAkNzUuXG5cbk5vdGUgZnJvbSB0aGUgQUFNUiBBZG9wdGlvbiBDb21taXR0ZWU6ICBXZSBhcmUgYW4gYWxsLXZvbHVudGVlciBncm91cCwgc28gcGxlYXNlIGJlIHBhdGllbnQgYW5kIHVuZGVyc3RhbmQgdGhhdCBpdCB0YWtlcyBhbiBhdmVyYWdlIG9mIDctMTQgZGF5cyB0byBwcm9jZXNzIHRoZSBhcHBsaWNhdGlvbnMgaW5jbHVkaW5nIHJlZmVyZW5jZSBjaGVja3MsIGZvbGxvdy11cCBxdWVzdGlvbnMgYW5kIGhvbWUgdmlzaXRzLiAgWW91IGNhbiBleHBlZGl0ZSB0aGUgcHJvY2VzcyBieSBwcm92aWRpbmcgYWNjdXJhdGUgZW1haWwgYWRkcmVzc2VzIGZvciBhbGwgeW91ciByZWZlcmVuY2VzLiAgVGltZSB0byBtYWtlIHBob25lIGNhbGxzIGlzIGxpbWl0ZWQgYW5kIHdlIG9mdGVuIGhhdmUgbXVsdGlwbGUgYXBwbGljYXRpb25zIGluIHByb2Nlc3MuICBXZSBtYWtlIGV2ZXJ5IGVmZm9ydCB0byBtb3ZlIHRocm91Z2ggdGhlbSBhcyBxdWlja2x5IGFzIHBvc3NpYmxlLlxuXG5XaGVuIHlvdXIgYXBwbGljYXRpb24gaXMgYXBwcm92ZWQsIHdlIHdpbGwgc2NoZWR1bGUgYSBtZWV0LWFuZC1ncmVldCBhbmQgaG9tZSB2aXNpdCB0byBzZWUgaWYgQ2hlc3NpZSBwaWNrcyB5b3UgdG9vLlxuXG5JZiBpdCBzZWVtcyB0aGF0IHRoZSBhZG9wdGlvbiB3aWxsIGJlIGEgZ29vZCBtYXRjaCBmb3IgYWxsLCB0aGVyZSBpcyBhbiBhZG9wdGlvbiBmZWUsIGFuZCBhbiBhZG9wdGlvbiBjb250cmFjdCB0byBiZSBzaWduZWQuIE1vcmUgcXVlc3Rpb25zIMOiwoDCpi4gZW1haWwgdGhlbSB0byB3ZWx1dnB1cHNAaG90bWFpbC5jb20ifSwibWl4Ijp7IiR0IjoieWVzIn0sInNoZWx0ZXJJZCI6eyIkdCI6IlZBNDcwIn0sImxhc3RVcGRhdGUiOnsiJHQiOiIyMDEwLTA5LTEyVDAwOjAwOjAwWiJ9LCJhbmltYWwiOnsiJHQiOiJEb2cifX0sIkB4bWxuczp4c2kiOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIsImhlYWRlciI6eyJ0aW1lc3RhbXAiOnsiJHQiOiIyMDE5LTAyLTI0VDIxOjQ0OjE5WiJ9LCJzdGF0dXMiOnsibWVzc2FnZSI6e30sImNvZGUiOnsiJHQiOiIxMDAifX0sInZlcnNpb24iOnsiJHQiOiIwLjEifX0sIkB4c2k6bm9OYW1lc3BhY2VTY2hlbWFMb2NhdGlvbiI6Imh0dHA6Ly9hcGkucGV0ZmluZGVyLmNvbS9zY2hlbWFzLzAuOS9wZXRmaW5kZXIueHNkIn19
+    http_version: 
+  recorded_at: Sun, 24 Feb 2019 21:44:19 GMT
+- request:
+    method: get
+    uri: http://api.petfinder.com/pet.getRandom?format=json&key=petfinder_api_key&output=full
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 24 Feb 2019 21:44:20 GMT
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Length:
+      - '1010'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '{"@encoding":"iso-8859-1","@version":"1.0","petfinder":{"pet":{"options":{"option":[{"$t":"altered"},{"$t":"hasShots"},{"$t":"housetrained"},{"$t":"noKids"}]},"status":{"$t":"A"},"contact":{"phone":{"$t":"814-691-4855"},"state":{"$t":"PA"},"address2":{},"email":{"$t":"barlak88@yahoo.com"},"city":{"$t":"Mount
+        Pleasant"},"zip":{"$t":"15666"},"fax":{},"address1":{}},"age":{"$t":"Adult"},"size":{"$t":"M"},"media":{"photos":{"photo":[{"@size":"pnt","$t":"http://photos.petfinder.com/photos/pets/35825642/1/?bust=1480881732&width=60&-pnt.jpg","@id":"1"},{"@size":"fpm","$t":"http://photos.petfinder.com/photos/pets/35825642/1/?bust=1480881732&width=95&-fpm.jpg","@id":"1"},{"@size":"x","$t":"http://photos.petfinder.com/photos/pets/35825642/1/?bust=1480881732&width=500&-x.jpg","@id":"1"},{"@size":"pn","$t":"http://photos.petfinder.com/photos/pets/35825642/1/?bust=1480881732&width=300&-pn.jpg","@id":"1"},{"@size":"t","$t":"http://photos.petfinder.com/photos/pets/35825642/1/?bust=1480881732&width=50&-t.jpg","@id":"1"},{"@size":"pnt","$t":"http://photos.petfinder.com/photos/pets/35825642/2/?bust=1480881734&width=60&-pnt.jpg","@id":"2"},{"@size":"fpm","$t":"http://photos.petfinder.com/photos/pets/35825642/2/?bust=1480881734&width=95&-fpm.jpg","@id":"2"},{"@size":"x","$t":"http://photos.petfinder.com/photos/pets/35825642/2/?bust=1480881734&width=500&-x.jpg","@id":"2"},{"@size":"pn","$t":"http://photos.petfinder.com/photos/pets/35825642/2/?bust=1480881734&width=300&-pn.jpg","@id":"2"},{"@size":"t","$t":"http://photos.petfinder.com/photos/pets/35825642/2/?bust=1480881734&width=50&-t.jpg","@id":"2"},{"@size":"pnt","$t":"http://photos.petfinder.com/photos/pets/35825642/3/?bust=1480881734&width=60&-pnt.jpg","@id":"3"},{"@size":"fpm","$t":"http://photos.petfinder.com/photos/pets/35825642/3/?bust=1480881734&width=95&-fpm.jpg","@id":"3"},{"@size":"x","$t":"http://photos.petfinder.com/photos/pets/35825642/3/?bust=1480881734&width=500&-x.jpg","@id":"3"},{"@size":"pn","$t":"http://photos.petfinder.com/photos/pets/35825642/3/?bust=1480881734&width=300&-pn.jpg","@id":"3"},{"@size":"t","$t":"http://photos.petfinder.com/photos/pets/35825642/3/?bust=1480881734&width=50&-t.jpg","@id":"3"}]}},"id":{"$t":"35825642"},"shelterPetId":{},"breeds":{"breed":[{"$t":"Domestic
+        Short Hair"},{"$t":"Tiger"}]},"name":{"$t":"Ivy"},"sex":{"$t":"F"},"description":{"$t":"Ivy
+        is a 3 year old female.  She is friendly, playful, likes other cats and older
+        kids. Not sure about dogs. Once she gets to know you she is a snuggle bug.
+        Her brother is Linden.  They are so cute together but don''t have to be adopted
+        together.\n\nShe is spayed, current on shots, Leukemia/Aids negative and flea
+        treated. Adoption donation is $90.  \n\nContact Candi at barlak88@yahoo.com
+        if interested.\n\nThey are in foster care so they are used to living in a
+        home."},"mix":{"$t":"yes"},"shelterId":{"$t":"PA978"},"lastUpdate":{"$t":"2016-07-31T16:24:45Z"},"animal":{"$t":"Cat"}},"@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","header":{"timestamp":{"$t":"2019-02-24T21:44:20Z"},"status":{"message":{},"code":{"$t":"100"}},"version":{"$t":"0.1"}},"@xsi:noNamespaceSchemaLocation":"http://api.petfinder.com/schemas/0.9/petfinder.xsd"}}'
+    http_version: 
+  recorded_at: Sun, 24 Feb 2019 21:44:20 GMT
+- request:
+    method: get
+    uri: http://api.petfinder.com/pet.getRandom?format=json&key=petfinder_api_key&output=full
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 24 Feb 2019 21:44:20 GMT
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Length:
+      - '1193'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '{"@encoding":"iso-8859-1","@version":"1.0","petfinder":{"pet":{"options":{"option":[{"$t":"altered"},{"$t":"hasShots"},{"$t":"housetrained"}]},"status":{"$t":"A"},"contact":{"phone":{"$t":"(407)
+        302-4497"},"state":{"$t":"FL"},"address2":{},"email":{"$t":"info@petrescuebyjudy.com"},"city":{"$t":"Sanford"},"zip":{"$t":"32771"},"fax":{},"address1":{"$t":"401
+        South Laurel Avenue"}},"age":{"$t":"Adult"},"size":{"$t":"M"},"media":{"photos":{"photo":[{"@size":"pnt","$t":"http://photos.petfinder.com/photos/pets/35331303/1/?bust=1467391464&width=60&-pnt.jpg","@id":"1"},{"@size":"fpm","$t":"http://photos.petfinder.com/photos/pets/35331303/1/?bust=1467391464&width=95&-fpm.jpg","@id":"1"},{"@size":"x","$t":"http://photos.petfinder.com/photos/pets/35331303/1/?bust=1467391464&width=500&-x.jpg","@id":"1"},{"@size":"pn","$t":"http://photos.petfinder.com/photos/pets/35331303/1/?bust=1467391464&width=300&-pn.jpg","@id":"1"},{"@size":"t","$t":"http://photos.petfinder.com/photos/pets/35331303/1/?bust=1467391464&width=50&-t.jpg","@id":"1"},{"@size":"pnt","$t":"http://photos.petfinder.com/photos/pets/35331303/2/?bust=1467391463&width=60&-pnt.jpg","@id":"2"},{"@size":"fpm","$t":"http://photos.petfinder.com/photos/pets/35331303/2/?bust=1467391463&width=95&-fpm.jpg","@id":"2"},{"@size":"x","$t":"http://photos.petfinder.com/photos/pets/35331303/2/?bust=1467391463&width=500&-x.jpg","@id":"2"},{"@size":"pn","$t":"http://photos.petfinder.com/photos/pets/35331303/2/?bust=1467391463&width=300&-pn.jpg","@id":"2"},{"@size":"t","$t":"http://photos.petfinder.com/photos/pets/35331303/2/?bust=1467391463&width=50&-t.jpg","@id":"2"}]}},"id":{"$t":"35331303"},"shelterPetId":{"$t":"9951209-4766"},"breeds":{"breed":[{"$t":"Coonhound"},{"$t":"Treeing
+        Walker Coonhound"}]},"name":{"$t":"Nikki- MISSING"},"sex":{"$t":"F"},"description":{"$t":"You
+        can fill out an adoption application online on our official website.Nikki
+        was found as a stray and taken to a high kill shelter. She was pulled and
+        surrendered to Pet Rescue by Judy because of her sweet demeanor and ability
+        to recover from her past home life. Nikki requires a home that is safe and
+        that has the time to work with her to restore her confidence. Nikki loves
+        to be cuddled with and especially loves a nice ear rub while hearing her handler
+        speak lovingly and gently to her.Nikki would love to have a new home with
+        someone who can commit to her for the long term while her confidence is restored
+        and she is no longer timid. She requires a new home that has the patience
+        required to restore her trust in humans.Nikki is the sweetest dog you will
+        ever meet and is great with other dogs. Please come meet our sweet Nikki and
+        welcome your best friend to your home for life. You won''t regret it!"},"mix":{"$t":"yes"},"shelterId":{"$t":"FL189"},"lastUpdate":{"$t":"2016-06-09T10:18:04Z"},"animal":{"$t":"Dog"}},"@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","header":{"timestamp":{"$t":"2019-02-24T21:44:20Z"},"status":{"message":{},"code":{"$t":"100"}},"version":{"$t":"0.1"}},"@xsi:noNamespaceSchemaLocation":"http://api.petfinder.com/schemas/0.9/petfinder.xsd"}}'
+    http_version: 
+  recorded_at: Sun, 24 Feb 2019 21:44:20 GMT
+- request:
+    method: get
+    uri: http://api.petfinder.com/pet.getRandom?format=json&key=petfinder_api_key&output=full
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 24 Feb 2019 21:44:20 GMT
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Length:
+      - '1139'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '{"@encoding":"iso-8859-1","@version":"1.0","petfinder":{"pet":{"options":{"option":[{"$t":"altered"},{"$t":"hasShots"},{"$t":"housetrained"},{"$t":"noDogs"},{"$t":"noCats"},{"$t":"noKids"}]},"status":{"$t":"A"},"contact":{"phone":{},"state":{"$t":"SC"},"address2":{},"email":{"$t":"lowcountryanimalrescue@ymail.com"},"city":{"$t":"Ladson"},"zip":{"$t":"29456"},"fax":{},"address1":{"$t":"P.O.Box
+        952"}},"age":{"$t":"Senior"},"size":{"$t":"M"},"media":{"photos":{"photo":[{"@size":"pnt","$t":"http://photos.petfinder.com/photos/pets/7879855/1/?bust=1439321043&width=60&-pnt.jpg","@id":"1"},{"@size":"fpm","$t":"http://photos.petfinder.com/photos/pets/7879855/1/?bust=1439321043&width=95&-fpm.jpg","@id":"1"},{"@size":"x","$t":"http://photos.petfinder.com/photos/pets/7879855/1/?bust=1439321043&width=500&-x.jpg","@id":"1"},{"@size":"pn","$t":"http://photos.petfinder.com/photos/pets/7879855/1/?bust=1439321043&width=300&-pn.jpg","@id":"1"},{"@size":"t","$t":"http://photos.petfinder.com/photos/pets/7879855/1/?bust=1439321043&width=50&-t.jpg","@id":"1"},{"@size":"pnt","$t":"http://photos.petfinder.com/photos/pets/7879855/2/?bust=1439321043&width=60&-pnt.jpg","@id":"2"},{"@size":"fpm","$t":"http://photos.petfinder.com/photos/pets/7879855/2/?bust=1439321043&width=95&-fpm.jpg","@id":"2"},{"@size":"x","$t":"http://photos.petfinder.com/photos/pets/7879855/2/?bust=1439321043&width=500&-x.jpg","@id":"2"},{"@size":"pn","$t":"http://photos.petfinder.com/photos/pets/7879855/2/?bust=1439321043&width=300&-pn.jpg","@id":"2"},{"@size":"t","$t":"http://photos.petfinder.com/photos/pets/7879855/2/?bust=1439321043&width=50&-t.jpg","@id":"2"},{"@size":"pnt","$t":"http://photos.petfinder.com/photos/pets/7879855/3/?bust=1439321044&width=60&-pnt.jpg","@id":"3"},{"@size":"fpm","$t":"http://photos.petfinder.com/photos/pets/7879855/3/?bust=1439321044&width=95&-fpm.jpg","@id":"3"},{"@size":"x","$t":"http://photos.petfinder.com/photos/pets/7879855/3/?bust=1439321044&width=500&-x.jpg","@id":"3"},{"@size":"pn","$t":"http://photos.petfinder.com/photos/pets/7879855/3/?bust=1439321044&width=300&-pn.jpg","@id":"3"},{"@size":"t","$t":"http://photos.petfinder.com/photos/pets/7879855/3/?bust=1439321044&width=50&-t.jpg","@id":"3"}]}},"id":{"$t":"7879855"},"shelterPetId":{},"breeds":{"breed":[{"$t":"Golden
+        Retriever"},{"$t":"American Eskimo Dog"}]},"name":{"$t":"Fluffy"},"sex":{"$t":"F"},"description":{"$t":"She
+        is about 17 yrs old and. 33 lbs.  This beautiful girl needs a home with someone
+        who is willing to take the time to gain her trust but at the same time, be
+        her pack leader.  She has lots of love to give to the one she trusts and respects.
+        She was born in 2001.  She was not socialized and lived in an apartment, never
+        being let out until she was surrendered to us in 2005.  She cannot be adopted
+        to a home with dogs, cats or children.\n\nThe adoption fee of $150 covers
+        all vetting including spay/neuter, all sets of shots, microchip, heartworm
+        test, heartworm prevention, flea prevention, dental if needed, blood work
+        if needed,  heartworm treatment if needed, any surgeries if needed like hip
+        or knee, etc."},"mix":{"$t":"yes"},"shelterId":{"$t":"SC75"},"lastUpdate":{"$t":"2007-02-14T00:00:00Z"},"animal":{"$t":"Dog"}},"@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","header":{"timestamp":{"$t":"2019-02-24T21:44:20Z"},"status":{"message":{},"code":{"$t":"100"}},"version":{"$t":"0.1"}},"@xsi:noNamespaceSchemaLocation":"http://api.petfinder.com/schemas/0.9/petfinder.xsd"}}'
+    http_version: 
+  recorded_at: Sun, 24 Feb 2019 21:44:20 GMT
+- request:
+    method: get
+    uri: http://api.petfinder.com/pet.getRandom?format=json&key=petfinder_api_key&output=full
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 24 Feb 2019 21:44:20 GMT
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Length:
+      - '1160'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '{"@encoding":"iso-8859-1","@version":"1.0","petfinder":{"pet":{"options":{"option":[{"$t":"altered"},{"$t":"hasShots"},{"$t":"housetrained"}]},"status":{"$t":"A"},"contact":{"phone":{"$t":"(610)
+        760-9009"},"state":{"$t":"PA"},"address2":{},"email":{"$t":"fffadoption@verizon.net"},"city":{"$t":"Germansville"},"zip":{"$t":"18053"},"fax":{},"address1":{}},"age":{"$t":"Young"},"size":{"$t":"M"},"media":{"photos":{"photo":[{"@size":"pnt","$t":"http://photos.petfinder.com/photos/pets/43020972/1/?bust=1539577800&width=60&-pnt.jpg","@id":"1"},{"@size":"fpm","$t":"http://photos.petfinder.com/photos/pets/43020972/1/?bust=1539577800&width=95&-fpm.jpg","@id":"1"},{"@size":"x","$t":"http://photos.petfinder.com/photos/pets/43020972/1/?bust=1539577800&width=500&-x.jpg","@id":"1"},{"@size":"pn","$t":"http://photos.petfinder.com/photos/pets/43020972/1/?bust=1539577800&width=300&-pn.jpg","@id":"1"},{"@size":"t","$t":"http://photos.petfinder.com/photos/pets/43020972/1/?bust=1539577800&width=50&-t.jpg","@id":"1"},{"@size":"pnt","$t":"http://photos.petfinder.com/photos/pets/43020972/2/?bust=1539577805&width=60&-pnt.jpg","@id":"2"},{"@size":"fpm","$t":"http://photos.petfinder.com/photos/pets/43020972/2/?bust=1539577805&width=95&-fpm.jpg","@id":"2"},{"@size":"x","$t":"http://photos.petfinder.com/photos/pets/43020972/2/?bust=1539577805&width=500&-x.jpg","@id":"2"},{"@size":"pn","$t":"http://photos.petfinder.com/photos/pets/43020972/2/?bust=1539577805&width=300&-pn.jpg","@id":"2"},{"@size":"t","$t":"http://photos.petfinder.com/photos/pets/43020972/2/?bust=1539577805&width=50&-t.jpg","@id":"2"},{"@size":"pnt","$t":"http://photos.petfinder.com/photos/pets/43020972/3/?bust=1545780601&width=60&-pnt.jpg","@id":"3"},{"@size":"fpm","$t":"http://photos.petfinder.com/photos/pets/43020972/3/?bust=1545780601&width=95&-fpm.jpg","@id":"3"},{"@size":"x","$t":"http://photos.petfinder.com/photos/pets/43020972/3/?bust=1545780601&width=500&-x.jpg","@id":"3"},{"@size":"pn","$t":"http://photos.petfinder.com/photos/pets/43020972/3/?bust=1545780601&width=300&-pn.jpg","@id":"3"},{"@size":"t","$t":"http://photos.petfinder.com/photos/pets/43020972/3/?bust=1545780601&width=50&-t.jpg","@id":"3"},{"@size":"pnt","$t":"http://photos.petfinder.com/photos/pets/43020972/4/?bust=1545780602&width=60&-pnt.jpg","@id":"4"},{"@size":"fpm","$t":"http://photos.petfinder.com/photos/pets/43020972/4/?bust=1545780602&width=95&-fpm.jpg","@id":"4"},{"@size":"x","$t":"http://photos.petfinder.com/photos/pets/43020972/4/?bust=1545780602&width=500&-x.jpg","@id":"4"},{"@size":"pn","$t":"http://photos.petfinder.com/photos/pets/43020972/4/?bust=1545780602&width=300&-pn.jpg","@id":"4"},{"@size":"t","$t":"http://photos.petfinder.com/photos/pets/43020972/4/?bust=1545780602&width=50&-t.jpg","@id":"4"}]}},"id":{"$t":"43020972"},"shelterPetId":{},"breeds":{"breed":[{"$t":"Domestic
+        Short Hair"},{"$t":"Tabby"}]},"name":{"$t":"Little One Campell"},"sex":{"$t":"M"},"description":{"$t":"Little
+        One - sweet orange boy rescued from a feral colony. He was probably born in
+        July 2018. He will need an experienced adopter, as he is still on the shy
+        side. Young children would not be appropriate at this time. He gets along
+        with other cats and could be adopted with one of the kittens in his room at
+        the shelter, or could be an only cat if his adopter spends a lot of time at
+        home.\nHe is neutered, up to date on shots, and FelV/FIV neg. he is looking
+        forward to having a forever indoor home.\n\n\nPlease call Therese: 610-248-7399;
+        application can be submitted at  www.forgottenfelines.org adoption section.
+        [12/25/18]"},"mix":{"$t":"yes"},"shelterId":{"$t":"PA127"},"lastUpdate":{"$t":"2018-10-15T04:53:05Z"},"animal":{"$t":"Cat"}},"@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","header":{"timestamp":{"$t":"2019-02-24T21:44:20Z"},"status":{"message":{},"code":{"$t":"100"}},"version":{"$t":"0.1"}},"@xsi:noNamespaceSchemaLocation":"http://api.petfinder.com/schemas/0.9/petfinder.xsd"}}'
+    http_version: 
+  recorded_at: Sun, 24 Feb 2019 21:44:20 GMT
+- request:
+    method: get
+    uri: http://api.petfinder.com/pet.getRandom?format=json&key=petfinder_api_key&output=full
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 24 Feb 2019 21:44:20 GMT
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Length:
+      - '1057'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '{"@encoding":"iso-8859-1","@version":"1.0","petfinder":{"pet":{"options":{"option":[{"$t":"altered"},{"$t":"hasShots"},{"$t":"housetrained"}]},"status":{"$t":"A"},"contact":{"phone":{"$t":"(305)
+        255-3482"},"state":{"$t":"FL"},"address2":{},"email":{"$t":"info@thecatnetwork.org"},"city":{"$t":"Miami"},"zip":{"$t":"33234"},"fax":{},"address1":{"$t":"P.O.
+        Box 347228"}},"age":{"$t":"Adult"},"size":{"$t":"M"},"media":{},"id":{"$t":"28849956"},"shelterPetId":{},"breeds":{"breed":{"$t":"Domestic
+        Medium Hair"}},"name":{"$t":"Rusty"},"sex":{"$t":"M"},"description":{"$t":"Estimated
+        birth date 4/2008\n\nIf you are interested PET NAME please contact FOSTER
+        PARENT:  Agneta at \nagnetaeriksson10@hotmail.com\n\nADOPTION QUESTIONNAIRE
+        can be downloaded by  entering our website www.thecatnetwork.org and sending
+        to foster parent.\n\nThe Cat Network does not have a shelter; all of our cats/kittens
+        are in foster homes in South Florida. Our adoption fee is $75 for cats that
+        are not microchipped, and $85 for microchipped cats, which includes deworming,
+        age appropriate vaccination, and testing for Feline Leukemia and Feline Immunodeficiency
+        Virus. Note:  ADOPTION FEE for PUREBRED type cats, with or without papers,
+        ranges from $75 - $250, and is determined by the foster parent.  These cats
+        are designated with \"Higher adoption fee may apply\" on their web listing.\n
+        All kittens and cats 3 months and older have been spayed or neutered; many
+        of the younger kittens will be sterilized prior to adoption as well.  ."},"mix":{"$t":"yes"},"shelterId":{"$t":"FL62"},"lastUpdate":{"$t":"2014-03-26T16:59:32Z"},"animal":{"$t":"Cat"}},"@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","header":{"timestamp":{"$t":"2019-02-24T21:44:20Z"},"status":{"message":{},"code":{"$t":"100"}},"version":{"$t":"0.1"}},"@xsi:noNamespaceSchemaLocation":"http://api.petfinder.com/schemas/0.9/petfinder.xsd"}}'
+    http_version: 
+  recorded_at: Sun, 24 Feb 2019 21:44:20 GMT
+- request:
+    method: get
+    uri: http://api.petfinder.com/pet.getRandom?format=json&key=petfinder_api_key&output=full
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 24 Feb 2019 21:44:20 GMT
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Length:
+      - '1312'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJAZW5jb2RpbmciOiJpc28tODg1OS0xIiwiQHZlcnNpb24iOiIxLjAiLCJwZXRmaW5kZXIiOnsicGV0Ijp7Im9wdGlvbnMiOnsib3B0aW9uIjp7IiR0IjoiaGFzU2hvdHMifX0sInN0YXR1cyI6eyIkdCI6IkEifSwiY29udGFjdCI6eyJwaG9uZSI6e30sInN0YXRlIjp7IiR0IjoiTkMifSwiYWRkcmVzczIiOnt9LCJlbWFpbCI6eyIkdCI6ImFkb3B0QGZhcm1mcmllbmRzcmVzY3VlLm9yZyJ9LCJjaXR5Ijp7IiR0IjoiUGl0dHNib3JvIn0sInppcCI6eyIkdCI6IjI3MzEyIn0sImZheCI6e30sImFkZHJlc3MxIjp7fX0sImFnZSI6eyIkdCI6IkJhYnkifSwic2l6ZSI6eyIkdCI6Ik0ifSwibWVkaWEiOnsicGhvdG9zIjp7InBob3RvIjpbeyJAc2l6ZSI6InBudCIsIiR0IjoiaHR0cDovL3Bob3Rvcy5wZXRmaW5kZXIuY29tL3Bob3Rvcy9wZXRzLzQzNjgzMTAyLzEvP2J1c3Q9MTU0NzYwNDIzOCZ3aWR0aD02MCYtcG50LmpwZyIsIkBpZCI6IjEifSx7IkBzaXplIjoiZnBtIiwiJHQiOiJodHRwOi8vcGhvdG9zLnBldGZpbmRlci5jb20vcGhvdG9zL3BldHMvNDM2ODMxMDIvMS8/YnVzdD0xNTQ3NjA0MjM4JndpZHRoPTk1Ji1mcG0uanBnIiwiQGlkIjoiMSJ9LHsiQHNpemUiOiJ4IiwiJHQiOiJodHRwOi8vcGhvdG9zLnBldGZpbmRlci5jb20vcGhvdG9zL3BldHMvNDM2ODMxMDIvMS8/YnVzdD0xNTQ3NjA0MjM4JndpZHRoPTUwMCYteC5qcGciLCJAaWQiOiIxIn0seyJAc2l6ZSI6InBuIiwiJHQiOiJodHRwOi8vcGhvdG9zLnBldGZpbmRlci5jb20vcGhvdG9zL3BldHMvNDM2ODMxMDIvMS8/YnVzdD0xNTQ3NjA0MjM4JndpZHRoPTMwMCYtcG4uanBnIiwiQGlkIjoiMSJ9LHsiQHNpemUiOiJ0IiwiJHQiOiJodHRwOi8vcGhvdG9zLnBldGZpbmRlci5jb20vcGhvdG9zL3BldHMvNDM2ODMxMDIvMS8/YnVzdD0xNTQ3NjA0MjM4JndpZHRoPTUwJi10LmpwZyIsIkBpZCI6IjEifSx7IkBzaXplIjoicG50IiwiJHQiOiJodHRwOi8vcGhvdG9zLnBldGZpbmRlci5jb20vcGhvdG9zL3BldHMvNDM2ODMxMDIvMi8/YnVzdD0xNTQ3NjA0MjM5JndpZHRoPTYwJi1wbnQuanBnIiwiQGlkIjoiMiJ9LHsiQHNpemUiOiJmcG0iLCIkdCI6Imh0dHA6Ly9waG90b3MucGV0ZmluZGVyLmNvbS9waG90b3MvcGV0cy80MzY4MzEwMi8yLz9idXN0PTE1NDc2MDQyMzkmd2lkdGg9OTUmLWZwbS5qcGciLCJAaWQiOiIyIn0seyJAc2l6ZSI6IngiLCIkdCI6Imh0dHA6Ly9waG90b3MucGV0ZmluZGVyLmNvbS9waG90b3MvcGV0cy80MzY4MzEwMi8yLz9idXN0PTE1NDc2MDQyMzkmd2lkdGg9NTAwJi14LmpwZyIsIkBpZCI6IjIifSx7IkBzaXplIjoicG4iLCIkdCI6Imh0dHA6Ly9waG90b3MucGV0ZmluZGVyLmNvbS9waG90b3MvcGV0cy80MzY4MzEwMi8yLz9idXN0PTE1NDc2MDQyMzkmd2lkdGg9MzAwJi1wbi5qcGciLCJAaWQiOiIyIn0seyJAc2l6ZSI6InQiLCIkdCI6Imh0dHA6Ly9waG90b3MucGV0ZmluZGVyLmNvbS9waG90b3MvcGV0cy80MzY4MzEwMi8yLz9idXN0PTE1NDc2MDQyMzkmd2lkdGg9NTAmLXQuanBnIiwiQGlkIjoiMiJ9LHsiQHNpemUiOiJwbnQiLCIkdCI6Imh0dHA6Ly9waG90b3MucGV0ZmluZGVyLmNvbS9waG90b3MvcGV0cy80MzY4MzEwMi8zLz9idXN0PTE1NDc2MDQyMzkmd2lkdGg9NjAmLXBudC5qcGciLCJAaWQiOiIzIn0seyJAc2l6ZSI6ImZwbSIsIiR0IjoiaHR0cDovL3Bob3Rvcy5wZXRmaW5kZXIuY29tL3Bob3Rvcy9wZXRzLzQzNjgzMTAyLzMvP2J1c3Q9MTU0NzYwNDIzOSZ3aWR0aD05NSYtZnBtLmpwZyIsIkBpZCI6IjMifSx7IkBzaXplIjoieCIsIiR0IjoiaHR0cDovL3Bob3Rvcy5wZXRmaW5kZXIuY29tL3Bob3Rvcy9wZXRzLzQzNjgzMTAyLzMvP2J1c3Q9MTU0NzYwNDIzOSZ3aWR0aD01MDAmLXguanBnIiwiQGlkIjoiMyJ9LHsiQHNpemUiOiJwbiIsIiR0IjoiaHR0cDovL3Bob3Rvcy5wZXRmaW5kZXIuY29tL3Bob3Rvcy9wZXRzLzQzNjgzMTAyLzMvP2J1c3Q9MTU0NzYwNDIzOSZ3aWR0aD0zMDAmLXBuLmpwZyIsIkBpZCI6IjMifSx7IkBzaXplIjoidCIsIiR0IjoiaHR0cDovL3Bob3Rvcy5wZXRmaW5kZXIuY29tL3Bob3Rvcy9wZXRzLzQzNjgzMTAyLzMvP2J1c3Q9MTU0NzYwNDIzOSZ3aWR0aD01MCYtdC5qcGciLCJAaWQiOiIzIn0seyJAc2l6ZSI6InBudCIsIiR0IjoiaHR0cDovL3Bob3Rvcy5wZXRmaW5kZXIuY29tL3Bob3Rvcy9wZXRzLzQzNjgzMTAyLzQvP2J1c3Q9MTU0Njk3OTg2MCZ3aWR0aD02MCYtcG50LmpwZyIsIkBpZCI6IjQifSx7IkBzaXplIjoiZnBtIiwiJHQiOiJodHRwOi8vcGhvdG9zLnBldGZpbmRlci5jb20vcGhvdG9zL3BldHMvNDM2ODMxMDIvNC8/YnVzdD0xNTQ2OTc5ODYwJndpZHRoPTk1Ji1mcG0uanBnIiwiQGlkIjoiNCJ9LHsiQHNpemUiOiJ4IiwiJHQiOiJodHRwOi8vcGhvdG9zLnBldGZpbmRlci5jb20vcGhvdG9zL3BldHMvNDM2ODMxMDIvNC8/YnVzdD0xNTQ2OTc5ODYwJndpZHRoPTUwMCYteC5qcGciLCJAaWQiOiI0In0seyJAc2l6ZSI6InBuIiwiJHQiOiJodHRwOi8vcGhvdG9zLnBldGZpbmRlci5jb20vcGhvdG9zL3BldHMvNDM2ODMxMDIvNC8/YnVzdD0xNTQ2OTc5ODYwJndpZHRoPTMwMCYtcG4uanBnIiwiQGlkIjoiNCJ9LHsiQHNpemUiOiJ0IiwiJHQiOiJodHRwOi8vcGhvdG9zLnBldGZpbmRlci5jb20vcGhvdG9zL3BldHMvNDM2ODMxMDIvNC8/YnVzdD0xNTQ2OTc5ODYwJndpZHRoPTUwJi10LmpwZyIsIkBpZCI6IjQifSx7IkBzaXplIjoicG50IiwiJHQiOiJodHRwOi8vcGhvdG9zLnBldGZpbmRlci5jb20vcGhvdG9zL3BldHMvNDM2ODMxMDIvNS8/YnVzdD0xNTQ2OTc5ODYwJndpZHRoPTYwJi1wbnQuanBnIiwiQGlkIjoiNSJ9LHsiQHNpemUiOiJmcG0iLCIkdCI6Imh0dHA6Ly9waG90b3MucGV0ZmluZGVyLmNvbS9waG90b3MvcGV0cy80MzY4MzEwMi81Lz9idXN0PTE1NDY5Nzk4NjAmd2lkdGg9OTUmLWZwbS5qcGciLCJAaWQiOiI1In0seyJAc2l6ZSI6IngiLCIkdCI6Imh0dHA6Ly9waG90b3MucGV0ZmluZGVyLmNvbS9waG90b3MvcGV0cy80MzY4MzEwMi81Lz9idXN0PTE1NDY5Nzk4NjAmd2lkdGg9NTAwJi14LmpwZyIsIkBpZCI6IjUifSx7IkBzaXplIjoicG4iLCIkdCI6Imh0dHA6Ly9waG90b3MucGV0ZmluZGVyLmNvbS9waG90b3MvcGV0cy80MzY4MzEwMi81Lz9idXN0PTE1NDY5Nzk4NjAmd2lkdGg9MzAwJi1wbi5qcGciLCJAaWQiOiI1In0seyJAc2l6ZSI6InQiLCIkdCI6Imh0dHA6Ly9waG90b3MucGV0ZmluZGVyLmNvbS9waG90b3MvcGV0cy80MzY4MzEwMi81Lz9idXN0PTE1NDY5Nzk4NjAmd2lkdGg9NTAmLXQuanBnIiwiQGlkIjoiNSJ9LHsiQHNpemUiOiJwbnQiLCIkdCI6Imh0dHA6Ly9waG90b3MucGV0ZmluZGVyLmNvbS9waG90b3MvcGV0cy80MzY4MzEwMi82Lz9idXN0PTE1NDgxOTM4NTQmd2lkdGg9NjAmLXBudC5qcGciLCJAaWQiOiI2In0seyJAc2l6ZSI6ImZwbSIsIiR0IjoiaHR0cDovL3Bob3Rvcy5wZXRmaW5kZXIuY29tL3Bob3Rvcy9wZXRzLzQzNjgzMTAyLzYvP2J1c3Q9MTU0ODE5Mzg1NCZ3aWR0aD05NSYtZnBtLmpwZyIsIkBpZCI6IjYifSx7IkBzaXplIjoieCIsIiR0IjoiaHR0cDovL3Bob3Rvcy5wZXRmaW5kZXIuY29tL3Bob3Rvcy9wZXRzLzQzNjgzMTAyLzYvP2J1c3Q9MTU0ODE5Mzg1NCZ3aWR0aD01MDAmLXguanBnIiwiQGlkIjoiNiJ9LHsiQHNpemUiOiJwbiIsIiR0IjoiaHR0cDovL3Bob3Rvcy5wZXRmaW5kZXIuY29tL3Bob3Rvcy9wZXRzLzQzNjgzMTAyLzYvP2J1c3Q9MTU0ODE5Mzg1NCZ3aWR0aD0zMDAmLXBuLmpwZyIsIkBpZCI6IjYifSx7IkBzaXplIjoidCIsIiR0IjoiaHR0cDovL3Bob3Rvcy5wZXRmaW5kZXIuY29tL3Bob3Rvcy9wZXRzLzQzNjgzMTAyLzYvP2J1c3Q9MTU0ODE5Mzg1NCZ3aWR0aD01MCYtdC5qcGciLCJAaWQiOiI2In1dfX0sImlkIjp7IiR0IjoiNDM2ODMxMDIifSwic2hlbHRlclBldElkIjp7fSwiYnJlZWRzIjp7ImJyZWVkIjpbeyIkdCI6IkxhYnJhZG9yIFJldHJpZXZlciJ9LHsiJHQiOiJQaXQgQnVsbCBUZXJyaWVyIn1dfSwibmFtZSI6eyIkdCI6IldlZG5lc2RheSJ9LCJzZXgiOnsiJHQiOiJGIn0sImRlc2NyaXB0aW9uIjp7IiR0IjoiV2VkbmVzZGF5IGlzIGEgaGFwcHksIGN1ZGRseSBnaXJsIHdobyBsb3ZlcyB0byBidXJ5IGhlciBoZWFkIGluIHlvdXIgbGFwIGFuZCBnZXQgcnViYmVkIGFsbCBvdmVyLiBCZWxseSBydWJzIGFyZSBoZXIgZmF2b3JpdGUhIFdoZW4gc251Z2dsZSB0aW1lIGlzIG92ZXIgc2hlw6LCgMKZbGwga2VlcCB5b3UgY29tcGFueSBhcm91bmQgdGhlIGhvdXNlIGJ5IGtlZXBpbmcgbG9vayBvdXQgb3IgbGlja2luZyB5b3VyIHRvZXMuIFdlZG5lc2RheSBpcyBhIHF1aWNrIGxlYXJuZXIsIHNoZSBoYXMgYSBiYXNpYyB1bmRlcnN0YW5kaW5nIG9mIHNpdCwgc3RheSwgY29tZSBhbmQgbGVhdmUgaXQuICBTaGUgaXMgbm93IGxlYXJuaW5nIHRyaWNrcyBsaWtlIHBhdy9zaGFrZSEgSG91c2UgdHJhaW5pbmcgaXMgZ29pbmcgd2VsbCwgc2hlIGlzIG1ha2luZyBxdWljayBwcm9ncmVzcy4gU2hlIHNsZWVwcyBxdWlldGx5IGluIGhlciBjcmF0ZSBhdCBuaWdodCBidXQgY2Fuw6LCgMKZdCB3YWl0IHRvIHNlZSB5b3UgaW4gdGhlIG1vcm5pbmcuIFRoaXMgZ2lybCBpcyBzbWFydCEgQSBsZXZlbCAzIHRyZWF0IHB1enpsZSBjb3VsZG7DosKAwpl0IGZvb2wgaGVyLiBTaG9ydCB3YWxrcyBvbiBhIGhhcm5lc3MgZ28gd2VsbCBhcyBsb25nIGFzIHRoZXJlIGFyZW7DosKAwpl0IGFueSBsb3VkIHNjYXJ5IG5vaXNlcy4gSWYgeW91IG5lZWQgYSBwdXBweSBpbiB5b3VyIGxhcCB3aGlsZSB5b3Ugd2F0Y2ggYSBtb3ZpZSBXZWRuZXNkYXkgaXMgeW91ciBnaXJsLiBDb21lIG1lZXQgaGVyIGFuZCBiZSBoZXIgZm9yZXZlciBob21lIVxuIn0sIm1peCI6eyIkdCI6InllcyJ9LCJzaGVsdGVySWQiOnsiJHQiOiJOQzk2NSJ9LCJsYXN0VXBkYXRlIjp7IiR0IjoiMjAxOS0wMS0wM1QyMzo1MToxN1oifSwiYW5pbWFsIjp7IiR0IjoiRG9nIn19LCJAeG1sbnM6eHNpIjoiaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiLCJoZWFkZXIiOnsidGltZXN0YW1wIjp7IiR0IjoiMjAxOS0wMi0yNFQyMTo0NDoyMFoifSwic3RhdHVzIjp7Im1lc3NhZ2UiOnt9LCJjb2RlIjp7IiR0IjoiMTAwIn19LCJ2ZXJzaW9uIjp7IiR0IjoiMC4xIn19LCJAeHNpOm5vTmFtZXNwYWNlU2NoZW1hTG9jYXRpb24iOiJodHRwOi8vYXBpLnBldGZpbmRlci5jb20vc2NoZW1hcy8wLjkvcGV0ZmluZGVyLnhzZCJ9fQ==
+    http_version: 
+  recorded_at: Sun, 24 Feb 2019 21:44:20 GMT
+- request:
+    method: get
+    uri: http://api.petfinder.com/pet.getRandom?format=json&key=petfinder_api_key&output=full
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 24 Feb 2019 21:44:21 GMT
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Length:
+      - '1150'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '{"@encoding":"iso-8859-1","@version":"1.0","petfinder":{"pet":{"options":{"option":{"$t":"altered"}},"status":{"$t":"A"},"contact":{"phone":{"$t":"(505)
+        983-4309"},"state":{"$t":"NM"},"address2":{},"email":{"$t":"shelter@sfhumanesociety.org"},"city":{"$t":"Santa
+        Fe"},"zip":{"$t":"87507"},"fax":{},"address1":{"$t":"100 Caja del Rio Road"}},"age":{"$t":"Adult"},"size":{"$t":"S"},"media":{"photos":{"photo":[{"@size":"pnt","$t":"http://photos.petfinder.com/photos/pets/44091465/1/?bust=1551020339&width=60&-pnt.jpg","@id":"1"},{"@size":"fpm","$t":"http://photos.petfinder.com/photos/pets/44091465/1/?bust=1551020339&width=95&-fpm.jpg","@id":"1"},{"@size":"x","$t":"http://photos.petfinder.com/photos/pets/44091465/1/?bust=1551020339&width=500&-x.jpg","@id":"1"},{"@size":"pn","$t":"http://photos.petfinder.com/photos/pets/44091465/1/?bust=1551020339&width=300&-pn.jpg","@id":"1"},{"@size":"t","$t":"http://photos.petfinder.com/photos/pets/44091465/1/?bust=1551020339&width=50&-t.jpg","@id":"1"}]}},"id":{"$t":"44091465"},"shelterPetId":{"$t":"A107703"},"breeds":{"breed":[{"$t":"Yorkshire
+        Terrier"},{"$t":"Poodle"}]},"name":{"$t":"DAISY"},"sex":{"$t":"F"},"description":{"$t":"Meet
+        Daisy! She is a 7 year old mixed breed dog who came the animal shelter because
+        her owner could no longer care for her. She is a lovely girl who is ready
+        to join a new family.  She currently weighs about 13 pounds pounds which is
+        healthy for her size. Here at the shelter she loves sitting on your lap and
+        getting treats! If you have a dog at home feel free to bring them in for a
+        meetngreet with Daisy!     Daisy is a SHELTER HERO!!! This means that 100%
+        of their adoption fee helps to support the care and keeping of other animals
+        at the shelter!   Daisy''s adoption fee is $180 which includes her spay surgery,
+        a microchip, age appropriate vaccinations and 30 days of complimentary pet
+        insurance. A licensing/microchip fee may apply.  As a shelter adoption he
+        qualifies for half off any training held here at the shelter.  See our webpage
+        at http://sfhumanesociety.org/our-programs/behavior-training/ for class details
+        and availability."},"mix":{"$t":"yes"},"shelterId":{"$t":"NM41"},"lastUpdate":{"$t":"2019-02-24T12:58:06Z"},"animal":{"$t":"Dog"}},"@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","header":{"timestamp":{"$t":"2019-02-24T21:44:21Z"},"status":{"message":{},"code":{"$t":"100"}},"version":{"$t":"0.1"}},"@xsi:noNamespaceSchemaLocation":"http://api.petfinder.com/schemas/0.9/petfinder.xsd"}}'
+    http_version: 
+  recorded_at: Sun, 24 Feb 2019 21:44:21 GMT
+- request:
+    method: get
+    uri: http://api.petfinder.com/pet.getRandom?format=json&key=petfinder_api_key&output=full
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 24 Feb 2019 21:44:21 GMT
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Length:
+      - '1001'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '{"@encoding":"iso-8859-1","@version":"1.0","petfinder":{"pet":{"options":{"option":{"$t":"altered"}},"status":{"$t":"A"},"contact":{"phone":{"$t":"769-216-3414  "},"state":{"$t":"MS"},"address2":{},"email":{"$t":"arfms@comcast.net"},"city":{"$t":"Jackson"},"zip":{"$t":"39213"},"fax":{},"address1":{}},"age":{"$t":"Adult"},"size":{"$t":"S"},"media":{"photos":{"photo":[{"@size":"pnt","$t":"http://photos.petfinder.com/photos/pets/26255528/1/?bust=1371149201&width=60&-pnt.jpg","@id":"1"},{"@size":"fpm","$t":"http://photos.petfinder.com/photos/pets/26255528/1/?bust=1371149201&width=95&-fpm.jpg","@id":"1"},{"@size":"x","$t":"http://photos.petfinder.com/photos/pets/26255528/1/?bust=1371149201&width=500&-x.jpg","@id":"1"},{"@size":"pn","$t":"http://photos.petfinder.com/photos/pets/26255528/1/?bust=1371149201&width=300&-pn.jpg","@id":"1"},{"@size":"t","$t":"http://photos.petfinder.com/photos/pets/26255528/1/?bust=1371149201&width=50&-t.jpg","@id":"1"},{"@size":"pnt","$t":"http://photos.petfinder.com/photos/pets/26255528/2/?bust=1371142100&width=60&-pnt.jpg","@id":"2"},{"@size":"fpm","$t":"http://photos.petfinder.com/photos/pets/26255528/2/?bust=1371142100&width=95&-fpm.jpg","@id":"2"},{"@size":"x","$t":"http://photos.petfinder.com/photos/pets/26255528/2/?bust=1371142100&width=500&-x.jpg","@id":"2"},{"@size":"pn","$t":"http://photos.petfinder.com/photos/pets/26255528/2/?bust=1371142100&width=300&-pn.jpg","@id":"2"},{"@size":"t","$t":"http://photos.petfinder.com/photos/pets/26255528/2/?bust=1371142100&width=50&-t.jpg","@id":"2"},{"@size":"pnt","$t":"http://photos.petfinder.com/photos/pets/26255528/3/?bust=1371142102&width=60&-pnt.jpg","@id":"3"},{"@size":"fpm","$t":"http://photos.petfinder.com/photos/pets/26255528/3/?bust=1371142102&width=95&-fpm.jpg","@id":"3"},{"@size":"x","$t":"http://photos.petfinder.com/photos/pets/26255528/3/?bust=1371142102&width=500&-x.jpg","@id":"3"},{"@size":"pn","$t":"http://photos.petfinder.com/photos/pets/26255528/3/?bust=1371142102&width=300&-pn.jpg","@id":"3"},{"@size":"t","$t":"http://photos.petfinder.com/photos/pets/26255528/3/?bust=1371142102&width=50&-t.jpg","@id":"3"}]}},"id":{"$t":"26255528"},"shelterPetId":{"$t":"9628"},"breeds":{"breed":{"$t":"Tabby"}},"name":{"$t":"Savannah"},"sex":{"$t":"F"},"description":{"$t":"Savannah
+        is a very sweet female cat that has already been spayed. Her mom was a stray
+        in an apartment complex. A good Samaritan noticed she was pregnant and brought
+        her into her home to allow her to have kittens. ARF stepped up and took in
+        the momma cat and 4 babies. Savannah is the sibling to Clary, Lydia, and Samuel.
+        Savannah is a reserved cat that really loves to sit in a lap. She is good
+        with other cats and would do fine with a calm dog. \n\nSavannah, Tabby has
+        been shared from Shelter Exchange - http://www.shelterexchange.org."},"mix":{"$t":"no"},"shelterId":{"$t":"MS103"},"lastUpdate":{"$t":"2013-05-30T19:47:17Z"},"animal":{"$t":"Cat"}},"@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","header":{"timestamp":{"$t":"2019-02-24T21:44:21Z"},"status":{"message":{},"code":{"$t":"100"}},"version":{"$t":"0.1"}},"@xsi:noNamespaceSchemaLocation":"http://api.petfinder.com/schemas/0.9/petfinder.xsd"}}'
+    http_version: 
+  recorded_at: Sun, 24 Feb 2019 21:44:21 GMT
+recorded_with: VCR 4.0.0
