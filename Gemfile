@@ -19,7 +19,7 @@ gem 'rack-cors', require: 'rack/cors'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  gem 'web-console', '>= 3.3.0'
+
   gem 'listen', '>= 3.0.5', '< 3.2'
   gem 'rspec-rails'
   gem 'simplecov'
@@ -30,7 +30,7 @@ group :development, :test do
 end
 
 group :development do
-
+  gem 'web-console', '>= 3.3.0'
 end
 
 

@@ -33,8 +33,6 @@ require 'rspec/rails'
 RSpec.configure do |config|
   DatabaseCleaner.strategy = :truncation
 
-  RSpec.configure do |config|
-
     config.before(:all) do
       DatabaseCleaner.clean
     end
