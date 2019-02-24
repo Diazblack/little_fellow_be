@@ -10,10 +10,10 @@ end
 
 abort("The Rails environment is running in production mode!") if Rails.env.production?
 require 'rspec/rails'
-# require 'webmock/rspec'
+require 'webmock/rspec'
 # require 'vcr'
-
-
+#
+#
 # VCR.configure do |config|
 #   config.allow_http_connections_when_no_cassette = true
 #   config.ignore_localhost = true
@@ -55,4 +55,9 @@ Shoulda::Matchers.configure do |config|
 
     with.library :rails
   end
+end
+
+def stub_pet_finder_one_pet
+  stub_request(:get, "http://api.petfinder.com/pet.getRandom?format=json&key=#{ENV['petfinder_api_key']}&output=full").
+  to_return(body: File.read("./spec/fixtures/random_pet.json"))
 end

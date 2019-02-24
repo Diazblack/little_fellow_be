@@ -19,7 +19,6 @@ gem 'rack-cors', require: 'rack/cors'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-
   gem 'listen', '>= 3.0.5', '< 3.2'
   gem 'rspec-rails'
   gem 'simplecov'
@@ -27,6 +26,8 @@ group :development, :test do
   gem 'pry'
   gem 'shoulda-matchers'
   gem 'factory_bot_rails'
+  gem 'webmock'
+  gem 'vcr'
 end
 
 group :development do

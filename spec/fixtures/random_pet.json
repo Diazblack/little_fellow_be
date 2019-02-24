@@ -1,81 +1,258 @@
-{:@encoding=>"iso-8859-1",
- :@version=>"1.0",
- :petfinder=>
-  {:pet=>
-    {:options=>{:option=>{:$t=>"housetrained"}},
-     :status=>{:$t=>"A"},
-     :contact=>
-      {:phone=>{},
-       :state=>{:$t=>"AB"},
-       :address2=>{},
-       :email=>{:$t=>"info@paws-rescue.com"},
-       :city=>{:$t=>"Edmonton"},
-       :zip=>{:$t=>"T5B 2B7"},
-       :fax=>{},
-       :address1=>{}},
-     :age=>{:$t=>"Adult"},
-     :size=>{:$t=>"S"},
-     :media=>
-      {:photos=>
-        {:photo=>
-          [{:@size=>"pnt",
-            :$t=>"http://photos.petfinder.com/photos/pets/43778896/1/?bust=1547586501&width=60&-pnt.jpg",
-            :@id=>"1"},
-           {:@size=>"fpm",
-            :$t=>"http://photos.petfinder.com/photos/pets/43778896/1/?bust=1547586501&width=95&-fpm.jpg",
-            :@id=>"1"},
-           {:@size=>"x",
-            :$t=>"http://photos.petfinder.com/photos/pets/43778896/1/?bust=1547586501&width=500&-x.jpg",
-            :@id=>"1"},
-           {:@size=>"pn",
-            :$t=>"http://photos.petfinder.com/photos/pets/43778896/1/?bust=1547586501&width=300&-pn.jpg",
-            :@id=>"1"},
-           {:@size=>"t",
-            :$t=>"http://photos.petfinder.com/photos/pets/43778896/1/?bust=1547586501&width=50&-t.jpg",
-            :@id=>"1"},
-           {:@size=>"pnt",
-            :$t=>"http://photos.petfinder.com/photos/pets/43778896/2/?bust=1547586504&width=60&-pnt.jpg",
-            :@id=>"2"},
-           {:@size=>"fpm",
-            :$t=>"http://photos.petfinder.com/photos/pets/43778896/2/?bust=1547586504&width=95&-fpm.jpg",
-            :@id=>"2"},
-           {:@size=>"x",
-            :$t=>"http://photos.petfinder.com/photos/pets/43778896/2/?bust=1547586504&width=500&-x.jpg",
-            :@id=>"2"},
-           {:@size=>"pn",
-            :$t=>"http://photos.petfinder.com/photos/pets/43778896/2/?bust=1547586504&width=300&-pn.jpg",
-            :@id=>"2"},
-           {:@size=>"t",
-            :$t=>"http://photos.petfinder.com/photos/pets/43778896/2/?bust=1547586504&width=50&-t.jpg",
-            :@id=>"2"},
-           {:@size=>"pnt",
-            :$t=>"http://photos.petfinder.com/photos/pets/43778896/3/?bust=1547586504&width=60&-pnt.jpg",
-            :@id=>"3"},
-           {:@size=>"fpm",
-            :$t=>"http://photos.petfinder.com/photos/pets/43778896/3/?bust=1547586504&width=95&-fpm.jpg",
-            :@id=>"3"},
-           {:@size=>"x",
-            :$t=>"http://photos.petfinder.com/photos/pets/43778896/3/?bust=1547586504&width=500&-x.jpg",
-            :@id=>"3"},
-           {:@size=>"pn",
-            :$t=>"http://photos.petfinder.com/photos/pets/43778896/3/?bust=1547586504&width=300&-pn.jpg",
-            :@id=>"3"},
-           {:@size=>"t",
-            :$t=>"http://photos.petfinder.com/photos/pets/43778896/3/?bust=1547586504&width=50&-t.jpg",
-            :@id=>"3"}]}},
-     :id=>{:$t=>"43778896"},
-     :shelterPetId=>{},
-     :breeds=>{:breed=>[{:$t=>"Boston Terrier"}, {:$t=>"Pug"}]},
-     :name=>{:$t=>"Rocky"},
-     :sex=>{:$t=>"M"},
-     :description=>
-      {:$t=>
-        "I am Rocky, a male (neutered) Boston Pug cross, mostly black in color and\naround six years of age. I am small, but solid. I love people and am very\naffectionate, but I don't like being alone and may bark (I'm working on\nthis). I get along with the cats and other dogs in my foster home, I walk\nwell on a leash, and I listen and respond to my name. I am also quite smart\nand have just learned to sit. Personally, I am so adorable, I think that\nevery home should have one of me."},
-     :mix=>{:$t=>"yes"},
-     :shelterId=>{:$t=>"AB112"},
-     :lastUpdate=>{:$t=>"2019-01-15T21:08:58Z"},
-     :animal=>{:$t=>"Dog"}},
-   :"@xmlns:xsi"=>"http://www.w3.org/2001/XMLSchema-instance",
-   :header=>
-    {:timestamp=>{:$t=>"2019-02-24T00:13:49Z"}, :status=>{:message=>{}, :code=>{:$t=>"100"}}, :version=>{:$t=>"0.1"}},
-   :"@xsi:noNamespaceSchemaLocation"=>"http://api.petfinder.com/schemas/0.9/petfinder.xsd"}}
+{
+    "@encoding": "iso-8859-1",
+    "@version": "1.0",
+    "petfinder": {
+        "pet": {
+            "options": {
+                "option": [
+                    {
+                        "$t": "altered"
+                    },
+                    {
+                        "$t": "hasShots"
+                    },
+                    {
+                        "$t": "housetrained"
+                    },
+                    {
+                        "$t": "noCats"
+                    }
+                ]
+            },
+            "status": {
+                "$t": "A"
+            },
+            "contact": {
+                "phone": {},
+                "state": {
+                    "$t": "ON"
+                },
+                "address2": {},
+                "email": {
+                    "$t": "underdograilroadcanada@gmail.com"
+                },
+                "city": {
+                    "$t": "Markham"
+                },
+                "zip": {
+                    "$t": "L3P 2S7"
+                },
+                "fax": {},
+                "address1": {}
+            },
+            "age": {
+                "$t": "Senior"
+            },
+            "size": {
+                "$t": "M"
+            },
+            "media": {
+                "photos": {
+                    "photo": [
+                        {
+                            "@size": "pnt",
+                            "$t": "http://photos.petfinder.com/photos/pets/43467642/1/?bust=1544067830&width=60&-pnt.jpg",
+                            "@id": "1"
+                        },
+                        {
+                            "@size": "fpm",
+                            "$t": "http://photos.petfinder.com/photos/pets/43467642/1/?bust=1544067830&width=95&-fpm.jpg",
+                            "@id": "1"
+                        },
+                        {
+                            "@size": "x",
+                            "$t": "http://photos.petfinder.com/photos/pets/43467642/1/?bust=1544067830&width=500&-x.jpg",
+                            "@id": "1"
+                        },
+                        {
+                            "@size": "pn",
+                            "$t": "http://photos.petfinder.com/photos/pets/43467642/1/?bust=1544067830&width=300&-pn.jpg",
+                            "@id": "1"
+                        },
+                        {
+                            "@size": "t",
+                            "$t": "http://photos.petfinder.com/photos/pets/43467642/1/?bust=1544067830&width=50&-t.jpg",
+                            "@id": "1"
+                        },
+                        {
+                            "@size": "pnt",
+                            "$t": "http://photos.petfinder.com/photos/pets/43467642/2/?bust=1547700480&width=60&-pnt.jpg",
+                            "@id": "2"
+                        },
+                        {
+                            "@size": "fpm",
+                            "$t": "http://photos.petfinder.com/photos/pets/43467642/2/?bust=1547700480&width=95&-fpm.jpg",
+                            "@id": "2"
+                        },
+                        {
+                            "@size": "x",
+                            "$t": "http://photos.petfinder.com/photos/pets/43467642/2/?bust=1547700480&width=500&-x.jpg",
+                            "@id": "2"
+                        },
+                        {
+                            "@size": "pn",
+                            "$t": "http://photos.petfinder.com/photos/pets/43467642/2/?bust=1547700480&width=300&-pn.jpg",
+                            "@id": "2"
+                        },
+                        {
+                            "@size": "t",
+                            "$t": "http://photos.petfinder.com/photos/pets/43467642/2/?bust=1547700480&width=50&-t.jpg",
+                            "@id": "2"
+                        },
+                        {
+                            "@size": "pnt",
+                            "$t": "http://photos.petfinder.com/photos/pets/43467642/3/?bust=1544067890&width=60&-pnt.jpg",
+                            "@id": "3"
+                        },
+                        {
+                            "@size": "fpm",
+                            "$t": "http://photos.petfinder.com/photos/pets/43467642/3/?bust=1544067890&width=95&-fpm.jpg",
+                            "@id": "3"
+                        },
+                        {
+                            "@size": "x",
+                            "$t": "http://photos.petfinder.com/photos/pets/43467642/3/?bust=1544067890&width=500&-x.jpg",
+                            "@id": "3"
+                        },
+                        {
+                            "@size": "pn",
+                            "$t": "http://photos.petfinder.com/photos/pets/43467642/3/?bust=1544067890&width=300&-pn.jpg",
+                            "@id": "3"
+                        },
+                        {
+                            "@size": "t",
+                            "$t": "http://photos.petfinder.com/photos/pets/43467642/3/?bust=1544067890&width=50&-t.jpg",
+                            "@id": "3"
+                        },
+                        {
+                            "@size": "pnt",
+                            "$t": "http://photos.petfinder.com/photos/pets/43467642/4/?bust=1544067925&width=60&-pnt.jpg",
+                            "@id": "4"
+                        },
+                        {
+                            "@size": "fpm",
+                            "$t": "http://photos.petfinder.com/photos/pets/43467642/4/?bust=1544067925&width=95&-fpm.jpg",
+                            "@id": "4"
+                        },
+                        {
+                            "@size": "x",
+                            "$t": "http://photos.petfinder.com/photos/pets/43467642/4/?bust=1544067925&width=500&-x.jpg",
+                            "@id": "4"
+                        },
+                        {
+                            "@size": "pn",
+                            "$t": "http://photos.petfinder.com/photos/pets/43467642/4/?bust=1544067925&width=300&-pn.jpg",
+                            "@id": "4"
+                        },
+                        {
+                            "@size": "t",
+                            "$t": "http://photos.petfinder.com/photos/pets/43467642/4/?bust=1544067925&width=50&-t.jpg",
+                            "@id": "4"
+                        },
+                        {
+                            "@size": "pnt",
+                            "$t": "http://photos.petfinder.com/photos/pets/43467642/5/?bust=1549601740&width=60&-pnt.jpg",
+                            "@id": "5"
+                        },
+                        {
+                            "@size": "fpm",
+                            "$t": "http://photos.petfinder.com/photos/pets/43467642/5/?bust=1549601740&width=95&-fpm.jpg",
+                            "@id": "5"
+                        },
+                        {
+                            "@size": "x",
+                            "$t": "http://photos.petfinder.com/photos/pets/43467642/5/?bust=1549601740&width=500&-x.jpg",
+                            "@id": "5"
+                        },
+                        {
+                            "@size": "pn",
+                            "$t": "http://photos.petfinder.com/photos/pets/43467642/5/?bust=1549601740&width=300&-pn.jpg",
+                            "@id": "5"
+                        },
+                        {
+                            "@size": "t",
+                            "$t": "http://photos.petfinder.com/photos/pets/43467642/5/?bust=1549601740&width=50&-t.jpg",
+                            "@id": "5"
+                        },
+                        {
+                            "@size": "pnt",
+                            "$t": "http://photos.petfinder.com/photos/pets/43467642/6/?bust=1547700481&width=60&-pnt.jpg",
+                            "@id": "6"
+                        },
+                        {
+                            "@size": "fpm",
+                            "$t": "http://photos.petfinder.com/photos/pets/43467642/6/?bust=1547700481&width=95&-fpm.jpg",
+                            "@id": "6"
+                        },
+                        {
+                            "@size": "x",
+                            "$t": "http://photos.petfinder.com/photos/pets/43467642/6/?bust=1547700481&width=500&-x.jpg",
+                            "@id": "6"
+                        },
+                        {
+                            "@size": "pn",
+                            "$t": "http://photos.petfinder.com/photos/pets/43467642/6/?bust=1547700481&width=300&-pn.jpg",
+                            "@id": "6"
+                        },
+                        {
+                            "@size": "t",
+                            "$t": "http://photos.petfinder.com/photos/pets/43467642/6/?bust=1547700481&width=50&-t.jpg",
+                            "@id": "6"
+                        }
+                    ]
+                }
+            },
+            "id": {
+                "$t": "43467642"
+            },
+            "shelterPetId": {},
+            "breeds": {
+                "breed": [
+                    {
+                        "$t": "Labrador Retriever"
+                    },
+                    {
+                        "$t": "Boxer"
+                    }
+                ]
+            },
+            "name": {
+                "$t": "Princess"
+            },
+            "sex": {
+                "$t": "F"
+            },
+            "description": {
+                "$t": "Princess is an 8 year old lab/boxer mix from Miami - adopted from the shelter as a puppy and found as a stray years later,  heartworm +.  She has been cured of heartworm but should now stay on monthly preventive.  Princess has just had a dental and an ugly, but inconsequential growth removed from her foot.\nHer adopter will also receive a series of training classes beginning on March 31, 2019 at Sit Happens in Mississauga.  Princess is an obedient dog but a refresher is always a bonus.\nShe is sweet and friendly, with the cutest underbite and a quirky personality.  Embracing her quirks is the key to a great relationship with this calm, quiet and easy dog.   She is good with dogs that are calm, but doesn't want them in her face.  She prefers smaller dogs.  In her perfect world she would  probably be an only dog. \n She does not do well with all cats, although she did live with one for a time.  She is fine with children but because she isn't fond of being manhandled at first, we wouldn't recommend she live with them, but visiting children would be fine with supervision.  A  quiet home with someone there a lot of the time would be great for her.  She is crate trained (good for a few hours) but would rather hang around on the couch while someone works from home, or provides a mid day break if gone all day.  She is trustworthy in the house, and not destructive.  Princess loves her walks, is good on and off leash and will run around the yard if she is feeling energetic.   Princess would be a perfect companion for a single person as she does a great impression of a guard dog until told she is with friends.  Although she takes her time to trust, she is ultimately the perfect dog when given a chance to settle in.  She is being  fostered in Markham.\nPrincess will come with her favorite toy, sent to us by her foster mom in Miami.  She sleeps with it every night and goes to get it every afternoon for company"
+            },
+            "mix": {
+                "$t": "yes"
+            },
+            "shelterId": {
+                "$t": "ON479"
+            },
+            "lastUpdate": {
+                "$t": "2018-12-06T03:58:09Z"
+            },
+            "animal": {
+                "$t": "Dog"
+            }
+        },
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "header": {
+            "timestamp": {
+                "$t": "2019-02-24T20:45:57Z"
+            },
+            "status": {
+                "message": {},
+                "code": {
+                    "$t": "100"
+                }
+            },
+            "version": {
+                "$t": "0.1"
+            }
+        },
+        "@xsi:noNamespaceSchemaLocation": "http://api.petfinder.com/schemas/0.9/petfinder.xsd"
+    }
+}

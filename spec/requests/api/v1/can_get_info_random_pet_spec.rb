@@ -2,6 +2,8 @@ require 'rails_helper'
 
 describe 'Welcome page' do
   scenario 'get a random pet info' do
+    stub_pet_finder_one_pet
+    
     get '/api/v1/'
 
     expect(response).to be_successful
