@@ -1,3 +1,0 @@
-test:
-  adapter: postgresql
-  database: little_fellow_be_test
