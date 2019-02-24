@@ -36,12 +36,13 @@ class Pet
     @last_update = Date.parse(data[:lastUpdate][:$t]) if data[:lastUpdate][:$t]
     @description = data[:description][:$t]
     @shelter_id = data[:shelterPetId][:$t]
-    @breeds = get_breed(data[:breeds][:$t]) if data[:breeds][:$t]
+    @breeds = get_breed(data[:breeds]) if data[:breeds]
 
   end
 
+  private
   def get_breed(data)
-    data.breed.map do |obj|
+    data[:breed].map do |obj|
       obj[:$t]
     end
   end
