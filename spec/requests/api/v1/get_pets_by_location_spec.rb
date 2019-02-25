@@ -2,6 +2,8 @@ require 'rails_helper'
 
 describe 'find endpoint' do
   scenario 'get a list of pets by sending a location' do
+    stub_pet_finder_find_by_location
+    
     params = { "location": "Denver, CO" }
 
     get '/api/v1/find', params: params

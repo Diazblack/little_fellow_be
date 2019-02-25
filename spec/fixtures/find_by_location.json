@@ -1,0 +1,2911 @@
+{
+    "@encoding": "iso-8859-1",
+    "@version": "1.0",
+    "petfinder": {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "lastOffset": {
+            "$t": "25"
+        },
+        "pets": {
+            "pet": [
+                {
+                    "options": {
+                        "option": [
+                            {
+                                "$t": "altered"
+                            },
+                            {
+                                "$t": "noKids"
+                            }
+                        ]
+                    },
+                    "status": {
+                        "$t": "A"
+                    },
+                    "contact": {
+                        "phone": {
+                            "$t": "(303) 532-5521"
+                        },
+                        "state": {
+                            "$t": "CO"
+                        },
+                        "address2": {
+                            "$t": "Suite A2-607"
+                        },
+                        "email": {
+                            "$t": "nkall@comcast.net"
+                        },
+                        "city": {
+                            "$t": "Aurora"
+                        },
+                        "zip": {
+                            "$t": "80014"
+                        },
+                        "fax": {},
+                        "address1": {
+                            "$t": "3124 S. Parker Rd."
+                        }
+                    },
+                    "age": {
+                        "$t": "Baby"
+                    },
+                    "size": {
+                        "$t": "M"
+                    },
+                    "media": {
+                        "photos": {
+                            "photo": [
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/43964139/1/?bust=1549568658&width=60&-pnt.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/43964139/1/?bust=1549568658&width=95&-fpm.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/43964139/1/?bust=1549568658&width=500&-x.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/43964139/1/?bust=1549568658&width=300&-pn.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/43964139/1/?bust=1549568658&width=50&-t.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/43964139/2/?bust=1549568662&width=60&-pnt.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/43964139/2/?bust=1549568662&width=95&-fpm.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/43964139/2/?bust=1549568662&width=500&-x.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/43964139/2/?bust=1549568662&width=300&-pn.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/43964139/2/?bust=1549568662&width=50&-t.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/43964139/3/?bust=1549568676&width=60&-pnt.jpg",
+                                    "@id": "3"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/43964139/3/?bust=1549568676&width=95&-fpm.jpg",
+                                    "@id": "3"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/43964139/3/?bust=1549568676&width=500&-x.jpg",
+                                    "@id": "3"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/43964139/3/?bust=1549568676&width=300&-pn.jpg",
+                                    "@id": "3"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/43964139/3/?bust=1549568676&width=50&-t.jpg",
+                                    "@id": "3"
+                                },
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/43964139/4/?bust=1549568680&width=60&-pnt.jpg",
+                                    "@id": "4"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/43964139/4/?bust=1549568680&width=95&-fpm.jpg",
+                                    "@id": "4"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/43964139/4/?bust=1549568680&width=500&-x.jpg",
+                                    "@id": "4"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/43964139/4/?bust=1549568680&width=300&-pn.jpg",
+                                    "@id": "4"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/43964139/4/?bust=1549568680&width=50&-t.jpg",
+                                    "@id": "4"
+                                },
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/43964139/5/?bust=1549568713&width=60&-pnt.jpg",
+                                    "@id": "5"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/43964139/5/?bust=1549568713&width=95&-fpm.jpg",
+                                    "@id": "5"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/43964139/5/?bust=1549568713&width=500&-x.jpg",
+                                    "@id": "5"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/43964139/5/?bust=1549568713&width=300&-pn.jpg",
+                                    "@id": "5"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/43964139/5/?bust=1549568713&width=50&-t.jpg",
+                                    "@id": "5"
+                                }
+                            ]
+                        }
+                    },
+                    "id": {
+                        "$t": "43964139"
+                    },
+                    "shelterPetId": {},
+                    "breeds": {
+                        "breed": {
+                            "$t": "Siamese"
+                        }
+                    },
+                    "name": {
+                        "$t": "PUFF & FRIEND"
+                    },
+                    "sex": {
+                        "$t": "F"
+                    },
+                    "description": {
+                        "$t": "CALL 303-727-8750 ONLY bet 8am - 4pm for information on the application process.\nThese kittens are up for adoption as a pair! They will do best as the only pets, a very gentle cat friendly dog might be a possibility, much older children / if any. They are a little shy at first, need someone who will give them the time they need to feel secure, need a very stable environment.\n\nPUFF is a sassy Siamese that was rescued along with her brother near a busy intersection in Denver. She is between 10-12 months old. She's a sweet girl who likes to play--she likes wand toys, and she likes chasing toys that you throw, like mouse toys and balls. She is good at keeping herself entertained. She's mostly a quiet girl, except when she's purring. She rubs against your shins when you're preparing her food. She and her brother are an inseparable pair. They are ready to be adopted together to continue their journey as indoor cats.\n\nFRIEND is a male that was rescued along with his sister near a busy intersection in Denver. He is between 10-12 months old. He's a talkative kitty who likes to be the center of attention. He's the kind of cat that will crawl onto your laptop keyboard so that you can pet him. He loves to play with toys. He plays some on his own, but he prefers playing with his human! He and his sister are an inseparable pair. They are ready to be adopted together to continue their journey as indoor cats.\n\nA link to their video:  https://drive.google.com/file/d/1p_E00W9R287CzURifkZfzefYug9Tj7dm/view?usp=sharing \n\nFor information of the adoption application process CALL - NO text - between 8am - 4pm ONLY 303-727-8750\n\nAdoption fee $75 includes their spay/neuter, microchip, distemper shots, FIV/FELV tested negative, and a free initial vet visit."
+                    },
+                    "mix": {
+                        "$t": "no"
+                    },
+                    "shelterId": {
+                        "$t": "CO349"
+                    },
+                    "lastUpdate": {
+                        "$t": "2019-02-07T19:47:52Z"
+                    },
+                    "animal": {
+                        "$t": "Cat"
+                    }
+                },
+                {
+                    "options": {
+                        "option": [
+                            {
+                                "$t": "altered"
+                            },
+                            {
+                                "$t": "hasShots"
+                            }
+                        ]
+                    },
+                    "status": {
+                        "$t": "A"
+                    },
+                    "contact": {
+                        "phone": {
+                            "$t": "No phone calls please  "
+                        },
+                        "state": {
+                            "$t": "CO"
+                        },
+                        "address2": {},
+                        "email": {
+                            "$t": "info@cairnrescueusa.com"
+                        },
+                        "city": {
+                            "$t": "Denver"
+                        },
+                        "zip": {
+                            "$t": "80014"
+                        },
+                        "fax": {},
+                        "address1": {
+                            "$t": "100 Main St."
+                        }
+                    },
+                    "age": {
+                        "$t": "Adult"
+                    },
+                    "size": {
+                        "$t": "S"
+                    },
+                    "media": {
+                        "photos": {
+                            "photo": [
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44026299/1/?bust=1550290532&width=60&-pnt.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44026299/1/?bust=1550290532&width=95&-fpm.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44026299/1/?bust=1550290532&width=500&-x.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44026299/1/?bust=1550290532&width=300&-pn.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44026299/1/?bust=1550290532&width=50&-t.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44026299/2/?bust=1550290576&width=60&-pnt.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44026299/2/?bust=1550290576&width=95&-fpm.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44026299/2/?bust=1550290576&width=500&-x.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44026299/2/?bust=1550290576&width=300&-pn.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44026299/2/?bust=1550290576&width=50&-t.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44026299/3/?bust=1550290580&width=60&-pnt.jpg",
+                                    "@id": "3"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44026299/3/?bust=1550290580&width=95&-fpm.jpg",
+                                    "@id": "3"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44026299/3/?bust=1550290580&width=500&-x.jpg",
+                                    "@id": "3"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44026299/3/?bust=1550290580&width=300&-pn.jpg",
+                                    "@id": "3"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44026299/3/?bust=1550290580&width=50&-t.jpg",
+                                    "@id": "3"
+                                },
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44026299/4/?bust=1550290596&width=60&-pnt.jpg",
+                                    "@id": "4"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44026299/4/?bust=1550290596&width=95&-fpm.jpg",
+                                    "@id": "4"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44026299/4/?bust=1550290596&width=500&-x.jpg",
+                                    "@id": "4"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44026299/4/?bust=1550290596&width=300&-pn.jpg",
+                                    "@id": "4"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44026299/4/?bust=1550290596&width=50&-t.jpg",
+                                    "@id": "4"
+                                }
+                            ]
+                        }
+                    },
+                    "id": {
+                        "$t": "44026299"
+                    },
+                    "shelterPetId": {},
+                    "breeds": {
+                        "breed": {
+                            "$t": "Cairn Terrier"
+                        }
+                    },
+                    "name": {
+                        "$t": "\"HARLEY\" - Purebred Cairn lass"
+                    },
+                    "sex": {
+                        "$t": "F"
+                    },
+                    "description": {
+                        "$t": "PLEASE NOTE: APPLICATIONS WILL BE ACCEPTED THROUGH 2/28. THE ADOPTING FAMILY, ONCE APPROVED, WILL NEED TO TRAVEL TO THE FOSTER HOME IN BERTHOUD TO COMPLETE THE ADOPTION.\n\nIN A NUTSHELL: Harley is a strikingly pretty, purebred Cairn girl who needs a terrier-savvy, active home with a fenced yard. Harley requires a \"mostly-at-home\" adult family member who will work with her to fine-tune her potty habits and make her an engaged family member. If that sounds like you, read on....\n\n****************************\n\n'Harley' is a sweet, 4-year-young female Cairn who will be a wonderful companion for a terrier-experienced home that is looking for an active little dog to integrate into family activities and perhaps engage in canine performance sports.\n\nHarley is not your grandma's lap dog. She enjoys spirited walks and never met a ball she didn't want to chase. She seems to like everyone she encounters and enjoys the companionship of other dogs but she can be possessive of toys and will stand her ground if another dog tries to take a cherished plushy from her. With the right family, she would be fine as an \"only\" dog but another canine pal might be appropriate as long as there is plenty of supervision during playtime.\n\nTypical of the breed,Harley is social yet independent. She welcomes a belly rub but often prefers to sit by herself.\n\nHarley is housebroken, however, when she gets excited, she will sometimes piddle. Her future family will need to be patient and calm in correcting this behavior. Luckily Harley is eager to please and quick to learn. But it's important to realize that she does have to go out every couple of hours.\n\nHarley sleeps dutifully in a crate at night and never protests. But in the morning she is eager to get out. She loves the fenced back yard and enjoys charging the fence line and challenging the neighbor dogs to a bark fest.\n\nHarley has been spayed and is up-to-date on all vaccinations.  She has tested negative for heart worm disease and is on a monthly heart worm and flea/tick preventative.\n\nInterested in adopting Harley?  For consideration, fill out an adoption application at http://www.cairnrescueusa.com/adopt/frm_adopt.html\n\n************************************************************************************************\n\nPLEASE NOTE THAT WE CAN ONLY CONSIDER APPLICANTS WHO HAVE AN EXCELLENT HISTORY OF VET CARE AND WHO ARE COMMITTED TO USING A LEASH AT ALL TIMES WHEN OUTSIDE A FENCED AREA.  WE ARE UNABLE TO CONSIDER FAMILIES WITH ELECTRIC FENCING."
+                    },
+                    "mix": {
+                        "$t": "no"
+                    },
+                    "shelterId": {
+                        "$t": "IL233"
+                    },
+                    "lastUpdate": {
+                        "$t": "2019-02-16T04:17:07Z"
+                    },
+                    "animal": {
+                        "$t": "Dog"
+                    }
+                },
+                {
+                    "options": {
+                        "option": [
+                            {
+                                "$t": "altered"
+                            },
+                            {
+                                "$t": "hasShots"
+                            }
+                        ]
+                    },
+                    "status": {
+                        "$t": "A"
+                    },
+                    "contact": {
+                        "phone": {
+                            "$t": "No phone calls please  "
+                        },
+                        "state": {
+                            "$t": "CO"
+                        },
+                        "address2": {},
+                        "email": {
+                            "$t": "info@cairnrescueusa.com"
+                        },
+                        "city": {
+                            "$t": "Denver"
+                        },
+                        "zip": {
+                            "$t": "80014"
+                        },
+                        "fax": {},
+                        "address1": {
+                            "$t": "100 Main St."
+                        }
+                    },
+                    "age": {
+                        "$t": "Adult"
+                    },
+                    "size": {
+                        "$t": "S"
+                    },
+                    "media": {
+                        "photos": {
+                            "photo": [
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44026293/1/?bust=1550290268&width=60&-pnt.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44026293/1/?bust=1550290268&width=95&-fpm.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44026293/1/?bust=1550290268&width=500&-x.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44026293/1/?bust=1550290268&width=300&-pn.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44026293/1/?bust=1550290268&width=50&-t.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44026293/2/?bust=1550290281&width=60&-pnt.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44026293/2/?bust=1550290281&width=95&-fpm.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44026293/2/?bust=1550290281&width=500&-x.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44026293/2/?bust=1550290281&width=300&-pn.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44026293/2/?bust=1550290281&width=50&-t.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44026293/3/?bust=1550290289&width=60&-pnt.jpg",
+                                    "@id": "3"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44026293/3/?bust=1550290289&width=95&-fpm.jpg",
+                                    "@id": "3"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44026293/3/?bust=1550290289&width=500&-x.jpg",
+                                    "@id": "3"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44026293/3/?bust=1550290289&width=300&-pn.jpg",
+                                    "@id": "3"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44026293/3/?bust=1550290289&width=50&-t.jpg",
+                                    "@id": "3"
+                                }
+                            ]
+                        }
+                    },
+                    "id": {
+                        "$t": "44026293"
+                    },
+                    "shelterPetId": {},
+                    "breeds": {
+                        "breed": {
+                            "$t": "Cairn Terrier"
+                        }
+                    },
+                    "name": {
+                        "$t": "\"HARLEY\" - Beautiful 4-year-old"
+                    },
+                    "sex": {
+                        "$t": "F"
+                    },
+                    "description": {
+                        "$t": "PLEASE NOTE: APPLICATIONS WILL BE ACCEPTED THROUGH 2/28. THE ADOPTING FAMILY, ONCE APPROVED, WILL NEED TO TRAVEL TO THE FOSTER HOME IN BERTHOUD TO COMPLETE THE ADOPTION.\n\nIN A NUTSHELL: Harley is a strikingly pretty, purebred Cairn girl who needs a terrier-savvy, active home with a fenced yard. Harley requires a \"mostly-at-home\" adult family member who will work with her to fine-tune her potty habits and make her an engaged family member. If that sounds like you, read on....\n\n****************************\n\n'Harley' is a sweet, 4-year-young female Cairn who will be a wonderful companion for a terrier-experienced home that is looking for an active little dog to integrate into family activities and perhaps engage in canine performance sports.\n\nHarley is not your grandma's lap dog. She enjoys spirited walks and never met a ball she didn't want to chase. She seems to like everyone she encounters and enjoys the companionship of other dogs but she can be possessive of toys and will stand her ground if another dog tries to take a cherished plushy from her. With the right family, she would be fine as an \"only\" dog but another canine pal might be appropriate as long as there is plenty of supervision during playtime.\n\nTypical of the breed,Harley is social yet independent. She welcomes a belly rub but often prefers to sit by herself.\n\nHarley is housebroken, however, when she gets excited, she will sometimes piddle. Her future family will need to be patient and calm in correcting this behavior. Luckily Harley is eager to please and quick to learn. But it's important to realize that she does have to go out every couple of hours.\n\nHarley sleeps dutifully in a crate at night and never protests. But in the morning she is eager to get out. She loves the fenced back yard and enjoys charging the fence line and challenging the neighbor dogs to a bark fest.\n\nHarley has been spayed and is up-to-date on all vaccinations.  She has tested negative for heart worm disease and is on a monthly heart worm and flea/tick preventative.\n\nInterested in adopting Harley?  For consideration, fill out an adoption application at http://www.cairnrescueusa.com/adopt/frm_adopt.html\n\n************************************************************************************************\n\nPLEASE NOTE THAT WE CAN ONLY CONSIDER APPLICANTS WHO HAVE AN EXCELLENT HISTORY OF VET CARE AND WHO ARE COMMITTED TO USING A LEASH AT ALL TIMES WHEN OUTSIDE A FENCED AREA.  WE ARE UNABLE TO CONSIDER FAMILIES WITH ELECTRIC FENCING."
+                    },
+                    "mix": {
+                        "$t": "no"
+                    },
+                    "shelterId": {
+                        "$t": "IL233"
+                    },
+                    "lastUpdate": {
+                        "$t": "2019-02-16T04:14:14Z"
+                    },
+                    "animal": {
+                        "$t": "Dog"
+                    }
+                },
+                {
+                    "options": {
+                        "option": [
+                            {
+                                "$t": "altered"
+                            },
+                            {
+                                "$t": "hasShots"
+                            },
+                            {
+                                "$t": "housetrained"
+                            }
+                        ]
+                    },
+                    "status": {
+                        "$t": "A"
+                    },
+                    "contact": {
+                        "phone": {
+                            "$t": "303-322-4336"
+                        },
+                        "state": {
+                            "$t": "CO"
+                        },
+                        "address2": {},
+                        "email": {
+                            "$t": "WeCare@BigDogsHugePaws.com"
+                        },
+                        "city": {
+                            "$t": "Aurora"
+                        },
+                        "zip": {
+                            "$t": "80046"
+                        },
+                        "fax": {},
+                        "address1": {
+                            "$t": "PO Box 460699"
+                        }
+                    },
+                    "age": {
+                        "$t": "Senior"
+                    },
+                    "size": {
+                        "$t": "XL"
+                    },
+                    "media": {
+                        "photos": {
+                            "photo": [
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/35514496/1/?bust=1467123661&width=60&-pnt.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/35514496/1/?bust=1467123661&width=95&-fpm.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/35514496/1/?bust=1467123661&width=500&-x.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/35514496/1/?bust=1467123661&width=300&-pn.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/35514496/1/?bust=1467123661&width=50&-t.jpg",
+                                    "@id": "1"
+                                }
+                            ]
+                        }
+                    },
+                    "id": {
+                        "$t": "35514496"
+                    },
+                    "shelterPetId": {},
+                    "breeds": {
+                        "breed": {
+                            "$t": "Great Dane"
+                        }
+                    },
+                    "name": {
+                        "$t": "Harriet"
+                    },
+                    "sex": {
+                        "$t": "F"
+                    },
+                    "description": {
+                        "$t": "Hello-hello, this is Harriet the black with salt and pepper Great Dane Mix. I think I'm around 8-10 years old, but you'd never know it because I am young at heart and still love to play. I recently came back to BDHP because of some issues with the small dog in my home. I should  probably just stick with large dogs from here on out to be safe. I've been cat tested and did just fine with them, but I haven't had a ton of experience with them. Since I am a bit old, I'm pretty mellow and like to lay on the couch. However, I can be roused to play, have a goofy side, and I think mealtime is the best. I'd love to find a forever family with a comfy couch and lots of love to go around. Do you have room for me? \n\n \nGolden Rewards Program\n\nAll of our adoptable grey muzzled gentle giants who are at least 7 years young are available for adoption for a reduced $250 donation!\n\nAlready a Golden Rewards Club member? If you've adopted a senior gentle giant from Big Dogs Huge Paws in the past, we have great news for you! Adopt a second senior for a Golden Rewards Club adoption donation of $200, and if it's your third senior dog adoption we are offering a special Golden Rewards Club reduced donation of only $150! Why wait?\n To see the most up to date adoption status of this dog, please visit www.bigdogshugepaws.com\nThis is just one of hundreds of gentle giants available for adoption at BDHPI! It is best not to get your heart set on any one particular dog upfront because there is no guarantee they will still be available once you are approved or that they are even the right match for your family. Purebred puppies are only eligible for adoption to giant breed experienced homes."
+                    },
+                    "mix": {
+                        "$t": "yes"
+                    },
+                    "shelterId": {
+                        "$t": "CO285"
+                    },
+                    "lastUpdate": {
+                        "$t": "2016-06-28T14:21:01Z"
+                    },
+                    "animal": {
+                        "$t": "Dog"
+                    }
+                },
+                {
+                    "options": {
+                        "option": [
+                            {
+                                "$t": "altered"
+                            },
+                            {
+                                "$t": "hasShots"
+                            },
+                            {
+                                "$t": "housetrained"
+                            },
+                            {
+                                "$t": "noKids"
+                            }
+                        ]
+                    },
+                    "status": {
+                        "$t": "A"
+                    },
+                    "contact": {
+                        "phone": {
+                            "$t": "303-322-4336"
+                        },
+                        "state": {
+                            "$t": "CO"
+                        },
+                        "address2": {},
+                        "email": {
+                            "$t": "WeCare@BigDogsHugePaws.com"
+                        },
+                        "city": {
+                            "$t": "Aurora"
+                        },
+                        "zip": {
+                            "$t": "80046"
+                        },
+                        "fax": {},
+                        "address1": {
+                            "$t": "PO Box 460699"
+                        }
+                    },
+                    "age": {
+                        "$t": "Adult"
+                    },
+                    "size": {
+                        "$t": "XL"
+                    },
+                    "media": {
+                        "photos": {
+                            "photo": [
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/37439370/1/?bust=1487275181&width=60&-pnt.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/37439370/1/?bust=1487275181&width=95&-fpm.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/37439370/1/?bust=1487275181&width=500&-x.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/37439370/1/?bust=1487275181&width=300&-pn.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/37439370/1/?bust=1487275181&width=50&-t.jpg",
+                                    "@id": "1"
+                                }
+                            ]
+                        }
+                    },
+                    "id": {
+                        "$t": "37439370"
+                    },
+                    "shelterPetId": {},
+                    "breeds": {
+                        "breed": {
+                            "$t": "Boerboel"
+                        }
+                    },
+                    "name": {
+                        "$t": "Shelby"
+                    },
+                    "sex": {
+                        "$t": "F"
+                    },
+                    "description": {
+                        "$t": "Shelby is a 3 year old fawn, Boerboel Mastiff who is sweet as sugar and ready to find her forever home. She is good with most other dogs after very slow and proper introductions, but true to her breed she is initially leery and reactive to strange dogs. She is good with cats, but would prefer a home with no small children. Shelby i house trained and she goes right in her crate with no issue. She is very treat motivated and always eager to please - she takes her treats like a real lady. She doesn't dig but sometimes will get into trash/food when left to her own devices...this is easily remedied with entertaining toys, bones (which she loves) exercise and supervision. Shelby isn't allowed on the furniture but is very happy with her bed. This sweet girl loves any attention she can get and enjoys hers people very much..men can scare her initially but some treats and a few minutes and she's golden! Water and baths scare Miss Shelby so some patience, time and positive reinforcement will show her that it's nothing that will hurt her. She walks superb on a leash and all you can see is that little nub wiggling all over. She allows handling all over and rewards you with kisses! This sweet girl just needs someone to love her as much as she loves her humans!\n \nGiant Breed Experienced Homes Only.To see the most up to date adoption status of this dog, please visit www.bigdogshugepaws.com\nThis is just one of hundreds of gentle giants available for adoption at BDHPI! It is best not to get your heart set on any one particular dog upfront because there is no guarantee they will still be available once you are approved or that they are even the right match for your family. Purebred puppies are only eligible for adoption to giant breed experienced homes."
+                    },
+                    "mix": {
+                        "$t": "no"
+                    },
+                    "shelterId": {
+                        "$t": "CO285"
+                    },
+                    "lastUpdate": {
+                        "$t": "2017-02-16T19:59:41Z"
+                    },
+                    "animal": {
+                        "$t": "Dog"
+                    }
+                },
+                {
+                    "options": {
+                        "option": [
+                            {
+                                "$t": "altered"
+                            },
+                            {
+                                "$t": "hasShots"
+                            },
+                            {
+                                "$t": "housetrained"
+                            }
+                        ]
+                    },
+                    "status": {
+                        "$t": "A"
+                    },
+                    "contact": {
+                        "phone": {
+                            "$t": "303-322-4336"
+                        },
+                        "state": {
+                            "$t": "CO"
+                        },
+                        "address2": {},
+                        "email": {
+                            "$t": "WeCare@BigDogsHugePaws.com"
+                        },
+                        "city": {
+                            "$t": "Aurora"
+                        },
+                        "zip": {
+                            "$t": "80046"
+                        },
+                        "fax": {},
+                        "address1": {
+                            "$t": "PO Box 460699"
+                        }
+                    },
+                    "age": {
+                        "$t": "Adult"
+                    },
+                    "size": {
+                        "$t": "XL"
+                    },
+                    "media": {
+                        "photos": {
+                            "photo": [
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/38191168/1/?bust=1496157687&width=60&-pnt.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/38191168/1/?bust=1496157687&width=95&-fpm.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/38191168/1/?bust=1496157687&width=500&-x.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/38191168/1/?bust=1496157687&width=300&-pn.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/38191168/1/?bust=1496157687&width=50&-t.jpg",
+                                    "@id": "1"
+                                }
+                            ]
+                        }
+                    },
+                    "id": {
+                        "$t": "38191168"
+                    },
+                    "shelterPetId": {},
+                    "breeds": {
+                        "breed": {
+                            "$t": "Bullmastiff"
+                        }
+                    },
+                    "name": {
+                        "$t": "Nala 1"
+                    },
+                    "sex": {
+                        "$t": "F"
+                    },
+                    "description": {
+                        "$t": "This beautiful fawn, 5-year-old, Bullmastiff is Nala. Living circumstances have changed for her family, and this wonderful girl is looking for her furever home. She is house trained, crate trained and leash trained. She also knows commands such as sit, stay, come and kennel. She loves car rides, Nylabones, natural bones and stuffed animals, but guns and fireworks scare her. She is over the top excited about the ice dispenser and ice cubes and will come running when you fill a glass. She does enjoy playing with most other dogs she knows, though she needs proper, slow dog introductions to strange dogs and will respond if challenged. Nala seems to do best with similarly sized or larger submissive males and having someone dog-savvy to help her adjust. She would prefer to have a fenced yard to play in and explore and is not well suited for apartment living or going to the dog park. She is a total lovebug who adores her people and will follow you everywhere. One lucky family will be the recipient of all her love and loyalty! Nala underwent a completely successful TPLO surgery on 12/7/16 and is now ready for her forever home!To see the most up to date adoption status of this dog, please visit www.bigdogshugepaws.com\nThis is just one of hundreds of gentle giants available for adoption at BDHPI! It is best not to get your heart set on any one particular dog upfront because there is no guarantee they will still be available once you are approved or that they are even the right match for your family. Purebred puppies are only eligible for adoption to giant breed experienced homes."
+                    },
+                    "mix": {
+                        "$t": "no"
+                    },
+                    "shelterId": {
+                        "$t": "CO285"
+                    },
+                    "lastUpdate": {
+                        "$t": "2017-05-30T15:21:27Z"
+                    },
+                    "animal": {
+                        "$t": "Dog"
+                    }
+                },
+                {
+                    "options": {
+                        "option": [
+                            {
+                                "$t": "altered"
+                            },
+                            {
+                                "$t": "hasShots"
+                            },
+                            {
+                                "$t": "housetrained"
+                            }
+                        ]
+                    },
+                    "status": {
+                        "$t": "A"
+                    },
+                    "contact": {
+                        "phone": {
+                            "$t": "303-322-4336"
+                        },
+                        "state": {
+                            "$t": "CO"
+                        },
+                        "address2": {},
+                        "email": {
+                            "$t": "WeCare@BigDogsHugePaws.com"
+                        },
+                        "city": {
+                            "$t": "Aurora"
+                        },
+                        "zip": {
+                            "$t": "80046"
+                        },
+                        "fax": {},
+                        "address1": {
+                            "$t": "PO Box 460699"
+                        }
+                    },
+                    "age": {
+                        "$t": "Senior"
+                    },
+                    "size": {
+                        "$t": "XL"
+                    },
+                    "media": {
+                        "photos": {
+                            "photo": [
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/38446025/1/?bust=1497463826&width=60&-pnt.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/38446025/1/?bust=1497463826&width=95&-fpm.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/38446025/1/?bust=1497463826&width=500&-x.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/38446025/1/?bust=1497463826&width=300&-pn.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/38446025/1/?bust=1497463826&width=50&-t.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/38446025/2/?bust=1497463836&width=60&-pnt.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/38446025/2/?bust=1497463836&width=95&-fpm.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/38446025/2/?bust=1497463836&width=500&-x.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/38446025/2/?bust=1497463836&width=300&-pn.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/38446025/2/?bust=1497463836&width=50&-t.jpg",
+                                    "@id": "2"
+                                }
+                            ]
+                        }
+                    },
+                    "id": {
+                        "$t": "38446025"
+                    },
+                    "shelterPetId": {},
+                    "breeds": {
+                        "breed": {
+                            "$t": "Great Dane"
+                        }
+                    },
+                    "name": {
+                        "$t": "Bella -Bonded Pair"
+                    },
+                    "sex": {
+                        "$t": "F"
+                    },
+                    "description": {
+                        "$t": "Bella and her sister Gracie are a bonded pair of colorful Great Danes who find themselves in a new place to lay their bones in their senior years. Bella is a 7 year old Harlequin Dane with natural ears and a few lumps and bumps that behold her age but don't let that fool you for this sweet girl loves to play and run around and is still quite active for her age.  Bella is house trained and is good with other dogs. Their owner was terminally ill and had no one to take care of her girls and took them to her vet who contacted a shelter who contacted us to help and we were very happy to assist. Sometimes it takes a village to save a dog and in this case it was definitely true! Bella's foster family will be figuring out what else this girl knows and working on anything that she made need too but we doubt that sweet senior needs much polishing. Bella has been completely non reactive to the kids and cats in the shelter also but we will be testing her further. If you have room in your life for these ladies please let us know!\n \nGolden Rewards Program\nAll of our adoptable grey muzzled gentle giants who are at least 7 years young are available for adoption for a reduced $250 donation!\n\nAlready a Golden Rewards Club member? If you've adopted a senior gentle giant from Big Dogs Huge Paws in the past, we have great news for you! Adopt a second senior for a Golden Rewards Club adoption donation of $200, and if it's your third senior dog adoption we are offering a special Golden Rewards Club reduced donation of only $150! Why wait?\nTo see the most up to date adoption status of this dog please visit www.bigdogshugepaws.com\nThis is just one of hundreds of gentle giants available for adoption at BDHPI! It is best not to get your heart set on any one particular dog upfront because there is no guarantee they will still be available once you are approved or that they are even the right match for your family. Purebred puppies are only eligible for adoption to giant breed experienced homes."
+                    },
+                    "mix": {
+                        "$t": "no"
+                    },
+                    "shelterId": {
+                        "$t": "CO285"
+                    },
+                    "lastUpdate": {
+                        "$t": "2017-06-14T18:09:40Z"
+                    },
+                    "animal": {
+                        "$t": "Dog"
+                    }
+                },
+                {
+                    "options": {
+                        "option": [
+                            {
+                                "$t": "altered"
+                            },
+                            {
+                                "$t": "hasShots"
+                            }
+                        ]
+                    },
+                    "status": {
+                        "$t": "A"
+                    },
+                    "contact": {
+                        "phone": {
+                            "$t": "303-322-4336"
+                        },
+                        "state": {
+                            "$t": "CO"
+                        },
+                        "address2": {},
+                        "email": {
+                            "$t": "WeCare@BigDogsHugePaws.com"
+                        },
+                        "city": {
+                            "$t": "Aurora"
+                        },
+                        "zip": {
+                            "$t": "80046"
+                        },
+                        "fax": {},
+                        "address1": {
+                            "$t": "PO Box 460699"
+                        }
+                    },
+                    "age": {
+                        "$t": "Senior"
+                    },
+                    "size": {
+                        "$t": "XL"
+                    },
+                    "media": {},
+                    "id": {
+                        "$t": "38446066"
+                    },
+                    "shelterPetId": {},
+                    "breeds": {
+                        "breed": {
+                            "$t": "Great Dane"
+                        }
+                    },
+                    "name": {
+                        "$t": "Gracie -Bonded Pair"
+                    },
+                    "sex": {
+                        "$t": "F"
+                    },
+                    "description": {
+                        "$t": "Gracie is a 9 year old Fawnequin Great Dane with cropped ears who is looking for a new home with her bonded sister, Bella. These sweet ladies found themselves in trouble with their owner became terminally ill but their vet and the local shelter helped place them in rescue with us and we're honored to help them. Gracie is a sweet old lady who loves her sister and despite her age still loves to play and romp on occasion. She is also been completely non reactive to the kids and cats in the shelter environment and her foster family will be getting to know her better and we'll know more about them shortly. Gracie is house trained, good with dogs and has cherry eye that we will be looking into what we can do to repair it for her. If you have room for these lovely ladies please let us know!\n \nGolden Rewards Program\nAll of our adoptable grey muzzled gentle giants who are at least 7 years young are available for adoption for a reduced $250 donation!\n\nAlready a Golden Rewards Club member? If you've adopted a senior gentle giant from Big Dogs Huge Paws in the past, we have great news for you! Adopt a second senior for a Golden Rewards Club adoption donation of $200, and if it's your third senior dog adoption we are offering a special Golden Rewards Club reduced donation of only $150! Why wait?\nTo see the most up to date adoption status of this dog please visit www.bigdogshugepaws.com\nThis is just one of hundreds of gentle giants available for adoption at BDHPI! It is best not to get your heart set on any one particular dog upfront because there is no guarantee they will still be available once you are approved or that they are even the right match for your family. Purebred puppies are only eligible for adoption to giant breed experienced homes."
+                    },
+                    "mix": {
+                        "$t": "no"
+                    },
+                    "shelterId": {
+                        "$t": "CO285"
+                    },
+                    "lastUpdate": {
+                        "$t": "2017-06-14T18:17:42Z"
+                    },
+                    "animal": {
+                        "$t": "Dog"
+                    }
+                },
+                {
+                    "options": {
+                        "option": [
+                            {
+                                "$t": "altered"
+                            },
+                            {
+                                "$t": "hasShots"
+                            },
+                            {
+                                "$t": "housetrained"
+                            }
+                        ]
+                    },
+                    "status": {
+                        "$t": "A"
+                    },
+                    "contact": {
+                        "phone": {
+                            "$t": "303-322-4336"
+                        },
+                        "state": {
+                            "$t": "CO"
+                        },
+                        "address2": {},
+                        "email": {
+                            "$t": "WeCare@BigDogsHugePaws.com"
+                        },
+                        "city": {
+                            "$t": "Aurora"
+                        },
+                        "zip": {
+                            "$t": "80046"
+                        },
+                        "fax": {},
+                        "address1": {
+                            "$t": "PO Box 460699"
+                        }
+                    },
+                    "age": {
+                        "$t": "Senior"
+                    },
+                    "size": {
+                        "$t": "XL"
+                    },
+                    "media": {
+                        "photos": {
+                            "photo": [
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/39211184/1/?bust=1503677505&width=60&-pnt.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/39211184/1/?bust=1503677505&width=95&-fpm.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/39211184/1/?bust=1503677505&width=500&-x.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/39211184/1/?bust=1503677505&width=300&-pn.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/39211184/1/?bust=1503677505&width=50&-t.jpg",
+                                    "@id": "1"
+                                }
+                            ]
+                        }
+                    },
+                    "id": {
+                        "$t": "39211184"
+                    },
+                    "shelterPetId": {},
+                    "breeds": {
+                        "breed": {
+                            "$t": "Neapolitan Mastiff"
+                        }
+                    },
+                    "name": {
+                        "$t": "Daisy"
+                    },
+                    "sex": {
+                        "$t": "F"
+                    },
+                    "description": {
+                        "$t": "This happy, gorgeous senior lady is Daisyâ\u0080\u0094the Neapolitan mastiff. She was with the same owner since she was a young pup, and her owner was heartbroken at having to give her up but ran into issues with the landlord and had no choice but to drop her off at a shelter. Luckily, BDHPI was there to come to her rescue and spring her from jail and she is now in a loving home environment. Daisy is 9 years old, in good health, very gentle with children, house trained, leash trained and good with dogs. Daisy is a typical Neo that needs to be slowly integrated into the pack and will need proper introductions. She ignores cats and loves attention and car rides. She is looking for a mellow retirement home where she can curl up next to her mom or dad and you won't find a more loving and affectionate girl out there. If youâ\u0080\u0099re looking for a wonderful, loyal sweet girl then she is it!\n\nGolden Rewards Program\nAll of our adoptable grey muzzled gentle giants who are at least 7 years young are available for adoption for a reduced $250 donation!\n\nAlready a Golden Rewards Club member? If you've adopted a senior gentle giant from Big Dogs Huge Paws in the past, we have great news for you! Adopt a second senior for a Golden Rewards Club adoption donation of $200, and if it's your third senior dog adoption we are offering a special Golden Rewards Club reduced donation of only $150! Why wait?To see the most up to date adoption status of this dog please visit www.bigdogshugepaws.com\nThis is just one of hundreds of gentle giants available for adoption at BDHPI! It is best not to get your heart set on any one particular dog upfront because there is no guarantee they will still be available once you are approved or that they are even the right match for your family. Purebred puppies are only eligible for adoption to giant breed experienced homes."
+                    },
+                    "mix": {
+                        "$t": "no"
+                    },
+                    "shelterId": {
+                        "$t": "CO285"
+                    },
+                    "lastUpdate": {
+                        "$t": "2017-08-25T16:11:09Z"
+                    },
+                    "animal": {
+                        "$t": "Dog"
+                    }
+                },
+                {
+                    "options": {
+                        "option": [
+                            {
+                                "$t": "altered"
+                            },
+                            {
+                                "$t": "hasShots"
+                            },
+                            {
+                                "$t": "housetrained"
+                            }
+                        ]
+                    },
+                    "status": {
+                        "$t": "A"
+                    },
+                    "contact": {
+                        "phone": {
+                            "$t": "303-322-4336"
+                        },
+                        "state": {
+                            "$t": "CO"
+                        },
+                        "address2": {},
+                        "email": {
+                            "$t": "WeCare@BigDogsHugePaws.com"
+                        },
+                        "city": {
+                            "$t": "Aurora"
+                        },
+                        "zip": {
+                            "$t": "80046"
+                        },
+                        "fax": {},
+                        "address1": {
+                            "$t": "PO Box 460699"
+                        }
+                    },
+                    "age": {
+                        "$t": "Senior"
+                    },
+                    "size": {
+                        "$t": "XL"
+                    },
+                    "media": {
+                        "photos": {
+                            "photo": [
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/39670730/1/?bust=1508253649&width=60&-pnt.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/39670730/1/?bust=1508253649&width=95&-fpm.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/39670730/1/?bust=1508253649&width=500&-x.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/39670730/1/?bust=1508253649&width=300&-pn.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/39670730/1/?bust=1508253649&width=50&-t.jpg",
+                                    "@id": "1"
+                                }
+                            ]
+                        }
+                    },
+                    "id": {
+                        "$t": "39670730"
+                    },
+                    "shelterPetId": {},
+                    "breeds": {
+                        "breed": {
+                            "$t": "Mastiff"
+                        }
+                    },
+                    "name": {
+                        "$t": "Rocco"
+                    },
+                    "sex": {
+                        "$t": "M"
+                    },
+                    "description": {
+                        "$t": "Did you know Rocco means \"rest\"? Well, I'm an upper middle aged (some say senior citizen) When I'm not taking a nap I'm carrying my bowls around the house.  I have a bit of arthritis but what upper middle ager doesn't. I would love a quiet home with my people, blankets, and chew bones. I'm leash and house trained and will always stay off your furniture.  Take me with you on car rides and that will be the icing on the cake.  While I would do okay with another submissive, older, mellow sibling, I do tend to be dominant with other dogs and don't have much tolerance for hyper pups. Adopt me and I will not only return your love but will protect your house too. I was abandoned which was very sad.  I would like to be happy and feel loved again with you!\n \nGolden Rewards Program\nAll of our adoptable grey muzzled gentle giants who are at least 7 years young are available for adoption for a reduced $250 donation!\n\nAlready a Golden Rewards Club member? If you've adopted a senior gentle giant from Big Dogs Huge Paws in the past, we have great news for you! Adopt a second senior for a Golden Rewards Club adoption donation of $200, and if it's your third senior dog adoption we are offering a special Golden Rewards Club reduced donation of only $150! Why wait?To see the most up to date adoption status of this dog please visit www.bigdogshugepaws.com\nThis is just one of hundreds of gentle giants available for adoption at BDHPI! It is best not to get your heart set on any one particular dog upfront because there is no guarantee they will still be available once you are approved or that they are even the right match for your family. Purebred puppies are only eligible for adoption to giant breed experienced homes."
+                    },
+                    "mix": {
+                        "$t": "no"
+                    },
+                    "shelterId": {
+                        "$t": "CO285"
+                    },
+                    "lastUpdate": {
+                        "$t": "2017-10-17T15:20:10Z"
+                    },
+                    "animal": {
+                        "$t": "Dog"
+                    }
+                },
+                {
+                    "options": {
+                        "option": [
+                            {
+                                "$t": "altered"
+                            },
+                            {
+                                "$t": "hasShots"
+                            },
+                            {
+                                "$t": "housetrained"
+                            }
+                        ]
+                    },
+                    "status": {
+                        "$t": "A"
+                    },
+                    "contact": {
+                        "phone": {
+                            "$t": "303-322-4336"
+                        },
+                        "state": {
+                            "$t": "CO"
+                        },
+                        "address2": {},
+                        "email": {
+                            "$t": "WeCare@BigDogsHugePaws.com"
+                        },
+                        "city": {
+                            "$t": "Aurora"
+                        },
+                        "zip": {
+                            "$t": "80046"
+                        },
+                        "fax": {},
+                        "address1": {
+                            "$t": "PO Box 460699"
+                        }
+                    },
+                    "age": {
+                        "$t": "Senior"
+                    },
+                    "size": {
+                        "$t": "XL"
+                    },
+                    "media": {
+                        "photos": {
+                            "photo": [
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/39671145/1/?bust=1508256273&width=60&-pnt.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/39671145/1/?bust=1508256273&width=95&-fpm.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/39671145/1/?bust=1508256273&width=500&-x.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/39671145/1/?bust=1508256273&width=300&-pn.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/39671145/1/?bust=1508256273&width=50&-t.jpg",
+                                    "@id": "1"
+                                }
+                            ]
+                        }
+                    },
+                    "id": {
+                        "$t": "39671145"
+                    },
+                    "shelterPetId": {},
+                    "breeds": {
+                        "breed": {
+                            "$t": "Great Pyrenees"
+                        }
+                    },
+                    "name": {
+                        "$t": "Bella I"
+                    },
+                    "sex": {
+                        "$t": "F"
+                    },
+                    "description": {
+                        "$t": "Bella is an 8 year old, white, female Great Pyrenees mix that is looking for a retirement home where she can be loved, cared for and kept indoors. Bella is house trained and walks well with a gentle leader. Even though she's a Pyr mix she and an indoor dog she enjoys patrolling her yard every now and then, barking and letting her inner Pyr out! Bella might dig to find a cool spot to lay but we all have our quirks. She doesn't chew and is quite the couch potato inside and this sweet fur baby enjoys car rides at all times. Bella is good with most dogs, but isn't particularly fond of hyper ones and does need slow, proper introductions. She prefers off leash introductions to new friends and her foster family will be working on socialization with her. Bella is good with cats but prefers older children as she is approaching her golden years and just likes a quieter environment to relax in. Bella cannot wait to meet her forever family! \n\n\nGolden Rewards Program\nAll of our adoptable grey muzzled gentle giants who are at least 7 years young are available for adoption for a reduced $250 donation!\n\nAlready a Golden Rewards Club member? If you've adopted a senior gentle giant from Big Dogs Huge Paws in the past, we have great news for you! Adopt a second senior for a Golden Rewards Club adoption donation of $200, and if it's your third senior dog adoption we are offering a special Golden Rewards Club reduced donation of only $150! Why wait?To see the most up to date adoption status of this dog please visit www.bigdogshugepaws.com\nThis is just one of hundreds of gentle giants available for adoption at BDHPI! It is best not to get your heart set on any one particular dog upfront because there is no guarantee they will still be available once you are approved or that they are even the right match for your family. Purebred puppies are only eligible for adoption to giant breed experienced homes."
+                    },
+                    "mix": {
+                        "$t": "no"
+                    },
+                    "shelterId": {
+                        "$t": "CO285"
+                    },
+                    "lastUpdate": {
+                        "$t": "2017-10-17T16:03:55Z"
+                    },
+                    "animal": {
+                        "$t": "Dog"
+                    }
+                },
+                {
+                    "options": {
+                        "option": [
+                            {
+                                "$t": "altered"
+                            },
+                            {
+                                "$t": "hasShots"
+                            },
+                            {
+                                "$t": "housetrained"
+                            }
+                        ]
+                    },
+                    "status": {
+                        "$t": "A"
+                    },
+                    "contact": {
+                        "phone": {
+                            "$t": "303-322-4336"
+                        },
+                        "state": {
+                            "$t": "CO"
+                        },
+                        "address2": {},
+                        "email": {
+                            "$t": "WeCare@BigDogsHugePaws.com"
+                        },
+                        "city": {
+                            "$t": "Aurora"
+                        },
+                        "zip": {
+                            "$t": "80046"
+                        },
+                        "fax": {},
+                        "address1": {
+                            "$t": "PO Box 460699"
+                        }
+                    },
+                    "age": {
+                        "$t": "Adult"
+                    },
+                    "size": {
+                        "$t": "XL"
+                    },
+                    "media": {
+                        "photos": {
+                            "photo": [
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/40055989/1/?bust=1512241750&width=60&-pnt.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/40055989/1/?bust=1512241750&width=95&-fpm.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/40055989/1/?bust=1512241750&width=500&-x.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/40055989/1/?bust=1512241750&width=300&-pn.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/40055989/1/?bust=1512241750&width=50&-t.jpg",
+                                    "@id": "1"
+                                }
+                            ]
+                        }
+                    },
+                    "id": {
+                        "$t": "40055989"
+                    },
+                    "shelterPetId": {},
+                    "breeds": {
+                        "breed": {
+                            "$t": "Cane Corso"
+                        }
+                    },
+                    "name": {
+                        "$t": "Bella II"
+                    },
+                    "sex": {
+                        "$t": "F"
+                    },
+                    "description": {
+                        "$t": "Bella the Cane Corso is looking for a great home that understands the breed and will love her forever - could it be yours? She's a 2-year-old, fawn-colored, female Cane Corso. She was surrendered to a shelter and is very scared about things right now - understandably so. She's shy and timid and wants to run away. But simple love and trust and work on confidence-building will have her coming out of her shell in no time at all. Once she does know she can trust you, she's a very, very sweet girl! She's underweight, so some additional groceries will help, too. She's good with other dogs and doesn't bark, dig, or chew. Bella is a true diamond in the rough - could you be the one to do some additional polishing and be rewarded with an amazing forever companion?\n\nGiant Breed Experienced Homes Only.To see the most up to date adoption status of this dog please visit www.bigdogshugepaws.com\nThis is just one of hundreds of gentle giants available for adoption at BDHPI! It is best not to get your heart set on any one particular dog upfront because there is no guarantee they will still be available once you are approved or that they are even the right match for your family. Purebred puppies are only eligible for adoption to giant breed experienced homes."
+                    },
+                    "mix": {
+                        "$t": "no"
+                    },
+                    "shelterId": {
+                        "$t": "CO285"
+                    },
+                    "lastUpdate": {
+                        "$t": "2017-12-02T19:10:05Z"
+                    },
+                    "animal": {
+                        "$t": "Dog"
+                    }
+                },
+                {
+                    "options": {
+                        "option": [
+                            {
+                                "$t": "altered"
+                            },
+                            {
+                                "$t": "hasShots"
+                            },
+                            {
+                                "$t": "housetrained"
+                            }
+                        ]
+                    },
+                    "status": {
+                        "$t": "A"
+                    },
+                    "contact": {
+                        "phone": {
+                            "$t": "303-322-4336"
+                        },
+                        "state": {
+                            "$t": "CO"
+                        },
+                        "address2": {},
+                        "email": {
+                            "$t": "WeCare@BigDogsHugePaws.com"
+                        },
+                        "city": {
+                            "$t": "Aurora"
+                        },
+                        "zip": {
+                            "$t": "80046"
+                        },
+                        "fax": {},
+                        "address1": {
+                            "$t": "PO Box 460699"
+                        }
+                    },
+                    "age": {
+                        "$t": "Adult"
+                    },
+                    "size": {
+                        "$t": "XL"
+                    },
+                    "media": {
+                        "photos": {
+                            "photo": [
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/40739758/1/?bust=1516640657&width=60&-pnt.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/40739758/1/?bust=1516640657&width=95&-fpm.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/40739758/1/?bust=1516640657&width=500&-x.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/40739758/1/?bust=1516640657&width=300&-pn.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/40739758/1/?bust=1516640657&width=50&-t.jpg",
+                                    "@id": "1"
+                                }
+                            ]
+                        }
+                    },
+                    "id": {
+                        "$t": "40739758"
+                    },
+                    "shelterPetId": {},
+                    "breeds": {
+                        "breed": {
+                            "$t": "Great Dane"
+                        }
+                    },
+                    "name": {
+                        "$t": "Daisy Mae"
+                    },
+                    "sex": {
+                        "$t": "F"
+                    },
+                    "description": {
+                        "$t": "Daisy Mae is a fawn female Great Dane who is 4.5 years and is coming to us an owner surrender. You see Daisy started off in a puppy mill where she had zero exposure to life outside of her small confined area. While her rescuer had the best of intentions, Daisy just isn't comfortable with the family dynamic and we all agree it's better for her to move on and find the right fit. Daisy is on a daily inexpensive thyroid medication and her sensitive stomach does great on Simply Nourish Duck and chicken formulas. Daisy is house trained, crate trained and leash trained. She also know lay down, come, place, okay, eat, high five, shake and drop! Pretty darn impressive we think. Daisy has been loving her new indoor living status and will bark to alert to strange noises or people. She can still have some puppy chewing but is very easily redirected and is always aiming to please. She loves to play fetch, take naps on her dog bed, chew on natural bones or soft toys..however any with squeakers are dismantled quickly. Daisy is good in the car and good with other dogs after proper introductions. Due to her past Daisy Mae needs someone to understand her quirks and work with her when needed. She will thrive and do well in the right home with love, proper rules, boundaries, guidance, structure and training.\n To see the most up to date adoption status of this dog please visit www.bigdogshugepaws.com\nThis is just one of hundreds of gentle giants available for adoption at BDHPI! It is best not to get your heart set on any one particular dog upfront because there is no guarantee they will still be available once you are approved or that they are even the right match for your family. Purebred puppies are only eligible for adoption to giant breed experienced homes."
+                    },
+                    "mix": {
+                        "$t": "no"
+                    },
+                    "shelterId": {
+                        "$t": "CO285"
+                    },
+                    "lastUpdate": {
+                        "$t": "2018-01-22T17:04:44Z"
+                    },
+                    "animal": {
+                        "$t": "Dog"
+                    }
+                },
+                {
+                    "options": {
+                        "option": [
+                            {
+                                "$t": "altered"
+                            },
+                            {
+                                "$t": "hasShots"
+                            },
+                            {
+                                "$t": "housetrained"
+                            }
+                        ]
+                    },
+                    "status": {
+                        "$t": "A"
+                    },
+                    "contact": {
+                        "phone": {
+                            "$t": "303-322-4336"
+                        },
+                        "state": {
+                            "$t": "CO"
+                        },
+                        "address2": {},
+                        "email": {
+                            "$t": "WeCare@BigDogsHugePaws.com"
+                        },
+                        "city": {
+                            "$t": "Aurora"
+                        },
+                        "zip": {
+                            "$t": "80046"
+                        },
+                        "fax": {},
+                        "address1": {
+                            "$t": "PO Box 460699"
+                        }
+                    },
+                    "age": {
+                        "$t": "Senior"
+                    },
+                    "size": {
+                        "$t": "XL"
+                    },
+                    "media": {
+                        "photos": {
+                            "photo": [
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/40963512/1/?bust=1518729477&width=60&-pnt.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/40963512/1/?bust=1518729477&width=95&-fpm.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/40963512/1/?bust=1518729477&width=500&-x.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/40963512/1/?bust=1518729477&width=300&-pn.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/40963512/1/?bust=1518729477&width=50&-t.jpg",
+                                    "@id": "1"
+                                }
+                            ]
+                        }
+                    },
+                    "id": {
+                        "$t": "40963512"
+                    },
+                    "shelterPetId": {},
+                    "breeds": {
+                        "breed": {
+                            "$t": "Mastiff"
+                        }
+                    },
+                    "name": {
+                        "$t": "Matilda"
+                    },
+                    "sex": {
+                        "$t": "F"
+                    },
+                    "description": {
+                        "$t": "Matilda is a gorgeous senior, apricot colored, female Mastiff who found herself a stray and thankfully picked up by a good Samaritan. The shelter contacted us to let us know about her and we're excited to be able to get this girl into a home that will love and care for her for all of her days. Matilda weighs in at 108lbs of love and sugar, she craves attention and it's quite clear she hasn't received enough love, or food, for most of her life. She appears to have been a breeder dog and we would guess dumped once she got too old. This sweet lady is good on leash, good with other dogs and has been friendly with all the children she has come in contact with so far. She can be a bit mouth but she learns quick as she's very eager to please and in no time at all she'll have her skills down pat so she ride off into the sunset with her forever family. Your remaining years will truly be golden from here on out Matilda!\n\nGolden Rewards Program\nAll of our adoptable grey muzzled gentle giants who are at least 7 years young are available for adoption for a reduced $250 donation!\n\nAlready a Golden Rewards Club member? If you've adopted a senior gentle giant from Big Dogs Huge Paws in the past, we have great news for you! Adopt a second senior for a GoldenRewards Club adoption donation of $200, and if it's your third senior dog adoption we are offering a special Golden Rewards Club reduced donation of only $150! Why wait?To see the most up to date adoption status of this dog please visit www.bigdogshugepaws.com\nThis is just one of hundreds of gentle giants available for adoption at BDHPI! It is best not to get your heart set on any one particular dog upfront because there is no guarantee they will still be available once you are approved or that they are even the right match for your family. Purebred puppies are only eligible for adoption to giant breed experienced homes."
+                    },
+                    "mix": {
+                        "$t": "no"
+                    },
+                    "shelterId": {
+                        "$t": "CO285"
+                    },
+                    "lastUpdate": {
+                        "$t": "2018-02-15T21:18:49Z"
+                    },
+                    "animal": {
+                        "$t": "Dog"
+                    }
+                },
+                {
+                    "options": {
+                        "option": [
+                            {
+                                "$t": "altered"
+                            },
+                            {
+                                "$t": "hasShots"
+                            },
+                            {
+                                "$t": "housetrained"
+                            }
+                        ]
+                    },
+                    "status": {
+                        "$t": "A"
+                    },
+                    "contact": {
+                        "phone": {
+                            "$t": "303-322-4336"
+                        },
+                        "state": {
+                            "$t": "CO"
+                        },
+                        "address2": {},
+                        "email": {
+                            "$t": "WeCare@BigDogsHugePaws.com"
+                        },
+                        "city": {
+                            "$t": "Aurora"
+                        },
+                        "zip": {
+                            "$t": "80046"
+                        },
+                        "fax": {},
+                        "address1": {
+                            "$t": "PO Box 460699"
+                        }
+                    },
+                    "age": {
+                        "$t": "Adult"
+                    },
+                    "size": {
+                        "$t": "XL"
+                    },
+                    "media": {
+                        "photos": {
+                            "photo": [
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41236855/1/?bust=1521743555&width=60&-pnt.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41236855/1/?bust=1521743555&width=95&-fpm.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41236855/1/?bust=1521743555&width=500&-x.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41236855/1/?bust=1521743555&width=300&-pn.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41236855/1/?bust=1521743555&width=50&-t.jpg",
+                                    "@id": "1"
+                                }
+                            ]
+                        }
+                    },
+                    "id": {
+                        "$t": "41236855"
+                    },
+                    "shelterPetId": {},
+                    "breeds": {
+                        "breed": {
+                            "$t": "Mastiff"
+                        }
+                    },
+                    "name": {
+                        "$t": "Justice"
+                    },
+                    "sex": {
+                        "$t": "M"
+                    },
+                    "description": {
+                        "$t": "Hello, everyone! My name is Justice, and I'm a male Mastiff, 5 1/2 years young. I am here at BDHP because my former owner was moving and couldn't take me along. That was sad, but I'm really looking to finding a new, loving, forever home now. Let me tell you a little bit about myself. I'm about 121 pounds, house-trained, and just a friendly guy once you get to know me. I can be standoffish at first and have a mean bark so I will need someone who understands my breed and will manage slow and proper introductions to strangers. I'm good with dogs of all sizes and I really light up around other dogs, so other doggie friends are a must in my book! I used to sleep in bed with my former owner and I can be a couch potato with the best of 'em. I know basic commands including \"sit\" and \"down,\" and I'm actually a pretty good guard dog, as I will bark to alert you if something seems amiss in our world. Now, I know everyone has some quirks, so here are mine - I try to chase bikes and motorcycles, and while I enjoy bathingâ\u0080¦ I don't care for nail trims at all. They make me pretty cranky. But these are things we can work on together, I'm sure! I love to run and play fetch with balls, so a family that could keep me active would be wonderful. I'm just looking for the right fitâ\u0080¦ could it be in your home?\n\nGiant Breed Experienced Homes Only.To see the most up to date adoption status of this dog please visit www.bigdogshugepaws.com\nThis is just one of hundreds of gentle giants available for adoption at BDHPI! It is best not to get your heart set on any one particular dog upfront because there is no guarantee they will still be available once you are approved or that they are even the right match for your family. Purebred puppies are only eligible for adoption to giant breed experienced homes."
+                    },
+                    "mix": {
+                        "$t": "no"
+                    },
+                    "shelterId": {
+                        "$t": "CO285"
+                    },
+                    "lastUpdate": {
+                        "$t": "2018-03-22T18:33:07Z"
+                    },
+                    "animal": {
+                        "$t": "Dog"
+                    }
+                },
+                {
+                    "options": {
+                        "option": [
+                            {
+                                "$t": "altered"
+                            },
+                            {
+                                "$t": "hasShots"
+                            },
+                            {
+                                "$t": "housetrained"
+                            }
+                        ]
+                    },
+                    "status": {
+                        "$t": "A"
+                    },
+                    "contact": {
+                        "phone": {
+                            "$t": "303-322-4336"
+                        },
+                        "state": {
+                            "$t": "CO"
+                        },
+                        "address2": {},
+                        "email": {
+                            "$t": "WeCare@BigDogsHugePaws.com"
+                        },
+                        "city": {
+                            "$t": "Aurora"
+                        },
+                        "zip": {
+                            "$t": "80046"
+                        },
+                        "fax": {},
+                        "address1": {
+                            "$t": "PO Box 460699"
+                        }
+                    },
+                    "age": {
+                        "$t": "Adult"
+                    },
+                    "size": {
+                        "$t": "XL"
+                    },
+                    "media": {
+                        "photos": {
+                            "photo": [
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41237081/1/?bust=1521747197&width=60&-pnt.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41237081/1/?bust=1521747197&width=95&-fpm.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41237081/1/?bust=1521747197&width=500&-x.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41237081/1/?bust=1521747197&width=300&-pn.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41237081/1/?bust=1521747197&width=50&-t.jpg",
+                                    "@id": "1"
+                                }
+                            ]
+                        }
+                    },
+                    "id": {
+                        "$t": "41237081"
+                    },
+                    "shelterPetId": {},
+                    "breeds": {
+                        "breed": [
+                            {
+                                "$t": "Saint Bernard"
+                            },
+                            {
+                                "$t": "Shepherd"
+                            }
+                        ]
+                    },
+                    "name": {
+                        "$t": "Donkey"
+                    },
+                    "sex": {
+                        "$t": "M"
+                    },
+                    "description": {
+                        "$t": "I know I have a funny name, but my past has been anything but humorous, unfortunately. My name is Donkey, and I'm a 4-year-old male St. Bernard/Shepherd mix. Sadly, my original owner passed away and I then found myself at an animal shelter. I was adopted, but those people didn't know much about my breed and were concerned about me chasing wildlife, so I was kept on a leash all the time and not allowed to do my job which is to guard and protect my home and family. It was not a good life for me, and I'm hoping that I can find a very different, loving home through BDHP! After all, I'm just a very, very sweet boy who loves to play with my toys and be loved on! I weigh around 130 pounds, I'm house-trained and leash-trained on a harness, and I know the \"sit\" command. I'm good with dogs and kids and I'm just looking for a home that will return all the love I have to give. Could that be yours?To see the most up to date adoption status of this dog please visit www.bigdogshugepaws.com\nThis is just one of hundreds of gentle giants available for adoption at BDHPI! It is best not to get your heart set on any one particular dog upfront because there is no guarantee they will still be available once you are approved or that they are even the right match for your family. Purebred puppies are only eligible for adoption to giant breed experienced homes."
+                    },
+                    "mix": {
+                        "$t": "yes"
+                    },
+                    "shelterId": {
+                        "$t": "CO285"
+                    },
+                    "lastUpdate": {
+                        "$t": "2018-03-22T19:34:14Z"
+                    },
+                    "animal": {
+                        "$t": "Dog"
+                    }
+                },
+                {
+                    "options": {
+                        "option": [
+                            {
+                                "$t": "altered"
+                            },
+                            {
+                                "$t": "hasShots"
+                            }
+                        ]
+                    },
+                    "status": {
+                        "$t": "A"
+                    },
+                    "contact": {
+                        "phone": {
+                            "$t": "303-322-4336"
+                        },
+                        "state": {
+                            "$t": "CO"
+                        },
+                        "address2": {},
+                        "email": {
+                            "$t": "WeCare@BigDogsHugePaws.com"
+                        },
+                        "city": {
+                            "$t": "Aurora"
+                        },
+                        "zip": {
+                            "$t": "80046"
+                        },
+                        "fax": {},
+                        "address1": {
+                            "$t": "PO Box 460699"
+                        }
+                    },
+                    "age": {
+                        "$t": "Baby"
+                    },
+                    "size": {
+                        "$t": "XL"
+                    },
+                    "media": {
+                        "photos": {
+                            "photo": [
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41448767/1/?bust=1524241277&width=60&-pnt.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41448767/1/?bust=1524241277&width=95&-fpm.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41448767/1/?bust=1524241277&width=500&-x.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41448767/1/?bust=1524241277&width=300&-pn.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41448767/1/?bust=1524241277&width=50&-t.jpg",
+                                    "@id": "1"
+                                }
+                            ]
+                        }
+                    },
+                    "id": {
+                        "$t": "41448767"
+                    },
+                    "shelterPetId": {},
+                    "breeds": {
+                        "breed": {
+                            "$t": "Great Pyrenees"
+                        }
+                    },
+                    "name": {
+                        "$t": "Paws"
+                    },
+                    "sex": {
+                        "$t": "M"
+                    },
+                    "description": {
+                        "$t": "Meet Paws. True to his name, he is the biggest of the puppies with great big paws to grow into. Heâ\u0080\u0099s also the most outgoing and affectionate of the crew. He  is the ring leader and has a nice thick, way coat. While he doesn't know how to walk on a leash, where to go potty, or what a crate or basic commands are yet, his foster family will be giving him a crash course to prepare him for his forever family. Paws is very eager to please and should be a quick study! He loves having other dogs to play with and is doing well with the kids in his foster home right now so he would fit in just about any home. Could it be yours?\n\nMedical Update\n\nPaws successfully underwent entropion surgery for his eyes and was neutered at that time.\n\nHe came to us with slightly crooked legs. After a thorough examination at the vet and x-rays, we have determined that his joints are just fine and the problem is the growth plate above his wrist which has caused his Radius to grow odd in both front legs. Once he is full-grown, Paws will ultimately need corrective surgery so this is something that his adopters will need to be prepared for. The cost will vary depending on location but will likely be around 1800-2000 per leg just to give you an idea."
+                    },
+                    "mix": {
+                        "$t": "yes"
+                    },
+                    "shelterId": {
+                        "$t": "CO285"
+                    },
+                    "lastUpdate": {
+                        "$t": "2018-04-20T16:22:09Z"
+                    },
+                    "animal": {
+                        "$t": "Dog"
+                    }
+                },
+                {
+                    "options": {
+                        "option": [
+                            {
+                                "$t": "specialNeeds"
+                            },
+                            {
+                                "$t": "altered"
+                            },
+                            {
+                                "$t": "hasShots"
+                            },
+                            {
+                                "$t": "housetrained"
+                            }
+                        ]
+                    },
+                    "status": {
+                        "$t": "A"
+                    },
+                    "contact": {
+                        "phone": {
+                            "$t": "303-322-4336"
+                        },
+                        "state": {
+                            "$t": "CO"
+                        },
+                        "address2": {},
+                        "email": {
+                            "$t": "WeCare@BigDogsHugePaws.com"
+                        },
+                        "city": {
+                            "$t": "Aurora"
+                        },
+                        "zip": {
+                            "$t": "80046"
+                        },
+                        "fax": {},
+                        "address1": {
+                            "$t": "PO Box 460699"
+                        }
+                    },
+                    "age": {
+                        "$t": "Senior"
+                    },
+                    "size": {
+                        "$t": "XL"
+                    },
+                    "media": {
+                        "photos": {
+                            "photo": [
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41448808/1/?bust=1524241673&width=60&-pnt.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41448808/1/?bust=1524241673&width=95&-fpm.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41448808/1/?bust=1524241673&width=500&-x.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41448808/1/?bust=1524241673&width=300&-pn.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41448808/1/?bust=1524241673&width=50&-t.jpg",
+                                    "@id": "1"
+                                }
+                            ]
+                        }
+                    },
+                    "id": {
+                        "$t": "41448808"
+                    },
+                    "shelterPetId": {},
+                    "breeds": {
+                        "breed": {
+                            "$t": "Great Dane"
+                        }
+                    },
+                    "name": {
+                        "$t": "Ramos"
+                    },
+                    "sex": {
+                        "$t": "M"
+                    },
+                    "description": {
+                        "$t": "Meet Ramos. The sweet 7 yr old, 160 lb black Great Dane is looking for a very special home. Ramos is house trained and leash trained and he knows some basic commands such as sit and stay. He is trustworthy with free roam and takes snoozes on the couch while you're away. He is well past his digging and chewing phase but he does bark to alert; best security system out there! One of Ramos' favorite treats are Greenies, but he's not terribly pick...treats, yes please! Now as to why Ramos needs a special home...you see Ramos has Degenerative Myelopathy. He is currently being treated by one of our wonderful vets and receiving a combination of pain medication and acupuncture and he is taking to it well but he does sometimes need help getting up when he is laying down. Ramos knows it's a lot to ask to care for him but he promises that he will be grateful with all the time he gets to spend with you. If you can look past his grey and his disease you will see a dog that has an immeasurable amount of love to give to his family. Every big dog deserves a chance!\n\nGolden Rewards Program\nAll of our adoptable grey muzzled gentle giants who are at least 7 years young are available for adoption for a reduced $250 donation!\n\nAlready a Golden Rewards Club member? If you've adopted a senior gentle giant from Big Dogs Huge Paws in the past, we have great news for you! Adopt a second senior for a GoldenRewards Club adoption donation of $200, and if it's your third senior dog adoption we are offering a special Golden Rewards Club reduced donation of only $150! Why wait?To see the most up to date adoption status of this dog please visit www.bigdogshugepaws.com\nThis is just one of hundreds of gentle giants available for adoption at BDHPI! It is best not to get your heart set on any one particular dog upfront because there is no guarantee they will still be available once you are approved or that they are even the right match for your family. Purebred puppies are only eligible for adoption to giant breed experienced homes."
+                    },
+                    "mix": {
+                        "$t": "no"
+                    },
+                    "shelterId": {
+                        "$t": "CO285"
+                    },
+                    "lastUpdate": {
+                        "$t": "2018-04-20T16:29:13Z"
+                    },
+                    "animal": {
+                        "$t": "Dog"
+                    }
+                },
+                {
+                    "options": {
+                        "option": [
+                            {
+                                "$t": "altered"
+                            },
+                            {
+                                "$t": "hasShots"
+                            },
+                            {
+                                "$t": "housetrained"
+                            }
+                        ]
+                    },
+                    "status": {
+                        "$t": "A"
+                    },
+                    "contact": {
+                        "phone": {
+                            "$t": "303-322-4336"
+                        },
+                        "state": {
+                            "$t": "CO"
+                        },
+                        "address2": {},
+                        "email": {
+                            "$t": "WeCare@BigDogsHugePaws.com"
+                        },
+                        "city": {
+                            "$t": "Aurora"
+                        },
+                        "zip": {
+                            "$t": "80046"
+                        },
+                        "fax": {},
+                        "address1": {
+                            "$t": "PO Box 460699"
+                        }
+                    },
+                    "age": {
+                        "$t": "Senior"
+                    },
+                    "size": {
+                        "$t": "XL"
+                    },
+                    "media": {
+                        "photos": {
+                            "photo": [
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41449019/1/?bust=1524243292&width=60&-pnt.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41449019/1/?bust=1524243292&width=95&-fpm.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41449019/1/?bust=1524243292&width=500&-x.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41449019/1/?bust=1524243292&width=300&-pn.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41449019/1/?bust=1524243292&width=50&-t.jpg",
+                                    "@id": "1"
+                                }
+                            ]
+                        }
+                    },
+                    "id": {
+                        "$t": "41449019"
+                    },
+                    "shelterPetId": {},
+                    "breeds": {
+                        "breed": {
+                            "$t": "Bullmastiff"
+                        }
+                    },
+                    "name": {
+                        "$t": "Bella III"
+                    },
+                    "sex": {
+                        "$t": "F"
+                    },
+                    "description": {
+                        "$t": "Bella is a 10 year old, 125 lb fawn Bullmastiff is who has found herself looking for a retirement home. Bella's former owner run into some hard times and he was unable to care for her any longer. But we promise Bella that we will find her a wonderful place to lay her paws and she is happy to know that her forever and always family is out there waiting on her. She is leash trained, not destructive, and of course knows to go potty outside. She is more than happy to snooze her days away on a comfy dog bed with her people by her side. Bella enjoys car rides and she is good with other dogs of all sizes, with cats and with children making her a very easy addition to any home. Bella will give you back all the love she has if you promise to be her new family. \n\nGolden Rewards Program\n\nAll of our adoptable grey muzzled gentle giants who are at least 7 years young are available for adoption for a reduced $250 donation!\n\nAlready a Golden Rewards Club member? If you've adopted a senior gentle giant from Big Dogs Huge Paws in the past, we have great news for you! Adopt a second senior for a GoldenRewards Club adoption donation of $200, and if it's your third senior dog adoption we are offering a special Golden Rewards Club reduced donation of only $150! Why wait? To see the most up to date adoption status of this dog, please visit www.bigdogshugepaws.com\nThis is just one of hundreds of gentle giants available for adoption at BDHPI! It is best not to get your heart set on any one particular dog upfront because there is no guarantee they will still be available once you are approved or that they are even the right match for your family. Purebred puppies are only eligible for adoption to giant breed experienced homes."
+                    },
+                    "mix": {
+                        "$t": "no"
+                    },
+                    "shelterId": {
+                        "$t": "CO285"
+                    },
+                    "lastUpdate": {
+                        "$t": "2018-04-20T16:55:20Z"
+                    },
+                    "animal": {
+                        "$t": "Dog"
+                    }
+                },
+                {
+                    "options": {
+                        "option": [
+                            {
+                                "$t": "altered"
+                            },
+                            {
+                                "$t": "hasShots"
+                            },
+                            {
+                                "$t": "housetrained"
+                            }
+                        ]
+                    },
+                    "status": {
+                        "$t": "A"
+                    },
+                    "contact": {
+                        "phone": {
+                            "$t": "303-322-4336"
+                        },
+                        "state": {
+                            "$t": "CO"
+                        },
+                        "address2": {},
+                        "email": {
+                            "$t": "WeCare@BigDogsHugePaws.com"
+                        },
+                        "city": {
+                            "$t": "Aurora"
+                        },
+                        "zip": {
+                            "$t": "80046"
+                        },
+                        "fax": {},
+                        "address1": {
+                            "$t": "PO Box 460699"
+                        }
+                    },
+                    "age": {
+                        "$t": "Adult"
+                    },
+                    "size": {
+                        "$t": "XL"
+                    },
+                    "media": {
+                        "photos": {
+                            "photo": [
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41449119/1/?bust=1524243642&width=60&-pnt.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41449119/1/?bust=1524243642&width=95&-fpm.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41449119/1/?bust=1524243642&width=500&-x.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41449119/1/?bust=1524243642&width=300&-pn.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41449119/1/?bust=1524243642&width=50&-t.jpg",
+                                    "@id": "1"
+                                }
+                            ]
+                        }
+                    },
+                    "id": {
+                        "$t": "41449119"
+                    },
+                    "shelterPetId": {},
+                    "breeds": {
+                        "breed": {
+                            "$t": "Saint Bernard"
+                        }
+                    },
+                    "name": {
+                        "$t": "Wynonna"
+                    },
+                    "sex": {
+                        "$t": "F"
+                    },
+                    "description": {
+                        "$t": "Wynonna is a 4 year old, tri colored Saint Bernard who was surrendered to a local shelter when her owner because she had a few health issues they couldn't take care of. She had entropion that was left too long and has caused some damage to her corneas but she is feeling and seeing so much better after her eye surgery. She had a few lumps and bumps removed as well and she's ready to go now! She had some flea dermatitis but she's now flea free and with a good groom she will be looking better in no time. Wynonna is house trained, leash trained and good with other dogs.  She is so happy to be inside a loving home and receiving the care she deserves. As her foster family gets to know this sweetie some we can update her bio.To see the most up to date adoption status of this dog please visit www.bigdogshugepaws.com\nThis is just one of hundreds of gentle giants available for adoption at BDHPI! It is best not to get your heart set on any one particular dog upfront because there is no guarantee they will still be available once you are approved or that they are even the right match for your family. Purebred puppies are only eligible for adoption to giant breed experienced homes."
+                    },
+                    "mix": {
+                        "$t": "no"
+                    },
+                    "shelterId": {
+                        "$t": "CO285"
+                    },
+                    "lastUpdate": {
+                        "$t": "2018-04-20T17:01:26Z"
+                    },
+                    "animal": {
+                        "$t": "Dog"
+                    }
+                },
+                {
+                    "options": {
+                        "option": [
+                            {
+                                "$t": "altered"
+                            },
+                            {
+                                "$t": "hasShots"
+                            },
+                            {
+                                "$t": "housetrained"
+                            }
+                        ]
+                    },
+                    "status": {
+                        "$t": "A"
+                    },
+                    "contact": {
+                        "phone": {
+                            "$t": "303-322-4336"
+                        },
+                        "state": {
+                            "$t": "CO"
+                        },
+                        "address2": {},
+                        "email": {
+                            "$t": "WeCare@BigDogsHugePaws.com"
+                        },
+                        "city": {
+                            "$t": "Aurora"
+                        },
+                        "zip": {
+                            "$t": "80046"
+                        },
+                        "fax": {},
+                        "address1": {
+                            "$t": "PO Box 460699"
+                        }
+                    },
+                    "age": {
+                        "$t": "Adult"
+                    },
+                    "size": {
+                        "$t": "XL"
+                    },
+                    "media": {
+                        "photos": {
+                            "photo": [
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41449579/1/?bust=1524245071&width=60&-pnt.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41449579/1/?bust=1524245071&width=95&-fpm.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41449579/1/?bust=1524245071&width=500&-x.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41449579/1/?bust=1524245071&width=300&-pn.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41449579/1/?bust=1524245071&width=50&-t.jpg",
+                                    "@id": "1"
+                                }
+                            ]
+                        }
+                    },
+                    "id": {
+                        "$t": "41449579"
+                    },
+                    "shelterPetId": {},
+                    "breeds": {
+                        "breed": {
+                            "$t": "Cane Corso"
+                        }
+                    },
+                    "name": {
+                        "$t": "Hershey"
+                    },
+                    "sex": {
+                        "$t": "F"
+                    },
+                    "description": {
+                        "$t": "Look at our yummy Hershey! She is a 6 year old beautifully marked brindle Cane Corso with wags her nub a millions miles an hour! She is of course house trained (a perk to an older dog!) leash trained and is trustworthy with being left free roam of the house. Hershey likes to be on the couch but she is pretty easy going and will listen to what is asked of her. She enjoys going on car rides and is a pretty impressive looking wingman. She is good with other dogs and she has lived with a German shepherd, Pitbull and Chihuahua previously. Hershey is a super sweet girl who loves any kind of treats but can get scared with cell phones cameras so sneaky pictures of her must be taken!! She is a pretty easy going girl who is looking for a new family to care for her the rest of her days. Her foster family will be learning a bit more about her and we can of course see how she is with children and cats if needed.To see the most up to date adoption status of this dog please visit www.bigdogshugepaws.com\nThis is just one of hundreds of gentle giants available for adoption at BDHPI! It is best not to get your heart set on any one particular dog upfront because there is no guarantee they will still be available once you are approved or that they are even the right match for your family. Purebred puppies are only eligible for adoption to giant breed experienced homes."
+                    },
+                    "mix": {
+                        "$t": "no"
+                    },
+                    "shelterId": {
+                        "$t": "CO285"
+                    },
+                    "lastUpdate": {
+                        "$t": "2018-04-20T17:25:25Z"
+                    },
+                    "animal": {
+                        "$t": "Dog"
+                    }
+                },
+                {
+                    "options": {
+                        "option": [
+                            {
+                                "$t": "altered"
+                            },
+                            {
+                                "$t": "hasShots"
+                            },
+                            {
+                                "$t": "housetrained"
+                            }
+                        ]
+                    },
+                    "status": {
+                        "$t": "A"
+                    },
+                    "contact": {
+                        "phone": {
+                            "$t": "303-322-4336"
+                        },
+                        "state": {
+                            "$t": "CO"
+                        },
+                        "address2": {},
+                        "email": {
+                            "$t": "WeCare@BigDogsHugePaws.com"
+                        },
+                        "city": {
+                            "$t": "Aurora"
+                        },
+                        "zip": {
+                            "$t": "80046"
+                        },
+                        "fax": {},
+                        "address1": {
+                            "$t": "PO Box 460699"
+                        }
+                    },
+                    "age": {
+                        "$t": "Senior"
+                    },
+                    "size": {
+                        "$t": "XL"
+                    },
+                    "media": {
+                        "photos": {
+                            "photo": [
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41449745/1/?bust=1524245611&width=60&-pnt.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41449745/1/?bust=1524245611&width=95&-fpm.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41449745/1/?bust=1524245611&width=500&-x.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41449745/1/?bust=1524245611&width=300&-pn.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41449745/1/?bust=1524245611&width=50&-t.jpg",
+                                    "@id": "1"
+                                }
+                            ]
+                        }
+                    },
+                    "id": {
+                        "$t": "41449745"
+                    },
+                    "shelterPetId": {},
+                    "breeds": {
+                        "breed": {
+                            "$t": "Saint Bernard"
+                        }
+                    },
+                    "name": {
+                        "$t": "Shouty"
+                    },
+                    "sex": {
+                        "$t": "F"
+                    },
+                    "description": {
+                        "$t": "Shouty the 10 yr old Saint Bernard is our newest senior pup who is on the look out for a home to lay her paws. She knows she's an older fellow but she has plenty of pep in her step and love in her heart for her family who takes a chance on this grey muzzle guy. Shouty is house trained, of course! Walks great on a leash and she knows sit, stay and lay down. She is trustworthy with free roam and good in the car on rides. She has been allowed on the furniture so you might catch her catnapping...or dognapping. on the couch a time or two. Shouty is incredibly sweet, she is a bit fearful of walking canes and was previously adopted from a shelter. This time she was taken to the shelter due to no fault of her own and we jumped to his rescue as soon as we heard about her. She does have some age related aches but with a nutritious diet, some supplements, and medication she is already feeling better! Welcome to the family sweet girl, you'll never be left behind again.\n\nGolden Rewards Program\nAll of our adoptable grey muzzled gentle giants who are at least 7 years young are available for adoption for a reduced $250 donation!\n\nAlready a Golden Rewards Club member? If you've adopted a senior gentle giant from Big Dogs Huge Paws in the past, we have great news for you! Adopt a second senior for a GoldenRewards Club adoption donation of $200, and if it's your third senior dog adoption we are offering a special Golden Rewards Club reduced donation of only $150! Why wait?To see the most up to date adoption status of this dog please visit www.bigdogshugepaws.com\nThis is just one of hundreds of gentle giants available for adoption at BDHPI! It is best not to get your heart set on any one particular dog upfront because there is no guarantee they will still be available once you are approved or that they are even the right match for your family. Purebred puppies are only eligible for adoption to giant breed experienced homes."
+                    },
+                    "mix": {
+                        "$t": "no"
+                    },
+                    "shelterId": {
+                        "$t": "CO285"
+                    },
+                    "lastUpdate": {
+                        "$t": "2018-04-20T17:33:56Z"
+                    },
+                    "animal": {
+                        "$t": "Dog"
+                    }
+                },
+                {
+                    "options": {
+                        "option": {
+                            "$t": "hasShots"
+                        }
+                    },
+                    "status": {
+                        "$t": "A"
+                    },
+                    "contact": {
+                        "phone": {
+                            "$t": "303-322-4336"
+                        },
+                        "state": {
+                            "$t": "CO"
+                        },
+                        "address2": {},
+                        "email": {
+                            "$t": "WeCare@BigDogsHugePaws.com"
+                        },
+                        "city": {
+                            "$t": "Aurora"
+                        },
+                        "zip": {
+                            "$t": "80046"
+                        },
+                        "fax": {},
+                        "address1": {
+                            "$t": "PO Box 460699"
+                        }
+                    },
+                    "age": {
+                        "$t": "Baby"
+                    },
+                    "size": {
+                        "$t": "XL"
+                    },
+                    "media": {
+                        "photos": {
+                            "photo": [
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41450351/1/?bust=1524247480&width=60&-pnt.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41450351/1/?bust=1524247480&width=95&-fpm.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41450351/1/?bust=1524247480&width=500&-x.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41450351/1/?bust=1524247480&width=300&-pn.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41450351/1/?bust=1524247480&width=50&-t.jpg",
+                                    "@id": "1"
+                                }
+                            ]
+                        }
+                    },
+                    "id": {
+                        "$t": "41450351"
+                    },
+                    "shelterPetId": {},
+                    "breeds": {
+                        "breed": {
+                            "$t": "Anatolian Shepherd"
+                        }
+                    },
+                    "name": {
+                        "$t": "Layla"
+                    },
+                    "sex": {
+                        "$t": "F"
+                    },
+                    "description": {
+                        "$t": "Layla is a ridiculously cute, 3 month old fawn colored Anatolian puppy with two different colored eyes. She was taken to her local shelter with some injuries to her front legs (likely from being hit by a car) and she's currently in a splint and will be visiting an ortho specialist soon to see if surgery is required. Like any puppy Layla has her cute adorable side and her crazy, chewing baby raptor side! Layla will need continued training, positive socialization and lots of chew toys as she grows and matures. Her foster family will be getting her house/crate training started and some basic commands under her furry belt while she is with them. Layla is great with everyone and she cannot wait to find  her forever home!\n\nBDHPI Puppy Policy\nAll puppies less than 6 months of age are too young to be spayed/neutered so they are adopted out on special puppy spay/neuter agreements with a $50 refundable spay/neuter deposit. Adopting families must agree to get the puppy altered within 2 weeks of 6 months of age and send proof of S/N to BDHPI accordingly. Adopting families are expected to make a donation of $425 minimum for mixed puppies AND will have the additional costs listed above, so please keep this in mind.\n\nWhen adopting a puppy, new families need to be prepared for not only a substantial financial investment, but also a significant time commitment in order to raise your puppy properly. Crate training is a critical part of setting them up for success as well as potty training. You can't leave a puppy in the crate for longer than 4 hours max and they typically have to be let outside every hour when you are home since their bladder is not as big as an adult. You will want to make sure your puppy gets regular exercise and has plenty of mentally stimulating chew toys such as puzzle toys(food cubes, busy buddy toys, kongs, etc). Socialization the first 6 months is critical to their development socially and once they have had all of their shots, you will want to take your new puppy everywhere you can to get them used to meeting lots of new people, different dogs, and visiting places outside of the home. Obedience training is also extremely important (and actually part of our adoption agreement requirements) so that your puppy grows up to be a gentle giant instead of a giant monster!To see the most up to date adoption status of this dog please visit www.bigdogshugepaws.com\nThis is just one of hundreds of gentle giants available for adoption at BDHPI! It is best not to get your heart set on any one particular dog upfront because there is no guarantee they will still be available once you are approved or that they are even the right match for your family. Purebred puppies are only eligible for adoption to giant breed experienced homes."
+                    },
+                    "mix": {
+                        "$t": "yes"
+                    },
+                    "shelterId": {
+                        "$t": "CO285"
+                    },
+                    "lastUpdate": {
+                        "$t": "2018-04-20T18:05:08Z"
+                    },
+                    "animal": {
+                        "$t": "Dog"
+                    }
+                },
+                {
+                    "options": {
+                        "option": [
+                            {
+                                "$t": "altered"
+                            },
+                            {
+                                "$t": "hasShots"
+                            },
+                            {
+                                "$t": "housetrained"
+                            }
+                        ]
+                    },
+                    "status": {
+                        "$t": "A"
+                    },
+                    "contact": {
+                        "phone": {
+                            "$t": "303-322-4336"
+                        },
+                        "state": {
+                            "$t": "CO"
+                        },
+                        "address2": {},
+                        "email": {
+                            "$t": "WeCare@BigDogsHugePaws.com"
+                        },
+                        "city": {
+                            "$t": "Aurora"
+                        },
+                        "zip": {
+                            "$t": "80046"
+                        },
+                        "fax": {},
+                        "address1": {
+                            "$t": "PO Box 460699"
+                        }
+                    },
+                    "age": {
+                        "$t": "Adult"
+                    },
+                    "size": {
+                        "$t": "XL"
+                    },
+                    "media": {
+                        "photos": {
+                            "photo": [
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41450471/1/?bust=1524248056&width=60&-pnt.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41450471/1/?bust=1524248056&width=95&-fpm.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41450471/1/?bust=1524248056&width=500&-x.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41450471/1/?bust=1524248056&width=300&-pn.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41450471/1/?bust=1524248056&width=50&-t.jpg",
+                                    "@id": "1"
+                                }
+                            ]
+                        }
+                    },
+                    "id": {
+                        "$t": "41450471"
+                    },
+                    "shelterPetId": {},
+                    "breeds": {
+                        "breed": {
+                            "$t": "Mastiff"
+                        }
+                    },
+                    "name": {
+                        "$t": "Zoe"
+                    },
+                    "sex": {
+                        "$t": "F"
+                    },
+                    "description": {
+                        "$t": "My name is Zoe, and I'm a 6-year-old female Mastiff mix. I'm a good-sized gal at 110 pounds, and sometimes my size makes it hard to play with the little guys. See, I used to live with a tiny 8-pound dog, and I accidentally hurt his leg a little bit. I certainly didn't mean to, but that's why I'm here at BDHP looking for a home that may be a better fit. I also used to live with two cats and three small children, so I am  indeed good with cats, the little humans, and other dogs - though maybe larger dogs work better with my size. I'm house-trained and leash-trained, and I know what \"sit,\" \"come,\" and \"lay down\" mean. I haven't been allowed on your human furniture in the past, and my foster family will be working with me so I can be trusted more with free-roam. Thunder... I'm not a fan! Thunderstorms are very scary for me, so I will need you to show me some love when the sky starts rumbling to help me through the storm. Minor things that we can work on together, so please ask about a pretty special gal... me, Zoe, when you fill out your application!To see the most up to date adoption status of this dog please visit www.bigdogshugepaws.com\nThis is just one of hundreds of gentle giants available for adoption at BDHPI! It is best not to get your heart set on any one particular dog upfront because there is no guarantee they will still be available once you are approved or that they are even the right match for your family. Purebred puppies are only eligible for adoption to giant breed experienced homes."
+                    },
+                    "mix": {
+                        "$t": "yes"
+                    },
+                    "shelterId": {
+                        "$t": "CO285"
+                    },
+                    "lastUpdate": {
+                        "$t": "2018-04-20T18:14:40Z"
+                    },
+                    "animal": {
+                        "$t": "Dog"
+                    }
+                },
+                {
+                    "options": {
+                        "option": [
+                            {
+                                "$t": "altered"
+                            },
+                            {
+                                "$t": "hasShots"
+                            }
+                        ]
+                    },
+                    "status": {
+                        "$t": "A"
+                    },
+                    "contact": {
+                        "phone": {
+                            "$t": "303-322-4336"
+                        },
+                        "state": {
+                            "$t": "CO"
+                        },
+                        "address2": {},
+                        "email": {
+                            "$t": "WeCare@BigDogsHugePaws.com"
+                        },
+                        "city": {
+                            "$t": "Aurora"
+                        },
+                        "zip": {
+                            "$t": "80046"
+                        },
+                        "fax": {},
+                        "address1": {
+                            "$t": "PO Box 460699"
+                        }
+                    },
+                    "age": {
+                        "$t": "Young"
+                    },
+                    "size": {
+                        "$t": "XL"
+                    },
+                    "media": {
+                        "photos": {
+                            "photo": [
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41877896/1/?bust=1528823337&width=60&-pnt.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41877896/1/?bust=1528823337&width=95&-fpm.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41877896/1/?bust=1528823337&width=500&-x.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41877896/1/?bust=1528823337&width=300&-pn.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/41877896/1/?bust=1528823337&width=50&-t.jpg",
+                                    "@id": "1"
+                                }
+                            ]
+                        }
+                    },
+                    "id": {
+                        "$t": "41877896"
+                    },
+                    "shelterPetId": {},
+                    "breeds": {
+                        "breed": {
+                            "$t": "Great Pyrenees"
+                        }
+                    },
+                    "name": {
+                        "$t": "Jude"
+                    },
+                    "sex": {
+                        "$t": "M"
+                    },
+                    "description": {
+                        "$t": "People pray to St. Jude, the saint of the impossible.  This 1 year 7 month old, 99 pound, Great Pyrenees, Jude is praying you will see his photo and fall in love.  Lots to love.  He's a beautiful, white bundle who is good with children, dogs and cats. He's an intact male who is house trained but has been kept outside.  Being a member of the family, loved and living inside with his people is in this guy's prayers also.  Take a look; fall in love and come get Jude. Bring him home to give him the life he deserves in a forever home.  You will receive so many kisses and cuddles and he will reward you with loyalty, love and protection.\n\nGiant Breed Experienced Homes Only.To see the most up to date adoption status of this dog please visit www.bigdogshugepaws.com\nThis is just one of hundreds of gentle giants available for adoption at BDHPI! It is best not to get your heart set on any one particular dog upfront because there is no guarantee they will still be available once you are approved or that they are even the right match for your family. Purebred puppies are only eligible for adoption to giant breed experienced homes."
+                    },
+                    "mix": {
+                        "$t": "no"
+                    },
+                    "shelterId": {
+                        "$t": "CO285"
+                    },
+                    "lastUpdate": {
+                        "$t": "2018-06-12T17:09:29Z"
+                    },
+                    "animal": {
+                        "$t": "Dog"
+                    }
+                }
+            ]
+        },
+        "header": {
+            "timestamp": {
+                "$t": "2019-02-25T01:12:22Z"
+            },
+            "status": {
+                "message": {},
+                "code": {
+                    "$t": "100"
+                }
+            },
+            "version": {
+                "$t": "0.1"
+            }
+        },
+        "@xsi:noNamespaceSchemaLocation": "http://api.petfinder.com/schemas/0.9/petfinder.xsd"
+    }
+}
