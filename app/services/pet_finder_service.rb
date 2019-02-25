@@ -8,6 +8,10 @@ class PetFinderService
     get_json("pet.getRandom?format=json&key=#{@key}&output=full")
   end
 
+  def pets_list
+    get_json("pet.find?format=json&key=#{@key}&#{@filter}&output=full")
+  end
+
   private
 
   def get_json(uri)

@@ -19,23 +19,23 @@ class Pet
               :breeds
 
   def initialize(data)
-    @name = data[:name][:$t]
-    @id = data[:id][:$t]
-    @age = data[:age][:$t]
-    @size = data[:size][:$t]
-    @sex = data[:sex][:$t]
-    @animal = data[:animal][:$t]
-    @img_url = get_url(data[:media][:photos][:photo])
-    @phone = data[:contact][:phone][:$t]
-    @email = data[:contact][:email][:$t]
-    @address_1 = data[:contact][:address1][:$t]
-    @address_2 = data[:contact][:address2][:$t]
-    @city = data[:contact][:city][:$t]
-    @state = data[:contact][:state][:$t]
-    @zip_code = data[:contact][:zip][:$t]
+    @name = data[:name][:$t] ||= nil
+    @id = data[:id][:$t] ||= nil
+    @age = data[:age][:$t] ||= nil
+    @size = data[:size][:$t] ||= nil
+    @sex = data[:sex][:$t] ||= nil
+    @animal = data[:animal][:$t] ||= nil
+    @img_url = get_url(data[:media])
+    @phone = data[:contact][:phone][:$t] ||= nil
+    @email = data[:contact][:email][:$t] ||= nil
+    @address_1 = data[:contact][:address1][:$t] ||= nil
+    @address_2 = data[:contact][:address2][:$t] ||= nil
+    @city = data[:contact][:city][:$t] ||= nil
+    @state = data[:contact][:state][:$t] ||= nil
+    @zip_code = data[:contact][:zip][:$t] ||= nil
     @last_update = Date.parse(data[:lastUpdate][:$t])
-    @description = data[:description][:$t]
-    @shelter_id = data[:shelterPetId][:$t]
+    @description = data[:description][:$t] ||= nil
+    @shelter_id = data[:shelterPetId][:$t] ||= nil
     @breeds = get_breed(data[:breeds]) if data[:breeds][:breed]
 
   end
@@ -52,8 +52,10 @@ class Pet
   end
 
   def get_url(data)
-    data.find do |obj|
-      return obj[:$t] if obj[:@size] == "x"
+    if data.has_key?(:photos)
+      data[:photos][:photo].find do |obj|
+        return obj[:$t] if obj[:@size] == "x"
+      end
     end
   end
 end
