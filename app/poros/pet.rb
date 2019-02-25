@@ -33,18 +33,22 @@ class Pet
     @city = data[:contact][:city][:$t]
     @state = data[:contact][:state][:$t]
     @zip_code = data[:contact][:zip][:$t]
-    @last_update = Date.parse(data[:lastUpdate][:$t]) if data[:lastUpdate][:$t]
+    @last_update = Date.parse(data[:lastUpdate][:$t])
     @description = data[:description][:$t]
     @shelter_id = data[:shelterPetId][:$t]
-    @breeds = get_breed(data[:breeds]) if data[:breeds]
+    @breeds = get_breed(data[:breeds]) if data[:breeds][:breed]
 
   end
 
-  private
   def get_breed(data)
-    data[:breed].map do |obj|
-      obj[:$t]
+    if data[:breed].class == Array
+      data[:breed].map do |obj|
+        obj[:$t]
+      end
+    elsif data[:breed].class == Hash
+      data[:breed][:$t]
     end
+
   end
 
   def get_url(data)
