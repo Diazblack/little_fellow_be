@@ -66,3 +66,13 @@ def stub_pet_finder_find_by_location
   stub_request(:get, "http://api.petfinder.com/pet.getRandom?format=json&key=#{ENV['petfinder_api_key']}&location=Denver, CO&output=full").
   to_return(body: File.read("./spec/fixtures/find_by_location.json"))
 end
+
+def stub_pet_finder_invalid_location
+  stub_request(:get, "http://api.petfinder.com/pet.getRandom?format=json&key=#{ENV['petfinder_api_key']}&location=mier&output=full").
+  to_return(body: File.read("./spec/fixtures/invalid_location.json"))
+end
+
+def stub_pet_finder_find_by_attributes
+  stub_request(:get, "http://api.petfinder.com/pet.getRandom?format=json&key=#{ENV['petfinder_api_key']}&location=Denver, CO&size=S&animal=dog&count=10&age=Baby&output=fulloutput=full").
+  to_return(body: File.read("./spec/fixtures/find_with_attributes.json"))
+end

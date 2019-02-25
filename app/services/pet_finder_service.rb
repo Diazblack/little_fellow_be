@@ -9,7 +9,7 @@ class PetFinderService
   end
 
   def pets_list
-    get_json("pet.find?format=json&key=#{@key}&#{@filter}&output=full")
+    get_json("pet.find?format=json&key=#{@key}&#{@filter}output=full")
   end
 
   private

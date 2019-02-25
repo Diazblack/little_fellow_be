@@ -11,8 +11,5 @@ script:
   - bundle exec rspec
 services:
   - postgresql
-brances:
-  only:
-    - master
 notifications:
   email: false

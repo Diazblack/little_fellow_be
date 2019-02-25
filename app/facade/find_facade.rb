@@ -4,9 +4,14 @@ class FindFacade
   end
 
   def find_pets
+
     list = PetFinderService.new(@filter).pets_list
-    list[:petfinder][:pets][:pet].map do |pet|
-      Pet.new(pet)
+    if list[:petfinder][:header][:status][:code][:$t] == '100'
+      list[:petfinder][:pets][:pet].map do |pet|
+        Pet.new(pet)
+      end
+    else
+      list[:petfinder]
     end
   end
 
@@ -15,7 +20,7 @@ class FindFacade
   def _filter_string(params)
     uri = ""
     params.each_pair do |key, value|
-      uri << "#{key.to_s}=#{value}"
+      uri << "#{key.to_s}=#{value}&"
     end
     uri
   end
