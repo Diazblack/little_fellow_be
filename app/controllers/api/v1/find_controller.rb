@@ -12,6 +12,6 @@ class Api::V1::FindController < ApplicationController
   private
 
   def find_params
-    params.permit(:location)
+    params.permit(:location, :sex, :size, :animal, :breed, :count, :age)
   end
 end

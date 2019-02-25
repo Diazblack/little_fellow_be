@@ -45,7 +45,7 @@ describe PetFinderService do
     context "pets_list" do
       it 'should return a list of pets ' do
         VCR.use_cassette("pet_finder_find_by_location") do
-          @service = PetFinderService.new("location=Denver, CO")
+          @service = PetFinderService.new("location=Denver, CO&")
           expect(@service.pets_list).to have_key(:petfinder)
           expect(@service.pets_list[:petfinder]).to have_key(:pets)
           expect(@service.pets_list[:petfinder][:pets]).to be_a(Hash)

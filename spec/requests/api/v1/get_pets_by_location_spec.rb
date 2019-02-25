@@ -23,9 +23,9 @@ describe 'find endpoint' do
       expect(pet).to have_key(:sex)
     end
   end
+
   scenario 'send a invalid location' do
-
-
+    stub_pet_finder_invalid_location
     params = { "location": "mier" }
 
     get '/api/v1/find', params: params
@@ -43,5 +43,32 @@ describe 'find endpoint' do
     message = "Invalid geographical location"
     expect(resp[:header][:status][:message][:$t]).to eq(message)
 
+  end
+
+  scenario 'get a list of pets by sending a location' do
+    stub_pet_finder_find_by_attributes
+    params = { "location": "Denver, CO",
+              "animal": "dog",
+              "age": "Baby",
+              "size": "S",
+              "count": 10
+              }
+
+    get '/api/v1/find', params: params
+
+    expect(response).to be_successful
+    expect(response.status).to eq(200)
+
+    resp = JSON.parse(response.body, symbolize_names: true)
+
+    expect(resp).to be_a(Array)
+    expect(resp.count).to eq(10)
+    resp.each do |pet|
+      expect(pet).to be_a(Hash)
+      expect(pet).to have_key(:name)
+      expect(pet).to have_key(:id)
+      expect(pet).to have_key(:phone)
+      expect(pet).to have_key(:sex)
+    end
   end
 end

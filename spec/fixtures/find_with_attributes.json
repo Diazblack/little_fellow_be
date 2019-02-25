@@ -1,0 +1,1498 @@
+{
+    "@encoding": "iso-8859-1",
+    "@version": "1.0",
+    "petfinder": {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "lastOffset": {
+            "$t": "10"
+        },
+        "pets": {
+            "pet": [
+                {
+                    "options": {
+                        "option": [
+                            {
+                                "$t": "altered"
+                            },
+                            {
+                                "$t": "hasShots"
+                            },
+                            {
+                                "$t": "housetrained"
+                            }
+                        ]
+                    },
+                    "status": {
+                        "$t": "A"
+                    },
+                    "contact": {
+                        "phone": {
+                            "$t": "(720) 619-5100"
+                        },
+                        "state": {
+                            "$t": "CO"
+                        },
+                        "address2": {},
+                        "email": {
+                            "$t": "adopt@sloppykisses.org"
+                        },
+                        "city": {
+                            "$t": "Littleton"
+                        },
+                        "zip": {
+                            "$t": "80130"
+                        },
+                        "fax": {},
+                        "address1": {}
+                    },
+                    "age": {
+                        "$t": "Baby"
+                    },
+                    "size": {
+                        "$t": "S"
+                    },
+                    "media": {
+                        "photos": {
+                            "photo": [
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44042680/1/?bust=1551084127&width=60&-pnt.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44042680/1/?bust=1551084127&width=95&-fpm.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44042680/1/?bust=1551084127&width=500&-x.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44042680/1/?bust=1551084127&width=300&-pn.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44042680/1/?bust=1551084127&width=50&-t.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44042680/2/?bust=1551084141&width=60&-pnt.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44042680/2/?bust=1551084141&width=95&-fpm.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44042680/2/?bust=1551084141&width=500&-x.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44042680/2/?bust=1551084141&width=300&-pn.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44042680/2/?bust=1551084141&width=50&-t.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44042680/3/?bust=1551084149&width=60&-pnt.jpg",
+                                    "@id": "3"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44042680/3/?bust=1551084149&width=95&-fpm.jpg",
+                                    "@id": "3"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44042680/3/?bust=1551084149&width=500&-x.jpg",
+                                    "@id": "3"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44042680/3/?bust=1551084149&width=300&-pn.jpg",
+                                    "@id": "3"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44042680/3/?bust=1551084149&width=50&-t.jpg",
+                                    "@id": "3"
+                                }
+                            ]
+                        }
+                    },
+                    "id": {
+                        "$t": "44042680"
+                    },
+                    "shelterPetId": {
+                        "$t": "ps_31370408"
+                    },
+                    "breeds": {
+                        "breed": [
+                            {
+                                "$t": "German Shepherd Dog"
+                            },
+                            {
+                                "$t": "Labrador Retriever"
+                            }
+                        ]
+                    },
+                    "name": {
+                        "$t": "Maddie"
+                    },
+                    "sex": {
+                        "$t": "F"
+                    },
+                    "description": {
+                        "$t": "0219055"
+                    },
+                    "mix": {
+                        "$t": "yes"
+                    },
+                    "shelterId": {
+                        "$t": "CO490"
+                    },
+                    "lastUpdate": {
+                        "$t": "2019-02-18T04:08:21Z"
+                    },
+                    "animal": {
+                        "$t": "Dog"
+                    }
+                },
+                {
+                    "options": {
+                        "option": [
+                            {
+                                "$t": "altered"
+                            },
+                            {
+                                "$t": "hasShots"
+                            },
+                            {
+                                "$t": "housetrained"
+                            }
+                        ]
+                    },
+                    "status": {
+                        "$t": "A"
+                    },
+                    "contact": {
+                        "phone": {
+                            "$t": "(720) 619-5100"
+                        },
+                        "state": {
+                            "$t": "CO"
+                        },
+                        "address2": {},
+                        "email": {
+                            "$t": "adopt@sloppykisses.org"
+                        },
+                        "city": {
+                            "$t": "Littleton"
+                        },
+                        "zip": {
+                            "$t": "80130"
+                        },
+                        "fax": {},
+                        "address1": {}
+                    },
+                    "age": {
+                        "$t": "Baby"
+                    },
+                    "size": {
+                        "$t": "S"
+                    },
+                    "media": {
+                        "photos": {
+                            "photo": [
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44042682/1/?bust=1551084119&width=60&-pnt.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44042682/1/?bust=1551084119&width=95&-fpm.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44042682/1/?bust=1551084119&width=500&-x.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44042682/1/?bust=1551084119&width=300&-pn.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44042682/1/?bust=1551084119&width=50&-t.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44042682/2/?bust=1551084131&width=60&-pnt.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44042682/2/?bust=1551084131&width=95&-fpm.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44042682/2/?bust=1551084131&width=500&-x.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44042682/2/?bust=1551084131&width=300&-pn.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44042682/2/?bust=1551084131&width=50&-t.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44042682/3/?bust=1551084145&width=60&-pnt.jpg",
+                                    "@id": "3"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44042682/3/?bust=1551084145&width=95&-fpm.jpg",
+                                    "@id": "3"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44042682/3/?bust=1551084145&width=500&-x.jpg",
+                                    "@id": "3"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44042682/3/?bust=1551084145&width=300&-pn.jpg",
+                                    "@id": "3"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44042682/3/?bust=1551084145&width=50&-t.jpg",
+                                    "@id": "3"
+                                }
+                            ]
+                        }
+                    },
+                    "id": {
+                        "$t": "44042682"
+                    },
+                    "shelterPetId": {
+                        "$t": "ps_88138219"
+                    },
+                    "breeds": {
+                        "breed": [
+                            {
+                                "$t": "German Shepherd Dog"
+                            },
+                            {
+                                "$t": "Labrador Retriever"
+                            }
+                        ]
+                    },
+                    "name": {
+                        "$t": "Moby"
+                    },
+                    "sex": {
+                        "$t": "M"
+                    },
+                    "description": {
+                        "$t": "0219056"
+                    },
+                    "mix": {
+                        "$t": "yes"
+                    },
+                    "shelterId": {
+                        "$t": "CO490"
+                    },
+                    "lastUpdate": {
+                        "$t": "2019-02-18T04:08:21Z"
+                    },
+                    "animal": {
+                        "$t": "Dog"
+                    }
+                },
+                {
+                    "options": {
+                        "option": [
+                            {
+                                "$t": "altered"
+                            },
+                            {
+                                "$t": "hasShots"
+                            },
+                            {
+                                "$t": "housetrained"
+                            }
+                        ]
+                    },
+                    "status": {
+                        "$t": "A"
+                    },
+                    "contact": {
+                        "phone": {
+                            "$t": "(720) 619-5100"
+                        },
+                        "state": {
+                            "$t": "CO"
+                        },
+                        "address2": {},
+                        "email": {
+                            "$t": "adopt@sloppykisses.org"
+                        },
+                        "city": {
+                            "$t": "Littleton"
+                        },
+                        "zip": {
+                            "$t": "80130"
+                        },
+                        "fax": {},
+                        "address1": {}
+                    },
+                    "age": {
+                        "$t": "Baby"
+                    },
+                    "size": {
+                        "$t": "S"
+                    },
+                    "media": {
+                        "photos": {
+                            "photo": [
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44050431/1/?bust=1551084116&width=60&-pnt.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44050431/1/?bust=1551084116&width=95&-fpm.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44050431/1/?bust=1551084116&width=500&-x.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44050431/1/?bust=1551084116&width=300&-pn.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44050431/1/?bust=1551084116&width=50&-t.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44050431/2/?bust=1551084134&width=60&-pnt.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44050431/2/?bust=1551084134&width=95&-fpm.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44050431/2/?bust=1551084134&width=500&-x.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44050431/2/?bust=1551084134&width=300&-pn.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44050431/2/?bust=1551084134&width=50&-t.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44050431/3/?bust=1551084146&width=60&-pnt.jpg",
+                                    "@id": "3"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44050431/3/?bust=1551084146&width=95&-fpm.jpg",
+                                    "@id": "3"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44050431/3/?bust=1551084146&width=500&-x.jpg",
+                                    "@id": "3"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44050431/3/?bust=1551084146&width=300&-pn.jpg",
+                                    "@id": "3"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44050431/3/?bust=1551084146&width=50&-t.jpg",
+                                    "@id": "3"
+                                }
+                            ]
+                        }
+                    },
+                    "id": {
+                        "$t": "44050431"
+                    },
+                    "shelterPetId": {
+                        "$t": "ps_66371136"
+                    },
+                    "breeds": {
+                        "breed": [
+                            {
+                                "$t": "Labrador Retriever"
+                            },
+                            {
+                                "$t": "Terrier"
+                            }
+                        ]
+                    },
+                    "name": {
+                        "$t": "Trina"
+                    },
+                    "sex": {
+                        "$t": "F"
+                    },
+                    "description": {
+                        "$t": "0219059 Trina (red) and her sister Sheree (yellow) are ready for their forever homes! They will be on the smaller side for a lab mix. They can be a bit shy for the first minute or so but after a couple of treats they will be your best friend!"
+                    },
+                    "mix": {
+                        "$t": "yes"
+                    },
+                    "shelterId": {
+                        "$t": "CO490"
+                    },
+                    "lastUpdate": {
+                        "$t": "2019-02-19T10:19:56Z"
+                    },
+                    "animal": {
+                        "$t": "Dog"
+                    }
+                },
+                {
+                    "options": {
+                        "option": [
+                            {
+                                "$t": "altered"
+                            },
+                            {
+                                "$t": "hasShots"
+                            },
+                            {
+                                "$t": "housetrained"
+                            }
+                        ]
+                    },
+                    "status": {
+                        "$t": "A"
+                    },
+                    "contact": {
+                        "phone": {
+                            "$t": "(720) 619-5100"
+                        },
+                        "state": {
+                            "$t": "CO"
+                        },
+                        "address2": {},
+                        "email": {
+                            "$t": "adopt@sloppykisses.org"
+                        },
+                        "city": {
+                            "$t": "Littleton"
+                        },
+                        "zip": {
+                            "$t": "80130"
+                        },
+                        "fax": {},
+                        "address1": {}
+                    },
+                    "age": {
+                        "$t": "Baby"
+                    },
+                    "size": {
+                        "$t": "S"
+                    },
+                    "media": {
+                        "photos": {
+                            "photo": [
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44050428/1/?bust=1551084120&width=60&-pnt.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44050428/1/?bust=1551084120&width=95&-fpm.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44050428/1/?bust=1551084120&width=500&-x.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44050428/1/?bust=1551084120&width=300&-pn.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44050428/1/?bust=1551084120&width=50&-t.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44050428/2/?bust=1551084130&width=60&-pnt.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44050428/2/?bust=1551084130&width=95&-fpm.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44050428/2/?bust=1551084130&width=500&-x.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44050428/2/?bust=1551084130&width=300&-pn.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44050428/2/?bust=1551084130&width=50&-t.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44050428/3/?bust=1551084147&width=60&-pnt.jpg",
+                                    "@id": "3"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44050428/3/?bust=1551084147&width=95&-fpm.jpg",
+                                    "@id": "3"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44050428/3/?bust=1551084147&width=500&-x.jpg",
+                                    "@id": "3"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44050428/3/?bust=1551084147&width=300&-pn.jpg",
+                                    "@id": "3"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44050428/3/?bust=1551084147&width=50&-t.jpg",
+                                    "@id": "3"
+                                }
+                            ]
+                        }
+                    },
+                    "id": {
+                        "$t": "44050428"
+                    },
+                    "shelterPetId": {
+                        "$t": "ps_91429341"
+                    },
+                    "breeds": {
+                        "breed": {
+                            "$t": "Shepherd"
+                        }
+                    },
+                    "name": {
+                        "$t": "C.J."
+                    },
+                    "sex": {
+                        "$t": "F"
+                    },
+                    "description": {
+                        "$t": "0119029 - Hi, I am CJ, I am about a 3 month old spayed puppy. We have no idea what I am mixed with. I currently weigh about 14 pounds. I get nervous if my humans try and pick me up. Once I am being held or lying next to them on the couch, I am not so nervous. I love playing and cuddling with my foster siblings. I have not had an accident in the house in over a week. I like going for walks and am learning how to walk on a leash. If you are willing to give me time to get comfortable around you, please fill out and application at www.SloppyKisses.org/adoptions"
+                    },
+                    "mix": {
+                        "$t": "yes"
+                    },
+                    "shelterId": {
+                        "$t": "CO490"
+                    },
+                    "lastUpdate": {
+                        "$t": "2019-02-19T10:19:56Z"
+                    },
+                    "animal": {
+                        "$t": "Dog"
+                    }
+                },
+                {
+                    "options": {
+                        "option": [
+                            {
+                                "$t": "altered"
+                            },
+                            {
+                                "$t": "hasShots"
+                            }
+                        ]
+                    },
+                    "status": {
+                        "$t": "A"
+                    },
+                    "contact": {
+                        "phone": {},
+                        "state": {
+                            "$t": "CO"
+                        },
+                        "address2": {},
+                        "email": {
+                            "$t": "info@lifeisbetterrescue.org"
+                        },
+                        "city": {
+                            "$t": "Denver"
+                        },
+                        "zip": {
+                            "$t": "80219"
+                        },
+                        "fax": {},
+                        "address1": {
+                            "$t": "PO Box19159"
+                        }
+                    },
+                    "age": {
+                        "$t": "Baby"
+                    },
+                    "size": {
+                        "$t": "S"
+                    },
+                    "media": {
+                        "photos": {
+                            "photo": [
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44070245/1/?bust=1550789223&width=60&-pnt.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44070245/1/?bust=1550789223&width=95&-fpm.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44070245/1/?bust=1550789223&width=500&-x.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44070245/1/?bust=1550789223&width=300&-pn.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44070245/1/?bust=1550789223&width=50&-t.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44070245/2/?bust=1550789229&width=60&-pnt.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44070245/2/?bust=1550789229&width=95&-fpm.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44070245/2/?bust=1550789229&width=500&-x.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44070245/2/?bust=1550789229&width=300&-pn.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44070245/2/?bust=1550789229&width=50&-t.jpg",
+                                    "@id": "2"
+                                }
+                            ]
+                        }
+                    },
+                    "id": {
+                        "$t": "44070245"
+                    },
+                    "shelterPetId": {},
+                    "breeds": {
+                        "breed": [
+                            {
+                                "$t": "Chihuahua"
+                            },
+                            {
+                                "$t": "Dachshund"
+                            }
+                        ]
+                    },
+                    "name": {
+                        "$t": "Webster"
+                    },
+                    "sex": {
+                        "$t": "M"
+                    },
+                    "description": {
+                        "$t": "Webster is a 3 month old Chiweenie that was saved from death row. Webster is a nice dog who just needed a chance out of the shelter environment in order to flourish and be ready for adoption. He has been neutered, vaccinated, microchipped, and has been dewormed. Webster is working on all the obedience items (house training, crate training, general commands, etc.) and would love to be part of a family that keep him occupied as part of daily routine. Webster is $300 to adopt.\n\nThe Petfinder application does not include enough information for us to process your request. If you are interested in adopted an animal please go to our website: http://lifeisbetterrescue.org/pages/adoptionapp.html (note: you must copy and paste link). Applications must be submitted through the Life is Better website in order for us to consider your request. Any applications received from Petfinder will not be considered. We do not do out of state adoptions."
+                    },
+                    "mix": {
+                        "$t": "yes"
+                    },
+                    "shelterId": {
+                        "$t": "CO358"
+                    },
+                    "lastUpdate": {
+                        "$t": "2019-02-21T22:47:51Z"
+                    },
+                    "animal": {
+                        "$t": "Dog"
+                    }
+                },
+                {
+                    "options": {
+                        "option": [
+                            {
+                                "$t": "specialNeeds"
+                            },
+                            {
+                                "$t": "hasShots"
+                            }
+                        ]
+                    },
+                    "status": {
+                        "$t": "A"
+                    },
+                    "contact": {
+                        "phone": {
+                            "$t": "(720) 353-2674"
+                        },
+                        "state": {
+                            "$t": "CO"
+                        },
+                        "address2": {},
+                        "email": {
+                            "$t": "mamcorescue@gmail.com"
+                        },
+                        "city": {
+                            "$t": "Lakewood"
+                        },
+                        "zip": {
+                            "$t": "80227"
+                        },
+                        "fax": {},
+                        "address1": {}
+                    },
+                    "age": {
+                        "$t": "Baby"
+                    },
+                    "size": {
+                        "$t": "S"
+                    },
+                    "media": {
+                        "photos": {
+                            "photo": [
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44049597/1/?bust=1551094233&width=60&-pnt.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44049597/1/?bust=1551094233&width=95&-fpm.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44049597/1/?bust=1551094233&width=500&-x.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44049597/1/?bust=1551094233&width=300&-pn.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44049597/1/?bust=1551094233&width=50&-t.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44049597/2/?bust=1551094273&width=60&-pnt.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44049597/2/?bust=1551094273&width=95&-fpm.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44049597/2/?bust=1551094273&width=500&-x.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44049597/2/?bust=1551094273&width=300&-pn.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44049597/2/?bust=1551094273&width=50&-t.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44049597/3/?bust=1551094281&width=60&-pnt.jpg",
+                                    "@id": "3"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44049597/3/?bust=1551094281&width=95&-fpm.jpg",
+                                    "@id": "3"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44049597/3/?bust=1551094281&width=500&-x.jpg",
+                                    "@id": "3"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44049597/3/?bust=1551094281&width=300&-pn.jpg",
+                                    "@id": "3"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44049597/3/?bust=1551094281&width=50&-t.jpg",
+                                    "@id": "3"
+                                }
+                            ]
+                        }
+                    },
+                    "id": {
+                        "$t": "44049597"
+                    },
+                    "shelterPetId": {
+                        "$t": "ps_373756-192495"
+                    },
+                    "breeds": {
+                        "breed": [
+                            {
+                                "$t": "Labrador Retriever"
+                            },
+                            {
+                                "$t": "Terrier"
+                            }
+                        ]
+                    },
+                    "name": {
+                        "$t": "7-11 Litter - Twinkie"
+                    },
+                    "sex": {
+                        "$t": "F"
+                    },
+                    "description": {
+                        "$t": "Please visit our website at mamcorescue.org to see more available dogs. Each of our dogs lives in foster care. Therefore, it is easiest to meet multiple litters during one of our adoption events. Please visit our Facebook Page for event details and times: https://www.facebook.com/MAMCORescue/"
+                    },
+                    "mix": {
+                        "$t": "yes"
+                    },
+                    "shelterId": {
+                        "$t": "CO489"
+                    },
+                    "lastUpdate": {
+                        "$t": "2019-02-19T09:34:52Z"
+                    },
+                    "animal": {
+                        "$t": "Dog"
+                    }
+                },
+                {
+                    "options": {
+                        "option": {
+                            "$t": "hasShots"
+                        }
+                    },
+                    "status": {
+                        "$t": "A"
+                    },
+                    "contact": {
+                        "phone": {},
+                        "state": {
+                            "$t": "CO"
+                        },
+                        "address2": {},
+                        "email": {
+                            "$t": "xxtrfxx@yahoo.com"
+                        },
+                        "city": {
+                            "$t": "Lafayette"
+                        },
+                        "zip": {
+                            "$t": "80026"
+                        },
+                        "fax": {},
+                        "address1": {}
+                    },
+                    "age": {
+                        "$t": "Baby"
+                    },
+                    "size": {
+                        "$t": "S"
+                    },
+                    "media": {
+                        "photos": {
+                            "photo": [
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44043103/1/?bust=1551085169&width=60&-pnt.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44043103/1/?bust=1551085169&width=95&-fpm.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44043103/1/?bust=1551085169&width=500&-x.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44043103/1/?bust=1551085169&width=300&-pn.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44043103/1/?bust=1551085169&width=50&-t.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44043103/2/?bust=1551085189&width=60&-pnt.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44043103/2/?bust=1551085189&width=95&-fpm.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44043103/2/?bust=1551085189&width=500&-x.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44043103/2/?bust=1551085189&width=300&-pn.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44043103/2/?bust=1551085189&width=50&-t.jpg",
+                                    "@id": "2"
+                                }
+                            ]
+                        }
+                    },
+                    "id": {
+                        "$t": "44043103"
+                    },
+                    "shelterPetId": {
+                        "$t": "ps_384752-232234"
+                    },
+                    "breeds": {
+                        "breed": {
+                            "$t": "Terrier"
+                        }
+                    },
+                    "name": {
+                        "$t": "Nova"
+                    },
+                    "sex": {
+                        "$t": "F"
+                    },
+                    "description": {
+                        "$t": "Nova is a 10 week old puppy. She loves to play and is a typical puppy. Her adoption fee is $350 plus a refundable $75 spay deposit that is returned once sheâ\u0080\u0099s big enough to be fixed. Please apply at mgarcolorado.org."
+                    },
+                    "mix": {
+                        "$t": "yes"
+                    },
+                    "shelterId": {
+                        "$t": "CO457"
+                    },
+                    "lastUpdate": {
+                        "$t": "2019-02-18T04:30:30Z"
+                    },
+                    "animal": {
+                        "$t": "Dog"
+                    }
+                },
+                {
+                    "options": {
+                        "option": [
+                            {
+                                "$t": "hasShots"
+                            },
+                            {
+                                "$t": "noKids"
+                            }
+                        ]
+                    },
+                    "status": {
+                        "$t": "A"
+                    },
+                    "contact": {
+                        "phone": {},
+                        "state": {
+                            "$t": "CO"
+                        },
+                        "address2": {},
+                        "email": {
+                            "$t": "xxtrfxx@yahoo.com"
+                        },
+                        "city": {
+                            "$t": "Lafayette"
+                        },
+                        "zip": {
+                            "$t": "80026"
+                        },
+                        "fax": {},
+                        "address1": {}
+                    },
+                    "age": {
+                        "$t": "Baby"
+                    },
+                    "size": {
+                        "$t": "S"
+                    },
+                    "media": {
+                        "photos": {
+                            "photo": [
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/42497025/1/?bust=1551085163&width=60&-pnt.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/42497025/1/?bust=1551085163&width=95&-fpm.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/42497025/1/?bust=1551085163&width=500&-x.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/42497025/1/?bust=1551085163&width=300&-pn.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/42497025/1/?bust=1551085163&width=50&-t.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/42497025/2/?bust=1551085194&width=60&-pnt.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/42497025/2/?bust=1551085194&width=95&-fpm.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/42497025/2/?bust=1551085194&width=500&-x.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/42497025/2/?bust=1551085194&width=300&-pn.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/42497025/2/?bust=1551085194&width=50&-t.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/42497025/3/?bust=1551035795&width=60&-pnt.jpg",
+                                    "@id": "3"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/42497025/3/?bust=1551035795&width=95&-fpm.jpg",
+                                    "@id": "3"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/42497025/3/?bust=1551035795&width=500&-x.jpg",
+                                    "@id": "3"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/42497025/3/?bust=1551035795&width=300&-pn.jpg",
+                                    "@id": "3"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/42497025/3/?bust=1551035795&width=50&-t.jpg",
+                                    "@id": "3"
+                                }
+                            ]
+                        }
+                    },
+                    "id": {
+                        "$t": "42497025"
+                    },
+                    "shelterPetId": {
+                        "$t": "ps_44673629"
+                    },
+                    "breeds": {
+                        "breed": [
+                            {
+                                "$t": "Jack Russell Terrier"
+                            },
+                            {
+                                "$t": "Chihuahua"
+                            }
+                        ]
+                    },
+                    "name": {
+                        "$t": "Tamara"
+                    },
+                    "sex": {
+                        "$t": "F"
+                    },
+                    "description": {
+                        "$t": "Tamara is a year old terrier mix. Sheâ\u0080\u0099s got a bubbly and sweet personality, but a timid pup. Sheâ\u0080\u0099s come a long way in her foster home where she is completely comfortable and sheâ\u0080\u0099s been enjoying going to the off leash dog park. She should be in home with no small children, however, because it is very stressful to her. She likes to be with her people, but loves to be with the other dogs and should be in a home with another dog. She really gets comfortable with a confident dog to share space with. Sheâ\u0080\u0099s up to date on shots and dewormed. Her spay and microchip is covered under the adoption fee. Her adoption fee is $300."
+                    },
+                    "mix": {
+                        "$t": "yes"
+                    },
+                    "shelterId": {
+                        "$t": "CO457"
+                    },
+                    "lastUpdate": {
+                        "$t": "2018-08-16T19:32:55Z"
+                    },
+                    "animal": {
+                        "$t": "Dog"
+                    }
+                },
+                {
+                    "options": {
+                        "option": {
+                            "$t": "hasShots"
+                        }
+                    },
+                    "status": {
+                        "$t": "A"
+                    },
+                    "contact": {
+                        "phone": {},
+                        "state": {
+                            "$t": "CO"
+                        },
+                        "address2": {},
+                        "email": {
+                            "$t": "xxtrfxx@yahoo.com"
+                        },
+                        "city": {
+                            "$t": "Lafayette"
+                        },
+                        "zip": {
+                            "$t": "80026"
+                        },
+                        "fax": {},
+                        "address1": {}
+                    },
+                    "age": {
+                        "$t": "Baby"
+                    },
+                    "size": {
+                        "$t": "S"
+                    },
+                    "media": {
+                        "photos": {
+                            "photo": [
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44043104/1/?bust=1551085175&width=60&-pnt.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44043104/1/?bust=1551085175&width=95&-fpm.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44043104/1/?bust=1551085175&width=500&-x.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44043104/1/?bust=1551085175&width=300&-pn.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44043104/1/?bust=1551085175&width=50&-t.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44043104/2/?bust=1551085177&width=60&-pnt.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44043104/2/?bust=1551085177&width=95&-fpm.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44043104/2/?bust=1551085177&width=500&-x.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44043104/2/?bust=1551085177&width=300&-pn.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44043104/2/?bust=1551085177&width=50&-t.jpg",
+                                    "@id": "2"
+                                },
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44043104/3/?bust=1551085204&width=60&-pnt.jpg",
+                                    "@id": "3"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44043104/3/?bust=1551085204&width=95&-fpm.jpg",
+                                    "@id": "3"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44043104/3/?bust=1551085204&width=500&-x.jpg",
+                                    "@id": "3"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44043104/3/?bust=1551085204&width=300&-pn.jpg",
+                                    "@id": "3"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44043104/3/?bust=1551085204&width=50&-t.jpg",
+                                    "@id": "3"
+                                }
+                            ]
+                        }
+                    },
+                    "id": {
+                        "$t": "44043104"
+                    },
+                    "shelterPetId": {
+                        "$t": "ps_96500842"
+                    },
+                    "breeds": {
+                        "breed": [
+                            {
+                                "$t": "Terrier"
+                            },
+                            {
+                                "$t": "Dachshund"
+                            }
+                        ]
+                    },
+                    "name": {
+                        "$t": "Teddy"
+                    },
+                    "sex": {
+                        "$t": "F"
+                    },
+                    "description": {
+                        "$t": "Teddy is a 10 week old prissy girl. She prefers a sweater, so she doesnâ\u0080\u0099t get cold. She loves to play and is a typical puppy. Her adoption fee is $350 plus a refundable $75 spay deposit that is returned once sheâ\u0080\u0099s big enough to be fixed. Please apply at mgarcolorado.org."
+                    },
+                    "mix": {
+                        "$t": "yes"
+                    },
+                    "shelterId": {
+                        "$t": "CO457"
+                    },
+                    "lastUpdate": {
+                        "$t": "2019-02-18T04:30:30Z"
+                    },
+                    "animal": {
+                        "$t": "Dog"
+                    }
+                },
+                {
+                    "options": {
+                        "option": {
+                            "$t": "hasShots"
+                        }
+                    },
+                    "status": {
+                        "$t": "A"
+                    },
+                    "contact": {
+                        "phone": {
+                            "$t": "(303) 999-9999"
+                        },
+                        "state": {
+                            "$t": "CO"
+                        },
+                        "address2": {},
+                        "email": {
+                            "$t": "circle2rescue@yahoo.com"
+                        },
+                        "city": {
+                            "$t": "Evergreen"
+                        },
+                        "zip": {
+                            "$t": "80439"
+                        },
+                        "fax": {},
+                        "address1": {}
+                    },
+                    "age": {
+                        "$t": "Baby"
+                    },
+                    "size": {
+                        "$t": "S"
+                    },
+                    "media": {
+                        "photos": {
+                            "photo": [
+                                {
+                                    "@size": "pnt",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44067038/1/?bust=1551094296&width=60&-pnt.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "fpm",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44067038/1/?bust=1551094296&width=95&-fpm.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "x",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44067038/1/?bust=1551094296&width=500&-x.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "pn",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44067038/1/?bust=1551094296&width=300&-pn.jpg",
+                                    "@id": "1"
+                                },
+                                {
+                                    "@size": "t",
+                                    "$t": "http://photos.petfinder.com/photos/pets/44067038/1/?bust=1551094296&width=50&-t.jpg",
+                                    "@id": "1"
+                                }
+                            ]
+                        }
+                    },
+                    "id": {
+                        "$t": "44067038"
+                    },
+                    "shelterPetId": {
+                        "$t": "ps_57087910"
+                    },
+                    "breeds": {
+                        "breed": [
+                            {
+                                "$t": "Australian Cattle Dog / Blue Heeler"
+                            },
+                            {
+                                "$t": "Mixed Breed"
+                            }
+                        ]
+                    },
+                    "name": {
+                        "$t": "Ginger"
+                    },
+                    "sex": {
+                        "$t": "F"
+                    },
+                    "description": {
+                        "$t": "Ginger's mom is a petitie cattle dog mix weighing only 25 lbs so we expect Ginger to be around the same weight range as an adult. Ginger turned 8 weeks old on February 20th and weighs about 5 lbs. Just like mom, she is a tiny bundle of adorable sweetness. Mom has medium energy so we expect that the puppies will mirror her calm demeanor. Ginger is a very unique, carmel brown color and is just as cute as can be!\n\nIf you would like to adopt, please complete an application at https://www.circle2rescue.com/dog-adoption-application/ The adoption fee of $350 includes the spay/neuter, vaccinations, microchip and dewormer. Adopters are responsible for keeping up on the booster vaccinations. Puppies need DAPP booster shots every 3-4 weeks until they have received a series of 3 vaccinations. The spay/neuter is included at our partner vet Spay Today in Lakewood. We collect a $250 deposit check to ensure the adopter gets the puppy spay/neutered. We don't cash it unless proof of spay/neuter has not been provided by the time the puppy is 6 months old.\n\nPlease note, Circle 2 Rescue cannot guarantee the breed, composition or ages of our dogs as we usually have no history prior to them entering the rescue. We make every effort to ensure the dogs are healthy."
+                    },
+                    "mix": {
+                        "$t": "yes"
+                    },
+                    "shelterId": {
+                        "$t": "CO474"
+                    },
+                    "lastUpdate": {
+                        "$t": "2019-02-21T17:03:16Z"
+                    },
+                    "animal": {
+                        "$t": "Dog"
+                    }
+                }
+            ]
+        },
+        "header": {
+            "timestamp": {
+                "$t": "2019-02-25T17:37:42Z"
+            },
+            "status": {
+                "message": {},
+                "code": {
+                    "$t": "100"
+                }
+            },
+            "version": {
+                "$t": "0.1"
+            }
+        },
+        "@xsi:noNamespaceSchemaLocation": "http://api.petfinder.com/schemas/0.9/petfinder.xsd"
+    }
+}
