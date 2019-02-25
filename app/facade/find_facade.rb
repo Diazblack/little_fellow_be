@@ -5,8 +5,12 @@ class FindFacade
 
   def find_pets
     list = PetFinderService.new(@filter).pets_list
-    list[:petfinder][:pets][:pet].map do |pet|
-      Pet.new(pet)
+    if list[:petfinder][:header][:status][:code][:$t] == '100'
+      list[:petfinder][:pets][:pet].map do |pet|
+        Pet.new(pet)
+      end
+    else
+      list[:petfinder]
     end
   end
 

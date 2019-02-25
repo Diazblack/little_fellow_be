@@ -1,7 +1,12 @@
 class Api::V1::FindController < ApplicationController
-  
+
   def index
-    render json: FindFacade.new(find_params).find_pets
+    list = FindFacade.new(find_params).find_pets
+    if list.class == Array
+      render json: list
+    else
+      render json: list, status: list[:header][:status][:code][:$t].to_i
+    end
   end
 
   private
