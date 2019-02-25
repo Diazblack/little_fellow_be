@@ -26,5 +26,13 @@ describe Pet do
     expect(@pet.breeds[1]).to eq(@data[:breeds][:breed][1][:$t])
   end
 
-  
+
+  it 'get_breeds one hash' do
+    array =  {
+            breed: {
+            :$t => "Havana"
+                    }
+             }
+    expect(@pet.get_breed(array)).to eq("Havana")
+  end
 end

@@ -31,3 +31,5 @@
 
 # Ignore coverage
 coverage
+
+/spec/cassettes/*
